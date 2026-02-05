@@ -9,6 +9,34 @@ import httpx
 from dateutil import parser as dtparser
 from openai import OpenAI
 
+
+
+
+
+
+
+
+def make_openai_client() -> OpenAI:
+    raw = os.environ.get("OPENAI_API_KEY", "")
+    # Strip whitespace/newlines; reject obviously bad keys early
+    key = raw.strip()
+
+    if not key or not key.startswith("sk-"):
+        raise RuntimeError("OPENAI_API_KEY is missing or does not look like an OpenAI key (expected to start with 'sk-').")
+
+    http_client = httpx.Client(
+        timeout=httpx.Timeout(60.0, connect=20.0),
+        http2=False,
+        trust_env=False,
+        headers={"Connection": "close"},  # reduces some h11 edge cases
+    )
+    return OpenAI(api_key=key, http_client=http_client)
+
+
+
+
+
+
 # ---------- Config ----------
 MODEL = os.getenv("OPENAI_MODEL", "gpt-5")
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "50"))
@@ -133,7 +161,12 @@ def fetch_rss_items(feed_urls: list[str]) -> list[dict]:
     return items[:MAX_TOTAL_ITEMS]
 
 def call_openai_triage(interests: dict, items: list[dict]) -> dict:
-    http_client = httpx.Client(timeout=60.0, http2=False)
+    # Force HTTP/1.1 and ignore any proxy env vars that can break TLS in CI
+    http_client = httpx.Client(
+        timeout=httpx.Timeout(60.0, connect=20.0),
+        http2=False,
+        trust_env=False,
+    )
     client = OpenAI(http_client=http_client)
 
     schema = {
