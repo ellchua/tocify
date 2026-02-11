@@ -15,7 +15,7 @@ The goal of this fork is to adapt the tool to my own research and interests by:
 
 I’m planning to keep using this setup for about a month as an experiment and then reassess, especially with regard to **API usage and costs**. If it proves too expensive or unwieldy, I’ll iterate on the design rather than abandon the idea entirely.
 
-## Ideas to implement
+## Future ideas to implement
 
 Currently, I have a few directions in mind to make the system more (cost-)efficient:
 
