@@ -1,4 +1,5 @@
 # tocify — Weekly Journal ToC Digest (RSS → OpenAI → `digest.md`)
+[![Weekly ToC Digest](https://github.com/ellchua/tocify/actions/workflows/weekly-digest.yml/badge.svg)](https://github.com/ellchua/tocify/actions/workflows/weekly-digest.yml)
 
 This project is a personal fork of [voytek’s original vibe-coded repository](https://github.com/voytek/tocify) (all credit for the core idea and initial implementation goes there).
 
