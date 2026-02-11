@@ -10,13 +10,13 @@ from openai import OpenAI, APITimeoutError, APIConnectionError, RateLimitError
 # ---- config (env-tweakable) ----
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "50"))
-MAX_TOTAL_ITEMS = int(os.getenv("MAX_TOTAL_ITEMS", "400"))
+MAX_TOTAL_ITEMS = int(os.getenv("MAX_TOTAL_ITEMS", "250"))
 LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "7"))
 INTERESTS_MAX_CHARS = int(os.getenv("INTERESTS_MAX_CHARS", "3000"))
-SUMMARY_MAX_CHARS = int(os.getenv("SUMMARY_MAX_CHARS", "500"))
-PREFILTER_KEEP_TOP = int(os.getenv("PREFILTER_KEEP_TOP", "200"))
+SUMMARY_MAX_CHARS = int(os.getenv("SUMMARY_MAX_CHARS", "300"))
+PREFILTER_KEEP_TOP = int(os.getenv("PREFILTER_KEEP_TOP", "100"))
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "50"))
-MIN_SCORE_READ = float(os.getenv("MIN_SCORE_READ", "0.65"))
+MIN_SCORE_READ = float(os.getenv("MIN_SCORE_READ", "0.7"))
 MAX_RETURNED = int(os.getenv("MAX_RETURNED", "40"))
 
 SCHEMA = {
