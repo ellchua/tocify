@@ -10,7 +10,7 @@ Essentially, this repo runs a GitHub Action once a week (or on-demand) that:
 
 The goal of this fork is to adapt the tool to my own research and interests by:
 - Curating **feeds and sources** that match my work in cancer bioinformatics, multi‑omics, and AI-for-bio
-- Tweaking the **interests and tagging logic** so I surface papers, blog posts, and resources that are most relevant to my current projects
+- Tweaking the **interests and tagging logic** so I surface papers that are most relevant to my current projects
 - Adjusting the **prompting/setup** so summaries and recommendations are aligned with how I like to read, triage, and revisit material over time
 
 I’m planning to keep using this setup for about a month as an experiment and then reassess, especially with regard to **API usage and costs**. If it proves too expensive or unwieldy, I’ll iterate on the design rather than abandon the idea entirely.
