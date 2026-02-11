@@ -2,99 +2,116 @@
 # ingest ToCs and push links to papers relevant to me
 
 # interests seed
-<!-- 
+<!--
 ## scoring block
 Scoring calibration:
-Score ≥ 0.80 ONLY if the item clearly involves electrophysiology or physiological time series
-  (EEG/MEG/LFP/iEEG/ECoG/neuronal spiking) OR aperiodic/1/f, oscillations, waveform shape,
-  spectral parameterization, or neuronal timescales — OR introduces a general time-series/signal
-  processing method that would transfer to those data.
+Score ≥ 0.85 ONLY if the item is clearly relevant to high-risk neuroblastoma / pediatric oncology
+  and includes at least one of:
+  - targeted therapy response/resistance (ALK, ATR, DDR, RTK/MAPK, PI3K/AKT/mTOR, cell-cycle, apoptosis)
+  - biomarker discovery/validation (predictive, prognostic, pharmacodynamic)
+  - multi-omics integration (bulk RNA-seq, sc/snRNA-seq, proteomics, phosphoproteomics)
+  - mechanistic or translational relevance (PDX/organoid/preclinical trial/clinical cohort)
 
-If it is primarily about drugs/behavior/psychiatric symptoms without neural/physio time-series analysis,
-  cap score at 0.40.
+Score 0.65–0.84 for methods papers with strong transfer value to my work:
+  - single-cell methods, foundation models (scFMs), representation learning
+  - network/regulatory inference (VIPER/msVIPER/GRN)
+  - multi-omics integration, robust statistical modeling, reproducible workflows
 
-If it is primarily microbiology/immunology/metabolism/genetics without neural dynamics methods,
-  cap score at 0.25. -->
+Score 0.40–0.64 for general oncology, computational biology, or AI methods with indirect relevance.
+
+Cap score at 0.25 if primarily unrelated domains (e.g., non-cancer biology with no transferable method).
+-->
 
 ## keywords
-EEG
-electroencephalography
-MEG
-magnetooencephalography
-LFP
-local field potential
-iEEG
-ECoG
-electrocorticography
-neural oscillations
-aperiodic activity
-neural timescales
-ECG
-electrocorticography
-working memory
-attention
-cognitive control
-respiration waveform
-specparam
-spectral parameterization
-fooof
-bycycle
-neural data science
-computational neuroscience
-neural computation
-aging and cognition
+high-risk neuroblastoma
+neuroblastoma relapse
+neuroblastoma resistance
+pediatric oncology
+pediatric solid tumors
+ALK inhibitor
+lorlatinib
+crizotinib
+alectinib
+ATR inhibitor
+elimusertib
+combination therapy
+drug sensitivity score
+DSS
+pharmacogenomics
+predictive biomarker
+prognostic biomarker
+response biomarker
+resistance biomarker
+translational oncology
+precision oncology
+patient-derived xenograft
+PDX
+organoid
+preclinical model
+bulk RNA-seq
+single-cell RNA-seq
+single-nucleus RNA-seq
+scRNA-seq
+snRNA-seq
+proteomics
+phosphoproteomics
+multi-omics integration
+pathway activity
+GSVA
+GSEA
+VIPER
+msVIPER
+master regulator
+transcriptional programs
+cell states
+adrenergic mesenchymal
+ADRN
+MES
+MYCN amplification
+ALK alteration
+DNA damage response
+replication stress
+WEE1
+CHK1
+PARP
+BCL2
+CDK4/6
+Aurora kinase
+EZH2
+BET inhibitor
+single-cell foundation model
+scFM
+foundation models in biology
+AI for single-cell
+representation learning
+perturbation modeling
+causal inference
+clinical trial biomarker
+pediatric precision medicine
+reproducible bioinformatics
+open science
+workflow reproducibility
 
 ## narrative
-My research focuses on large-scale neural and physiological dynamics using computational and data-science approaches across species and recording modalities. I work extensively with heterogeneous datasets (EEG, LFP, iEEG, behavioral and physiological signals), emphasizing open science, reproducible methods, and scalable analysis tools for neural time series.
+My research focuses on high-risk neuroblastoma and pediatric cancer, with an emphasis on mechanisms of response, relapse, and resistance to targeted therapies. I am particularly interested in translational questions around ALK- and ATR-directed strategies, including monotherapy and combination treatments, and in identifying biomarkers that can guide patient stratification and treatment decisions.
 
-A central theme of my work is developing and applying methods to better characterize neural oscillations and aperiodic (1/f-like) activity. My lab pioneered approaches to analyzing oscillatory waveform shape and spectral parameterization, demonstrating that nonsinusoidal features and aperiodic structure provide insight into synaptic physiology, excitation–inhibition balance, cognitive function, and development. We develop and release open-source Python tools for neural signal processing and apply them to large longitudinal and cross-species datasets to link brain dynamics with cognition, behavior, and disease.
+I work across multi-omics layers, including bulk RNA-seq, single-cell/single-nucleus transcriptomics, proteomics, and phosphoproteomics, using patient-derived and preclinical models (including PDX systems) as well as clinically relevant cohorts. A central goal is to connect molecular programs and cell states to drug sensitivity phenotypes and clinically meaningful outcomes.
 
-I study how neural oscillations, aperiodic activity, and neuronal timescales support computation and information transfer in brain networks. Using invasive and noninvasive electrophysiology, computational modeling, and large-scale data integration, my work shows how these features relate to working memory, attention, development, and aging. I am particularly interested in theoretical and methodological advances that improve interpretation of neural and physiological time series, enable biomarker discovery, and connect brain dynamics to cognition and clinical outcomes.
+Methodologically, I prioritize robust and interpretable computational approaches for biomarker discovery and mechanism inference: differential modeling, pathway-level analyses, network/regulatory inference (including master regulator frameworks), and multimodal integration. I am also actively tracking AI and machine learning advances for single-cell analysis, especially foundation-model style approaches (scFMs), representation learning, and methods that can improve interpretability, reproducibility, and translational utility.
 
-I prioritize research that introduces new analytic methods, theoretical frameworks, or empirical findings relevant to neural dynamics, physiological signal analysis, and cross-scale brain–behavior relationships. I am generally not interested in fMRI/BOLD unless it directly connects to electrophysiological dynamics or time-series methods, or novel AI / LLM / machine learning.
+I prioritize papers that provide:
+1) actionable biological insight into pediatric oncology and neuroblastoma therapy resistance,
+2) rigorous biomarker discovery/validation frameworks,
+3) transferable computational methods for multi-omics and single-cell analysis,
+4) clear translational bridges from model systems to clinical application.
 
-Some of my paper titles include:
-* Automated cognome construction and semi-automated hypothesis generation
-* Oscillatory dynamics coordinating human frontal networks in support of goal maintenance
-* Age-related changes in 1/f neural electrophysiological noise
-* Alpha phase dynamics predict age-related visual working memory decline
-* Nonsinusoidal beta oscillations reflect cortical pathophysiology in Parkinson's disease
-* Inferring synaptic excitation/inhibition balance from field potentials
-* Setd5 haploinsufficiency alters neuronal network connectivity and leads to autistic-like behaviors in mice
-* Characteristics of waveform shape in Parkinson’s disease detected with scalp electroencephalography
-* Field potential 1/f activity in the subcallosal cingulate region as a candidate signal for monitoring deep brain stimulation for treatment resistant depression
-* Cycle-by-cycle analysis of neural oscillations
-* Complex Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network Development
-* EEG Power Spectral Slope differs by ADHD status and stimulant medication exposure in early childhood
-* Memantine effects on EEG measures of putative excitatory/inhibitory balance in schizophrenia
-* NitroSynapsin ameliorates hypersynchronous neural network activity in Alzheimer hiPSC models
-* Linked sources of neural noise contribute to age-related cognitive decline
-* Homeostatic mechanisms may shape the type and duration of oscillatory modulation
-* Electrophysiological frequency band ratio measures conflate periodic and aperiodic neural activity
-* Parameterizing neural power spectra into periodic and aperiodic components
-* Neuronal timescales are functionally dynamic and shaped by cortical microarchitecture
-* Longitudinal changes in aperiodic and periodic activity in electrophysiological recordings in the first seven months of life
-* Enhancing oscillations in intracranial electrophysiological recordings with data-driven spatial filters
-* Modality-specific tracking of attention and sensory statistics in the human electrophysiological spectral exponent
-* Automated meta-analysis of the event-related potential (ERP) literature
-* Spectral parameterization for studying neurodevelopment: How and why. Dev Cogn Neurosci (2022).
-* Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations
-* Neurophysiological signatures of cortical micro-architecture
-* Clinical EEG slowing induced by electroconvulsive therapy is better described by increased frontal aperiodic activity
-* Magnetic seizure therapy and electroconvulsive therapy increase aperiodic activity
-* Development of neuronal timescales in human cortical organoids and rat hippocampus dissociated cultures
-* Changes in electrophysiological aperiodic activity during cognitive control in Parkinson’s disease
-* Resting-state alpha and mu rhythms change shape across development but lack diagnostic sensitivity for ADHD and autism
-* Time-resolved aperiodic and oscillatory dynamics during human visual memory encoding
-* Differential representations of spatial location by aperiodic and alpha oscillatory activity in working memory
-* Functional connectivity is dominated by aperiodic, rather than oscillatory, coupling
-* Cannabidiol blood metabolite levels after cannabidiol treatment are associated with broadband EEG changes and improvements in visuomotor and non-verbal cognitive abilities in boys with autism requiring higher levels of support
-* Dissociating contributions of theta and alpha oscillations from aperiodic neural activity in human visual working memory
-* Pharmacological manipulation of nested oscillations in human iPSC-derived 2D neuronal networks
-* Dynamic network communication as a unifying neural basis for cognition, development, aging, and disease
-* Brain oscillations and the importance of waveform shape
-* The logic of developing neocortical circuits in health and disease
-* Methodological considerations for studying neural oscillations
-* From mechanisms to markers: novel non-invasive EEG proxy markers of the neural excitation and inhibition system in humans
-* The data science future of neuroscience theory
-* Processes and Measurements: a Framework for Understanding Neural Oscillations in Field Potentials
+I am less interested in purely descriptive studies without mechanistic or translational framing, and in methods papers that do not demonstrate practical utility for biomarker or therapy-response questions.
+
+Some paper themes I want to track closely:
+* Targeted therapy resistance mechanisms in neuroblastoma (especially ALK/ATR contexts)
+* Biomarker discovery pipelines for pediatric cancers (predictive/prognostic/pharmacodynamic)
+* Cell-state plasticity (e.g., adrenergic–mesenchymal dynamics) under treatment pressure
+* Integrative analyses linking transcriptome, proteome, and phosphoproteome to drug response
+* Network-based and master-regulator approaches for mechanism and target prioritization
+* AI for single-cell: foundation models, transfer learning, and clinically useful representations
+* Reproducible computational frameworks for translational multi-omics oncology
