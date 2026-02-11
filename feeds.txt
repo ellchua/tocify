@@ -1,62 +1,60 @@
-# general journals
+# General journals (high-impact cancer/biomed)
+BMC Genome Biology | https://link.springer.com/search.rss?query=*&content-type=Article&sortBy=relevance&search-within=Journal&facet-journal-id=13059
+Cell | https://www.cell.com/current-biology/inpress.rss
+eLife | https://elifesciences.org/rss/subject/neuroscience.xml
 Nature | http://www.nature.com/nature/current_issue/rss
+Nature Communications | https://www.nature.com/ncomms.rss
+PLOS Biol | https://journals.plos.org/plosbiology/feed/atom
+PLOS Genetics | https://journals.plos.org/plosgenetics/feed/atom
 Scientific Reports | https://www.nature.com/srep.rss
 Science | https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science
 Science Advances | https://www.science.org/content/page/email-alerts-and-rss-feeds#:~:text=Advances%C2%A0Feed
-PNAS | http://www.pnas.org/rss/Neuroscience.xml
-PNAS | http://www.pnas.org/rss/Psychological_and_Cognitive_Sciences.xml
 
-# neuroscience journals
-bioRxiv | http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience
-Nature Neuroscience | https://www.nature.com/neuro.rss
-Nature Human Behav | https://www.nature.com/nathumbehav.rss
-Nature Aging | https://www.nature.com/nataging.rss
-Neuron | https://www.cell.com/neuron/rss
-J Neurosci | https://www.jneurosci.org/rss/current.xml
-Neuron | http://www.cell.com/neuron/inpress.rss
-Cerebral Cortex | http://cercor.oxfordjournals.org/rss/current.xml
-J Cogn Neurosci | https://ieeexplore.ieee.org/rss/TOC6720218.XML
-NeuroImage | http://www.journals.elsevier.com/neuroimage/rss
+# cancer journals
+AACR Cancer Discovery | https://aacrjournals.org/rss/site_1000003/1000004.xml
+AACR Cancer Epidemiology, Biomarkers & Prevention | https://aacrjournals.org/rss/site_1000005/1000005.xml
+AACR Cancer Research | https://aacrjournals.org/rss/site_1000011/1000008.xml
+AACR Cancer Research Communications | https://aacrjournals.org/rss/site_1000019/1000012.xml
+AACR Clinical Cancer Research | https://aacrjournals.org/rss/site_1000013/1000009.xml
+AACR Molecular Cancer Research | https://aacrjournals.org/rss/site_1000015/1000010.xml
+AACR Molecular Cancer Therapeutics | https://aacrjournals.org/rss/site_1000017/1000011.xml
+ASCO JCO | https://ascopubs.org/action/showFeed?type=etoc&feed=rss&jc=JCO
+ASCO GO | https://ascopubs.org/action/showFeed?type=etoc&feed=rss&jc=go
+ASCO CCI | https://ascopubs.org/action/showFeed?type=etoc&feed=rss&jc=cci
+ASCO PO | https://ascopubs.org/action/showFeed?type=etoc&feed=rss&jc=po
+ASCO OA | https://ascopubs.org/action/showFeed?type=etoc&feed=rss&jc=oa
+BMC Cancer | https://link.springer.com/search.rss?query=*&content-type=Article&sortBy=relevance&search-within=Journal&facet-journal-id=12885
+BMC Discover Oncology | https://link.springer.com/search?new-search=true&query=*&search-within=Journal&sortBy=relevance&facet-journal-id=12672
+British Journal of Cancer | https://www.nature.com/bjc.rss
+Nature Cancer | https://www.nature.com/natcancer.rss
+npj Precision Oncology | https://www.nature.com/npjprecisiononcology.rss
+JAMA Oncology | https://jamanetwork.com/rss/site_159/onlineFirst_174.xml
 
-# biology journals
-Cell | https://www.cell.com/cell/current.rss
-eLife | https://elifesciences.org/rss/subject/neuroscience.xml
-PLOS Biol | https://journals.plos.org/plosbiology/feed/atom
-PLOS Comp Bio | https://journals.plos.org/ploscompbiol/rss
-Nature Biotechnology | https://www.nature.com/nbt.rss
+#clinical journals
+BMC Medical Genomics | https://link.springer.com/search.rss?query=*&content-type=Article&sortBy=relevance&search-within=Journal&facet-journal-id=12920
+Journal of Translational Medicine | https://link.springer.com/search.rss?query=*&content-type=Article&sortBy=relevance&search-within=Journal&facet-journal-id=12967
 
-# AI/ML journals
-Nature Comput Sci | https://www.nature.com/natcomputsci.rss
-Nature Machine Intell | https://www.nature.com/natmachintell.rss
+# pediatric journals
+JAMA Pediatrics | https://jamanetwork.com/rss/site_19/onlineFirst_75.xml
 
-# clinical journals
-JAMA | https://jamanetwork.com/rss/site_3/67.xml
-JAMA Network Open | https://jamanetwork.com/rss/site_214/187.xml
-JAMA Neurol | https://jamanetwork.com/rss/site_16/72.xml
-JAMA Psychiatry | https://jamanetwork.com/rss/site_14/70.xml
-JAMA Cardiol | https://jamanetwork.com/rss/site_192/184.xml
-JAMA Pediatrics | https://jamanetwork.com/rss/site_19/75.xml
-Lancet | http://www.thelancet.com/rssfeed/lancet_current.xml
-Lancet Digital Health | http://www.thelancet.com/rssfeed/laneur_current.xml
-Lancet Neurol | http://www.thelancet.com/rssfeed/landig_current.xml
-Lancet Psychiatry | http://www.thelancet.com/rssfeed/lanpsy_current.xml
-Nature Medicine | http://www.nature.com/nm/current_issue/rss/
-Nature Mental Health | https://www.nature.com/natmentalhealth.rss
-npj Digital Health | https://www.nature.com/npjdigipubhealth.rss
-npj Digital Med | https://www.nature.com/npjdigitalmed.rss
-Trans Psychiatry | https://www.nature.com/tp.rss
+# comp bio journals
+Bioinformatics (Oxford Academic) | https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml
+BMC Bioinformatics | https://link.springer.com/search.rss?query=*&content-type=Article&sortBy=relevance&search-within=Journal&facet-journal-id=12859
+BMC Genome Medicine | https://link.springer.com/search.rss?query=*&content-type=Article&sortBy=relevance&search-within=Journal&facet-journal-id=13073
+Briefings in Bioinformatics (Oxford Academic) | https://academic.oup.com/rss/site_5143/3005.xml
+PLOS Comp Bio | https://journals.plos.org/ploscompbiol/feed/atom
+NAR Genomics & Bioinformatics | https://academic.oup.com/rss/site_6220/4033.xml
+Nature Bioinformatics | https://www.nature.com/subjects/bioinformatics.rss
+
+#preprints
+bioRxiv Bioinformatics | https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics
+bioRxiv Cancer Biology | https://connect.biorxiv.org/biorxiv_xml.php?subject=cancer_biology
+bioRxiv Genomics | https://connect.biorxiv.org/biorxiv_xml.php?subject=Genomics
 
 # methods and data journals
 Nature Methods | http://www.nature.com/nmeth/current_issue/rss
-Nature Protocols | http://www.nature.com/nprot/current_issue/rss/index.html
-Scientific Data | https://www.nature.com/sdata.rss
+Nature Protocols | https://www.nature.com/nprot.rss
 
 # review journals
-Trends Cogn Sci | http://www.cell.com/trends/cognitive-sciences/inpress.rss
-Trends Neurosci | https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=stm
-Behav Brain Sci | http://cambridge.org/core/rss/product/id/33B3051C485F2A27AC91F4A9BA87E6A6
-Nature Rev Neurosci | https://www.nature.com/nrn.rss
-Nature Rev Psychol | https://www.nature.com/nrpsychol.rss
-Nature Rev Neurol | https://www.nature.com/nrneurol.rss
-Nature Rev Biotech | https://www.nature.com/natrevbioeng.rss
-Nature Rev Cardiol | https://www.nature.com/nrcardio.rss
+Nature Reviews Cancer | https://www.nature.com/nrc.rss
+Nature Reviews Clinical Oncology | https://www.nature.com/nrclinonc.rss
