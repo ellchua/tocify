@@ -20,8 +20,10 @@ This repo runs a GitHub Action once a week (or on-demand) that:
 - Category-based digest layout:
   - Sections are `Neuroblastoma`, `AI`, `Methods`, `Other`.
   - Single-best-match assignment (one paper appears in only one category).
-  - Top 5 papers shown per category, sorted by score.
+  - Includes all ranked papers by default, sorted by score within each category.
   - Empty categories are still shown.
+  - Published dates are shown as `YYYY-MM-DD` (no time).
+  - `Tags` are shown on a dedicated line.
 - Snapshot outputs each run:
   - Root: `digest.md`, `latest.md`
   - Markdown history: `output/digest-YYYY-MM-DD_HHMMSS.md`
@@ -37,7 +39,7 @@ This repo runs a GitHub Action once a week (or on-demand) that:
   - `REFINE_BATCH_SIZE` (default: `20`)
   - `BATCH_SIZE` (default: `50`)
 - Rendering/output:
-  - `CATEGORY_MAX_ITEMS` (default: `5`)
+  - `CATEGORY_MAX_ITEMS` (default: `0`, which means show all per category)
   - `OUTPUT_DIR` (default: `output`)
   - `HTML_OUTPUT_DIR` (default: `html_outputs`)
 

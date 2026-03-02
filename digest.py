@@ -27,7 +27,7 @@ MIN_SCORE_READ = float(os.getenv("MIN_SCORE_READ", "0.7"))
 MAX_RETURNED = int(os.getenv("MAX_RETURNED", "40"))
 REFINE_TOP_N = int(os.getenv("REFINE_TOP_N", "40"))
 REFINE_BATCH_SIZE = int(os.getenv("REFINE_BATCH_SIZE", "20"))
-CATEGORY_MAX_ITEMS = int(os.getenv("CATEGORY_MAX_ITEMS", "5"))
+CATEGORY_MAX_ITEMS = int(os.getenv("CATEGORY_MAX_ITEMS", "0"))
 
 OUTPUT_DIR = os.getenv("OUTPUT_DIR", "output")
 HTML_OUTPUT_DIR = os.getenv("HTML_OUTPUT_DIR", "html_outputs")
@@ -462,15 +462,19 @@ def two_stage_triage(
 # ---- render ----
 def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
     week_of = result["week_of"]
-    notes = result.get("notes", "").strip()
     ranked = result.get("ranked", [])
-    kept = [r for r in ranked if r["score"] >= MIN_SCORE_READ]
+    kept = list(ranked)
 
     lines = [f"# Weekly ToC Digest (week of {week_of})", ""]
-    if notes:
-        lines += [notes, ""]
     lines += [
-        f"**Included:** {len(kept)} (score ≥ {MIN_SCORE_READ:.2f})  ",
+        (
+            "This digest is automatically generated from this week's RSS items and "
+            "categorized into Neuroblastoma, AI, Methods, and Other."
+        ),
+        "",
+    ]
+    lines += [
+        f"**Included:** {len(kept)} (all ranked papers)  ",
         f"**Scored:** {len(ranked)} total items",
         "",
         f"**Models:** `{CHEAP_MODEL}` first-pass, `{FINAL_MODEL}` re-rank top {REFINE_TOP_N}",
@@ -479,7 +483,7 @@ def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
         "",
     ]
     if not kept:
-        return "\n".join(lines + ["_No items met the relevance threshold this week._", ""])
+        return "\n".join(lines + ["_No papers were scored this week._", ""])
 
     categories = [
         {
@@ -489,8 +493,7 @@ def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
                 "alk", "atr", "relapse", "recurrence", "resistance", "refractory",
                 "drug", "therapy", "biomarker", "pediatric oncology", "pediatric solid tumors",
             ],
-            "must_any": ["neuroblastoma", "nb"],
-            "boost": 6,
+            "boost": 4,
         },
         {
             "name": "AI",
@@ -517,6 +520,7 @@ def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
             "boost": 0,
         },
     ]
+    nb_signals = set(categories[0]["signals"])
 
     def normalized_text(row: dict) -> str:
         it = items_by_id.get(row["id"], {})
@@ -532,31 +536,30 @@ def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
     def score_category(text: str, cfg: dict) -> int:
         score = 0
         signals = cfg.get("signals", [])
-        excludes = cfg.get("exclude", [])
-        must_any = cfg.get("must_any", [])
-        must_all_group = cfg.get("must_all_group", [])
 
         for sig in signals:
             if sig and sig in text:
                 score += 2
 
-        for ex in excludes:
-            if ex and ex in text:
-                score -= 2
-
-        if must_any and not any(x in text for x in must_any):
-            return -999
-
-        for group in must_all_group:
-            if not any(x in text for x in group):
-                return -999
-
         score += int(cfg.get("boost", 0))
         return score
+
+    def format_published_date(value: str | None) -> str:
+        if not value:
+            return ""
+        try:
+            dt = dtparser.parse(value)
+            return dt.date().isoformat()
+        except Exception:
+            return value[:10]
 
     grouped: dict[str, list[dict]] = {c["name"]: [] for c in categories}
     for r in kept:
         text = normalized_text(r)
+        is_nb_related = any(sig in text for sig in nb_signals if sig)
+        if not is_nb_related:
+            grouped["Other"].append(r)
+            continue
         scored = [(score_category(text, c), idx, c["name"]) for idx, c in enumerate(categories)]
         # best score wins; index preserves your priority order in ties
         best = sorted(scored, key=lambda x: (x[0], -x[1]), reverse=True)[0]
@@ -565,20 +568,21 @@ def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
 
     for cname, rows in grouped.items():
         rows.sort(key=lambda x: x["score"], reverse=True)
-        visible = rows[:CATEGORY_MAX_ITEMS]
+        visible = rows if CATEGORY_MAX_ITEMS <= 0 else rows[:CATEGORY_MAX_ITEMS]
         lines += [f"## {cname} ({len(visible)} shown / {len(rows)} total)", ""]
 
         for r in visible:
             it = items_by_id.get(r["id"], {})
             tags = ", ".join(r.get("tags", [])) if r.get("tags") else ""
-            pub = r.get("published_utc")
+            pub = format_published_date(r.get("published_utc"))
             summary = (it.get("summary") or "").strip()
 
             lines += [
                 f"### [{r['title']}]({r['link']})",
                 f"*{r['source']}*  ",
-                f"Score: **{r['score']:.2f}**" + (f"  \nPublished: {pub}" if pub else ""),
-                (f"Tags: {tags}" if tags else ""),
+                f"Score: **{r['score']:.2f}**",
+                (f"Published: {pub}" if pub else ""),
+                (f"Tags: {tags}" if tags else "Tags: -"),
                 "",
                 r["why"].strip(),
                 "",
