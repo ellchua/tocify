@@ -45,17 +45,24 @@ jobs:
           HTTPS_PROXY: ""
           ALL_PROXY: ""
           NO_PROXY: "api.openai.com"
+          OPENAI_MODEL_CHEAP: "gpt-5-nano"
+          OPENAI_MODEL_FINAL: "gpt-5.2"
           MIN_SCORE_READ: "0.35"
           LOOKBACK_DAYS: "7"
           SUMMARY_MAX_CHARS: "500"
           PREFILTER_KEEP_TOP: "200"
           BATCH_SIZE: "50"
+          REFINE_TOP_N: "40"
+          REFINE_BATCH_SIZE: "20"
+          OUTPUT_DIR: "output"
+          HTML_OUTPUT_DIR: "html_outputs"
+          CATEGORY_MAX_ITEMS: "5"
         run: python digest.py
 
-      - name: Commit digest.md
+      - name: Commit digest artifacts
         run: |
           git config user.name "toc-digest-bot"
           git config user.email "toc-digest-bot@users.noreply.github.com"
-          git add digest.md
+          git add digest.md latest.md output html_outputs
           git commit -m "Update weekly ToC digest" || exit 0
           git push
