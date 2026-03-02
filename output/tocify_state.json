@@ -2,11 +2,11 @@
   "items": {
     "01a836a254b184d474a19a8bf86413cd3fbc19ee": {
       "fingerprint": "691e9c157007abdfe1752060113b691ebc1c00dc",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "02101fb25ee3f61eb1e2fa51a5ff10941e4031fa": {
       "fingerprint": "6a59514e52741eeaf1a579f5a851f2c5c820b14c",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "02bb5d295c656124a402105b2c8616feed77d7e0": {
       "fingerprint": "28805bc21cc1401a6ae09fcecd331eca2815bae4",
@@ -14,23 +14,27 @@
     },
     "04dd038698d4fe64040e196dae9f2c3329a29716": {
       "fingerprint": "b8ad0bee0820b8f0884db1ac42a531d66f0af608",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "05e9736ff3d975f7d7027b865ecee9e95ed2719f": {
       "fingerprint": "924c6f9441f9f814d09ef8c58c1a7d7a734b878a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "07f7e9e83b0fdbf84674a4749df1abd99ca41648": {
       "fingerprint": "ef4c147a41948ca17e8780e3ed96f2627199d1cd",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "09a6d0b56c872cabbbbe626dc73a1820e457de35": {
       "fingerprint": "56541a6426537ea61213260eed495d44dbdf1dc7",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "0aa1dd94f48a061658c9eefba5f845061814aae0": {
       "fingerprint": "707a223a2f0864fd04f2a4e6338434976b3e653a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "0aeff6a68871cced7703ea639302d49016c53c9b": {
+      "fingerprint": "0aefd863a439478466cf656018eeb5165e4f335f",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "0b043c6ef2eb796cecc8313b400734d12c3218e6": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -71,23 +75,23 @@
         "why": "Translational liquid-biopsy style biomarker: detecting a mutant oncoprotein (IDH1 R132H) in plasma extracellular vesicles for noninvasive diagnosis. Summary details are not provided in the feed, limiting assessment of methods/validation depth."
       },
       "fingerprint": "b27ce48ecd0a2efc55b40eef0eb16a5d02ae6135",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "0cf8cb8f64fe89f1fd46ed59512e0cdc40b67494": {
       "fingerprint": "fd5420dad9e0bcb44f5aed8c74fdb14f3925271b",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "0d035cad8de564a619d6196b029db0a222f4744e": {
       "fingerprint": "6cf2f09369f4508005943337811c92da17cffbd6",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "0d4e9ca3b7822119d1961e30efa9fac8b91ae8fe": {
       "fingerprint": "6803400253c0551aadfb9f2d2abc35903e2e1a6a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "13534c58ad76d35ac22092d29435dce6cd0fd762": {
       "fingerprint": "5d7e3d9808a1045c111ac2f58692edd57ac73ea8",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "1789f9c0ffdba8ad6d3fc4a3aa75b7e0d55df4ed": {
       "fingerprint": "e9809e06af40978643a1492c78d48e448a18d420",
@@ -131,11 +135,11 @@
         "why": "Integrates cyclic IHC, scRNA-seq, spatial transcriptomics, in vitro models, and DNA methylation profiling across many GBMs to dissect hypoxia/acidosis effects on myeloid states. The multi-modal design and microenvironmental-state readouts are transferable to pediatric solid tumor TME and response studies."
       },
       "fingerprint": "27f972dac4e15338ca9af7506ec86b725d85855c",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "198a26a2f9b60fb3f49470390e464060213e830f": {
       "fingerprint": "23aefcdc45de41a0a58400be2f49e413de1e2de8",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "1a05fb18c0e9b7ec7c81d46e05bc131fc5ea6090": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -173,15 +177,50 @@
         "why": "Biomarker-focused but in prostate cancer and the RSS entry includes no computational/validation details. Limited transferability to pediatric oncology based on title alone."
       },
       "fingerprint": "13a5f5f35d341c4b960cac4fc10d2f3b84365e4d",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "1b73a2c666a4e6932bbf248b264dcb0d644c986b": {
       "fingerprint": "ad266bc390bc2923c605f3a496a88c1e93988404",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "1d8c16bb9e608085d3acc677775560dfc33e38fc": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "1d8c16bb9e608085d3acc677775560dfc33e38fc",
+        "link": "https://link.springer.com/article/10.1186/s12920-026-02329-2",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.72,
+        "source": "BMC Medical Genomics",
+        "tags": [
+          "single-cell",
+          "scRNA-seq",
+          "tumor-microenvironment",
+          "breast-cancer",
+          "translational"
+        ],
+        "title": "Single-cell RNA sequencing of adenoid cystic carcinoma of the breast reveals cellular heterogeneity and tumor microenvironment features",
+        "why": "scRNA-seq study highlighting tumor heterogeneity and microenvironment; methodologically relevant for understanding cell-state programs and potential translational targets in oncology."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "1d8c16bb9e608085d3acc677775560dfc33e38fc",
+        "link": "https://link.springer.com/article/10.1186/s12920-026-02329-2",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.41,
+        "source": "BMC Medical Genomics",
+        "tags": [
+          "scRNA-seq",
+          "tumor microenvironment",
+          "cell states",
+          "heterogeneity"
+        ],
+        "title": "Single-cell RNA sequencing of adenoid cystic carcinoma of the breast reveals cellular heterogeneity and tumor microenvironment features",
+        "why": "Single-cell RNA-seq study focused on tumor heterogeneity and the microenvironment, which is generally relevant to single-cell analysis patterns. However, it is a rare adult breast cancer subtype and the TOC provides no method/biomarker details here."
+      },
       "fingerprint": "3444c270681d705f09bdfd78594f12df48c4c1a5",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
     },
     "1da820dd428ba5042153868ccb08759ea146266e": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -219,7 +258,7 @@
         "why": "Presents a GNN method to predict zinc-binding sites in protein 3D structures, primarily for structural annotation. Not directly relevant to translational pediatric oncology, biomarker discovery, or single-cell/multi-omics analysis."
       },
       "fingerprint": "7771a5b00e03a63296c4a5831dbf3b11906bf082",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "22c550143f3c61df943137ede0655e22826d9f70": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -258,11 +297,11 @@
         "why": "Method paper on jointly optimizing feature selection and deep embeddings for scRNA-seq clustering, addressing high dimensionality/sparsity. Potentially helpful for robust cell-state discovery, though the translational angle is not explicit from the abstract snippet."
       },
       "fingerprint": "e64a4b9408025ff65cd296308c9711455a67186b",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "22ea10ed8ea83cb4264f821317ba0c137c85cf77": {
       "fingerprint": "964b07672264f2005d57bb7a71af1f0403bc6219",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "24251e27a04dfd42925d50aafc4cb52b03b9a0fc": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -302,7 +341,7 @@
         "why": "Presents an integrated pipeline connecting scRNA-seq-based cell–cell communication analysis to structure-based molecular docking, directly bridging single-cell computation to drug discovery. This is methodologically transferable for identifying actionable ligand–receptor targets and prioritizing compounds."
       },
       "fingerprint": "0b78eea6a049271d13e429c5bb670bd8ac253088",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "245380f2254e9bfcbcbf6fb8fc2826ad3d0586a8": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -345,39 +384,95 @@
         "why": "Proposes a knowledge-integrated perturbation model aimed at zero-shot prediction of single-cell responses for unprofiled drugs, directly aligned with drug response/resistance modeling workflows. The summary emphasizes encoding mechanistic relationships rather than treating drugs as IDs, supporting transfer to translational perturbation settings."
       },
       "fingerprint": "c3375c5c3640e83146b9fee5aa14115e5be627c5",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "24f769555f77bdb79326971c5b4cbf6c4a626ffb": {
       "fingerprint": "10566604c853c4fe23bfc5b0a644a3be1a33b794",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "26491d20f7383718dabfa64e6624489d2c61c5be": {
       "fingerprint": "c19f9079b61bdb88a9676bcd6eda8e9acbf408b0",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "26a080fbbc1d30b7985f357ef73f1f7553fceb94": {
       "fingerprint": "516d00ac02cdd8dc9b374bfde4ebf70f5abd912b",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "284aba7220ca070ae3668534e59d6c3e6f1ca9f2": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "284aba7220ca070ae3668534e59d6c3e6f1ca9f2",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.25.708026v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.7,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "network-biology",
+          "drug-MOA",
+          "biomarker-prioritization",
+          "translational"
+        ],
+        "title": "Graph Lens Lite: An interactive biological network viewer for displaying, exploring, and sharing disease pathobiology and drug mechanism of action models",
+        "why": "Network visualization plus MOA modeling supports biomarker prioritization and translational hypothesis generation; directly relevant to mechanism inference and drug targeting."
+      },
       "fingerprint": "d8da9df91fe5cffd16955259f9dad82af4ad0bfd",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "28ee5da64f4643ac7f0bb874daa3eb8cab7763fa": {
       "fingerprint": "a7d2e5fddfe00396acb33923aee6f59a8e27f5a9",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "2b268394a5e28bd5e789870bf6d4eb9034500f3f": {
+      "fingerprint": "38c48be0c1384304a0dd721a00b1d47ce3e3f934",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "2b7b49ee6d2e22d57de1ae5ebeafcb6b16285459": {
       "fingerprint": "1398e0c0a8656718269e9aa79cb678201183617c",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "2d692bf62a43733eb7630113dc5bd182beacaa0e": {
       "fingerprint": "fd20d68d4a89b5825dec8107ab2185702c64bf74",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "2de078f5061e91b8ece9772f2e4a199ef5aebbb3": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "2de078f5061e91b8ece9772f2e4a199ef5aebbb3",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.25.703280v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.74,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "spatial-mechanomics",
+          "multi-omics",
+          "biomechanics",
+          "translational"
+        ],
+        "title": "Spatial Mechanomics for Tissue-Scale Biomechanical Mapping and Multi-omics Integration",
+        "why": "Introduces tissue-wide mechanical state characterization with multi-omics integration; relevant to translational biomarker discovery and multi-omics workflows."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "2de078f5061e91b8ece9772f2e4a199ef5aebbb3",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.25.703280v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.58,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "multi-omics integration",
+          "spatial omics",
+          "biomechanics",
+          "representation learning",
+          "method"
+        ],
+        "title": "Spatial Mechanomics for Tissue-Scale Biomechanical Mapping and Multi-omics Integration",
+        "why": "Presents a framework for spatially resolved biomechanical state mapping with an explicit aim of multi-omics integration. While not oncology-specific in the provided summary, the integration and representation aspects may be methodologically useful for spatial multi-modal tissue profiling."
+      },
       "fingerprint": "5cd1fb5d940abd0d0a036e4f49255e255a92a19e",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
     },
     "2e6f7a91c3927905715d0804b73488f4b3e4a325": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -417,11 +512,11 @@
         "why": "Describes an image-analysis workflow for quantifying marker distributions at single-cell level in whole/3D tissues (segmentation, transcript detection/mapping). Method is relevant for spatial/3D phenotyping of tumors but is more imaging-pipeline focused than omics integration."
       },
       "fingerprint": "4b50ac3c08afabb389e2e2a5721fcffe85465caf",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "2fd26b2826c193a921f0e9c8376da37caa14dd97": {
       "fingerprint": "300cdca3a61ecaca52c3d72871e1aa613fb227e4",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "31d634cb486d00ce83e0b83468faa0c9df4add48": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -461,7 +556,7 @@
         "why": "Pediatric oncology adjacent (retinoblastoma) and focused on germline RB1 variant landscape, relevant to precision oncology and variant interpretation. No summary is provided here, so it is unclear how much computational analysis or clinical actionability is included."
       },
       "fingerprint": "b1f96cb39571b0c8349b3eb8358af5b3f55a3162",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "322fbf0be05d9c9c69d7ab6b901d729147c9f984": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -500,43 +595,112 @@
         "why": "Tool to improve scRNA-seq quantification by extending gene models, addressing missed/incorrect quantification due to incomplete annotations (especially 3' ends). Most directly impactful for non-model organisms per abstract, but conceptually useful for improving quantification quality."
       },
       "fingerprint": "19bf9b66ceaa23523510f64aa961e55a728eddba",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "33811b3f13195c5fd21b7be108d055b1f9cc3ac3": {
       "fingerprint": "01241529cf60eba4b1c6074bd3e6773356464f09",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "345013e00224c41975b75125ea166f5a230e7054": {
       "fingerprint": "e47e8d8ccedeb8a7fdef82f86d0e32eca7088382",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "352ee54ab8fa90e99b96894124fb4c8e14f8ca5a": {
       "fingerprint": "40505cd3cad11bb5f41366707d7e1f340ece4dba",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "3955a1d4769411acc6e8175f59b07632292f87ea": {
       "fingerprint": "7d767befe0ae482db5ab8b9afba1adb2b78ce683",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "3bf97e66904fbd0b976b41869becfda69d0c9a08": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "3bf97e66904fbd0b976b41869becfda69d0c9a08",
+        "link": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbag092/8503315?rss=1",
+        "published_utc": "2026-03-02T00:00:00+00:00",
+        "score": 0.42,
+        "source": "Briefings in Bioinformatics",
+        "tags": [
+          "lipid nanoparticles",
+          "transfection",
+          "machine learning",
+          "drug delivery"
+        ],
+        "title": "Transformer-based multidimensional feature fusion for accurate prediction of lipid nanoparticles transfection efficiency",
+        "why": "AI/ML approach to predict nanoparticle delivery efficiency; translational potential for RNA delivery and therapeutics."
+      },
       "fingerprint": "ec5223b74505b61db8c9e304279e1ab70b893f8a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "3d4b60d402c0ddbc8d3d441ffff3f0e4daf1d4ad": {
       "fingerprint": "b8aba6a44912b4087094809ff90b2d8d89ebd83f",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "3d861dc2b58370befef5936d92b93abae75f82db": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "3d861dc2b58370befef5936d92b93abae75f82db",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.25.707521v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.72,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "spatial-proteomics",
+          "topological-data-analysis",
+          "single-cell",
+          "mult-omics"
+        ],
+        "title": "Topological Data Analysis of Spatial Protein Expression in Multiplexed Spatial Proteomics Studies",
+        "why": "Applies topological data analysis to spatial proteomics to improve cell phenotyping and link to outcomes; aligns with multi-omics and single-cell analytics."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "3d861dc2b58370befef5936d92b93abae75f82db",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.25.707521v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.69,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "spatial proteomics",
+          "TDA",
+          "computational pathology",
+          "biomarkers",
+          "spatial statistics"
+        ],
+        "title": "Topological Data Analysis of Spatial Protein Expression in Multiplexed Spatial Proteomics Studies",
+        "why": "Introduces topological data analysis for multiplexed spatial proteomics, explicitly addressing errors in segmentation/phenotyping and leveraging measured protein levels and spatial arrangement. This is a transferable computational approach for spatial biomarker discovery and outcome association in tissue studies."
+      },
       "fingerprint": "6c5da1c4c9c481761ab9500ce3fdc0e9f27041b8",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
     },
     "3dbf445914069ffbd757cf1380a6c3e44fbaaaf5": {
       "fingerprint": "f1feb4acb829196340625f50ff180631d6fa45b6",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "3e00952ff1bd016e7dec50824bfb725d2d64da65": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "3e00952ff1bd016e7dec50824bfb725d2d64da65",
+        "link": "https://link.springer.com/article/10.1186/s12885-026-15727-7",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.68,
+        "source": "BMC Cancer",
+        "tags": [
+          "sumoylation",
+          "immune-suppressive-tumor-microenvironment",
+          "CRC",
+          "therapeutic-potential"
+        ],
+        "title": "UHRF2 related to sumoylation : assessment of its role in immune suppression and therapeutic potential in colorectal cancer",
+        "why": "Investigates SUMOylation-related gene in tumor immune context and therapeutic potential; relevant to immune-oncology and translational biomarker discovery."
+      },
       "fingerprint": "772394b0f7f77e16e19fd3ffe2b1502b5fd7b123",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "3eb97dec13e70929deb7ea2f8f0bb308727cda75": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -574,11 +738,11 @@
         "why": "Introduces a spatial-omics method to classify de novo spatial patterns for genes and cell types and identify spatially differential genes, reducing reliance on prior annotations. This is useful for tumor microenvironment mapping and spatial biomarkers in solid tumors."
       },
       "fingerprint": "033b6f42b757c09c6d79c545a88f940aaf19f3bc",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "3f747464c7713deeb5b3505695c60092d9926c00": {
       "fingerprint": "6e64007691ae3d9f4482758a5bc081b6f6aeecec",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "415db96e6b9dd4063d7cfe7c46d0f95578d17609": {
       "fingerprint": "fcdb3ae7468573c129f8f35fbfe838d899faba3e",
@@ -586,11 +750,11 @@
     },
     "41630182fc8522995d861d131028069b37621364": {
       "fingerprint": "e9bfbf304a070b1e3d314cc1bab8d9c904d571dc",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "424230dadb260dc1a5b86b93b004d20b54f83961": {
       "fingerprint": "7600d231ad23db0583d24585fcad218f09a0fa77",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "436efd3da9dc0c3d478750161772eef73b307767": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -630,7 +794,7 @@
         "why": "Concerns comparative insect developmental gene regulatory networks across species, not oncology or translational biology. Methodological ideas about GRN comparison may be general, but relevance to pediatric cancer/scRNA-seq workflows is not indicated in the TOC text."
       },
       "fingerprint": "b4619f3bf232b7d6ae9ae076a56d761ecf399f91",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "444631eca46932bb25f6cd10ec4bedc832f5e8cc": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -670,7 +834,7 @@
         "why": "Presents a Bayesian neural network approach aimed at consistent feature selection and explicitly mentions applications to cancer gene expression data. Potentially relevant for biomarker discovery, though the RSS entry provides limited detail on validation or clinical linkage."
       },
       "fingerprint": "a16ece3a3a4c504a472c7632b7127525764a956b",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "45c008c677f56c9fc01c18fa5b51764f276356bb": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -711,11 +875,11 @@
         "why": "Presents an nf-core/Nextflow pipeline for somatic SNVs/indels/SVs/CNAs from long-read WGS, supporting reproducible cancer genomics. Useful if incorporating long-read data to resolve complex variation relevant to mechanisms and biomarkers."
       },
       "fingerprint": "28ba968d463f93b8f8d7709d11f3660a82f23eb4",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "463b4920e1ceefca3437fa5b76bc005aac7cbbce": {
       "fingerprint": "a5ac36b0fe02a88e6cf297f96aabe27027307484",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "48cbfa9f05acdd274a8d2438df57839d405db7f9": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -756,15 +920,15 @@
         "why": "Reports safety and clinical activity of hypoxia-responsive CEA CAR T cells in a phase 1 solid-tumor trial, a clear translational immunotherapy study. Not pediatric-oncology specific and the summary doesn’t mention biomarker/omics analyses."
       },
       "fingerprint": "d9ec709e9bb2b2412184785df1b533e411815b0b",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "492ca256bb8c4a577a3e5847d8190ab16237fb1a": {
       "fingerprint": "f9f4d030d2d86cc44035651cc123f10d14d87568",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "49e715677433ac2e40f5384bdb615a858c22475f": {
       "fingerprint": "101419de28dd722cdc32fba60a663dd617da68ad",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "4b7dc64682b885e2692fd2c4c8bbf338882bb09a": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -802,11 +966,11 @@
         "why": "Statistical genetics paper about power/confounding in cross-ancestry eQTL portability analyses, not directly connected to pediatric oncology or single-cell workflows in the provided summary. Could be relevant only if doing cross-ancestry regulatory genetics, which is not indicated here."
       },
       "fingerprint": "51be4448f0eac7143be5632645ca48df31de3119",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "4c16a16c0353ff31b7dab9e3209be03ed212efc0": {
       "fingerprint": "3da5777d21f000c5911b8fdef957275730ad4f3b",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "4d72bc1ac87b623a4fc33b19998a4e960c505eb5": {
       "fingerprint": "1e26b983e3bc925bbb728ab9ef43203b74327720",
@@ -849,11 +1013,47 @@
         "why": "A phase 2 immunotherapy clinical trial is translationally relevant and may include response/biomarker correlates, but the TOC text provides no molecular/computational details and the disease context is not neuroblastoma. Scored as moderate due to clinical response relevance only."
       },
       "fingerprint": "7c0d608a3d2935d0fffdf7b6e1e2e22d09a9c89a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "501634737ba5b5ede2a942bef0d594816d9a867d": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "501634737ba5b5ede2a942bef0d594816d9a867d",
+        "link": "https://link.springer.com/article/10.1186/s12885-026-15801-0",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.75,
+        "source": "BMC Cancer",
+        "tags": [
+          "immunotherapy",
+          "biomarker",
+          "cholesterol",
+          "liver-injury",
+          "cohort"
+        ],
+        "title": "Association between cholesterol and liver injury risk in solid cancer patients treated with PD-1 inhibitors: evidence from two cohort studies",
+        "why": "Explores metabolic biomarkers linked to immune-checkpoint inhibitor toxicity; translational relevance for risk stratification and management."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "501634737ba5b5ede2a942bef0d594816d9a867d",
+        "link": "https://link.springer.com/article/10.1186/s12885-026-15801-0",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.18,
+        "source": "BMC Cancer",
+        "tags": [
+          "PD-1 inhibitors",
+          "toxicity",
+          "liver injury",
+          "cohort study",
+          "clinical biomarker"
+        ],
+        "title": "Association between cholesterol and liver injury risk in solid cancer patients treated with PD-1 inhibitors: evidence from two cohort studies",
+        "why": "Reports an association between cholesterol and risk of liver injury in PD-1 inhibitor-treated solid cancer cohorts. This is broadly clinical/toxicity-focused and not aligned with pediatric translational oncology biomarker discovery in the provided details."
+      },
       "fingerprint": "9f681edca035f486669ef783b6e7c2f89c1e94a7",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
     },
     "51762d834768c60fc62e5f4266f40ca109a2e7f3": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -892,23 +1092,64 @@
         "why": "Benchmarks tools for locus-specific TE expression quantification in scRNA-seq, focusing on mapping ambiguity and performance. Useful if TE programs are being considered as cell-state or stress/therapy-response markers in tumor single-cell data."
       },
       "fingerprint": "e8d8da69488511087f7397e77dbb3725d39daca5",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "51a8293d8a9e00e62955ee71112fc084115a763d": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "51a8293d8a9e00e62955ee71112fc084115a763d",
+        "link": "https://link.springer.com/article/10.1186/s12859-026-06407-1",
+        "published_utc": "2026-02-28T00:00:00+00:00",
+        "score": 0.78,
+        "source": "BMC Bioinformatics",
+        "tags": [
+          "immunology",
+          "ML",
+          "MHC",
+          "peptide-binding",
+          "multi-omics",
+          "LLM"
+        ],
+        "title": "Multimodal learning on heterogeneous subgraphs and LLMs representation for MHC-peptide binding affinity prediction",
+        "why": "Advanced ML framework for predicting MHC-peptide binding using multimodal representations; relevant to immunotherapy target discovery and multi-omics integration in translational settings."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "51a8293d8a9e00e62955ee71112fc084115a763d",
+        "link": "https://link.springer.com/article/10.1186/s12859-026-06407-1",
+        "published_utc": "2026-02-28T00:00:00+00:00",
+        "score": 0.46,
+        "source": "BMC Bioinformatics",
+        "tags": [
+          "immunopeptidomics",
+          "MHC binding",
+          "multimodal ML",
+          "LLM fine-tuning",
+          "LoRA"
+        ],
+        "title": "Multimodal learning on heterogeneous subgraphs and LLMs representation for MHC-peptide binding affinity prediction",
+        "why": "Develops a multimodal ML model combining structural/sequence representations (including LoRA fine-tuning) for MHC–peptide binding prediction, relevant to immunotherapy modeling. It is not specific to pediatric oncology or single-cell, but the modeling ideas may transfer to antigen presentation/neoantigen workflows."
+      },
       "fingerprint": "11b6ddd3d6b80ba9c85318e0aa507e8a00985c64",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
     },
     "52883780635fe258963504e78bc5a11d25e7e3e9": {
       "fingerprint": "b7d65c5569d9bdcbf6c9746d33eb9ad12b995373",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "530f81c18eb7f69e8330e4a69d9c4ede4784c99b": {
       "fingerprint": "a493ffc9a0e0ae3ba9c4217a12e4f545d3497cac",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "582eb3d70bc382018ca160a7421f2da4936e3d4e": {
+      "fingerprint": "ad7d96213d33d5e5df2c157f06768344d8eacafd",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "5894d710664b97c08e4208d8e901847324001113": {
       "fingerprint": "accf25d518a6422df71f578ede2d760d2d29fc12",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "5982d412991282473f67f112fd1d2c9ee412a567": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -947,15 +1188,15 @@
         "why": "Focuses on TIL dynamics as biomarkers of neoadjuvant response, which is conceptually aligned with response prediction. The RSS entry lacks a summary, so the computational rigor and biomarker validation details are unclear."
       },
       "fingerprint": "5c81bfdfa634eadb98082f8ea55adc8f77957656",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "5c84515a76425975e35707c8be5e61a6ebda97a8": {
       "fingerprint": "a36aa478eee6b20e76c4f34d1d498ac4fa187a5f",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "5fcebb41852def652875955a14f91996b60958e2": {
       "fingerprint": "e3a2a2441164261c9246cba7eec6942679f8aea5",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "614d65a55173c8e29933ab42f6d41dcdfa3c798c": {
       "fingerprint": "4e231c4f87072f9e9cf0fb1790a5cc9eba9193b9",
@@ -963,11 +1204,11 @@
     },
     "61dd6d7943f5b1ee286795cb9ff87ff209adb487": {
       "fingerprint": "8a96dcf1bb43e28550997abd26f5bfa03cb3bcd7",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "62d51006010a9114c3ca8cc99058124aff2665c1": {
       "fingerprint": "bacfac3f1bea64f90fb07df004d88e757ccb9846",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "63641aaf25c299fb4446025066ea888c229dc6a3": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1007,31 +1248,31 @@
         "why": "Targets scRNA-seq noise/heterogeneity by using random matrix theory to guide sparse PCA, aiming for interpretability and robustness. This is broadly applicable to single-cell tumor datasets for dimensionality reduction and stable feature extraction."
       },
       "fingerprint": "9b9ad86567f2a77431886b6b0e409dbcda39a38f",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "63b6a5de02c76fe2a5ea0a9bbee6f826ea3a76b0": {
       "fingerprint": "017bce0da6d55e9f1db15827b48b296dac12c636",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "64ceda736dcf07874095d69fe42a1b0bdeeead20": {
       "fingerprint": "56ac3132f40760c35303c4f2fb56b30d133baede",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "65a5c81dd41011b0b54c1ff0b098b004ceb7040d": {
       "fingerprint": "5d00af662019252c36d0400f130cb8b429aec42d",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "6631d4d24e23cfb60d775046397720b183aa9a5e": {
       "fingerprint": "40b028502082d2a0edb9a99e1f0ceedec0e6ba7e",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "669bbbe15800b3519d599a0b2a6e868e8fd88a74": {
       "fingerprint": "480b9b7da7248b8c41936c86e6237301b06dc8d0",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "66ca118aee0e1279a3e6ecb8821a2763a6bc5c05": {
       "fingerprint": "5a3c3a8c4001c7a64b1003291de8dfb078810963",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "67c32e4bec2153fbf83056314e97b40e1c587b54": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1072,7 +1313,7 @@
         "why": "Uses patient-derived organoids and microfluidics to model thyroid cancer heterogeneity and implicates NF-κB-driven maturation for precision therapy. Translational model aspect is relevant, but cancer type is outside pediatric translational oncology focus and computational/omics details are not provided."
       },
       "fingerprint": "efecb831710e90e3a4431e9cc1fce238431fb355",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "6802a1149545b65e9080abadae5476dc487317a8": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1118,15 +1359,23 @@
         "why": "Integrative functional genomics (ATAC-seq, ChIP-seq, Hi-ChIP, nascent RNA-seq) to define IRF1 pioneer-factor activity in inflammatory macrophages. Not cancer-focused, but relevant background for macrophage regulatory programs that may inform TME analyses."
       },
       "fingerprint": "147f4d3e4f7eb542995244cd48a7b13890ba7083",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
+    },
+    "6848f8f999745e572a009a05180c25b52eed9d94": {
+      "fingerprint": "4fc85c11e478171df1192a33e114854ea701e4c0",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "6aec5790dede6060302f326c1c14a39893ad1b5b": {
       "fingerprint": "78b5709d80d3033e4adc23a9cf92054402477850",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "6b77a6500f23a8dfcee2751f9a1181520bd545ef": {
+      "fingerprint": "15939a8c3ac2506047f3c62ade6ed7c484a4314c",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "6ca2770f87112153c5894dd39145141e6baf13c0": {
       "fingerprint": "3007d61e1e677c6973ca9917ceb83b28137a531d",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "6d04680254481366b14d363907dc32810342c10d": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1169,7 +1418,7 @@
         "why": "Presents DECODE, a unified deconvolution algorithm spanning transcriptomic, proteomic, and metabolomic datasets, directly aligning with multi-omics integration and cell-type/state mixture handling relevant to tumor profiling. High methodological transferability to biomarker discovery workflows that involve mixed tissues."
       },
       "fingerprint": "192e199c755036bca0624a76f7b7faf9b6d5ae5b",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "6d59789166398b80ea53b114b1aaf580def32511": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1208,23 +1457,45 @@
         "why": "Analyzes experimental factors affecting ML-assisted Raman spectroscopy classification performance, emphasizing experimental rather than algorithmic impacts. This is not closely aligned with single-cell/multi-omics computational oncology workflows."
       },
       "fingerprint": "a20122a11980187ce11e4599962b97e32a785930",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
+    },
+    "6e14c256a43c71ab124f3317738d20dc77453588": {
+      "fingerprint": "b376b0637278d64eee70d5fbb02a37027fe165ed",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "6e31fb186aecee5611c4da42d52c9d3de2359a67": {
       "fingerprint": "d8a3a65569356899f849f8e4ef150e2dd596585c",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "6fb4f3b8f54acf15e8abe02f5ca03969c06f2efe": {
       "fingerprint": "72016e287927b1b09494e7d08c79efaa3b536c29",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "6fdfea84a2bf99e9e1246659a98a4d380d437576": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "6fdfea84a2bf99e9e1246659a98a4d380d437576",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.26.708362v1?rss=1",
+        "published_utc": "2026-03-01T00:00:00+00:00",
+        "score": 0.55,
+        "source": "bioRxiv",
+        "tags": [
+          "protein-ligand modelling",
+          "foundation model",
+          "AI",
+          "drug discovery",
+          "computational"
+        ],
+        "title": "MolX: A Geometric Foundation Model for Protein-Ligand Modelling",
+        "why": "Foundational AI model for protein-ligand interactions; relevant to structure-based drug discovery and translational pipelines."
+      },
       "fingerprint": "9ac922ef6527b6751dec6737d125569235734f40",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "70e5e5debd584bb35f7287368b2b17821cb57dce": {
       "fingerprint": "d989162e8b257b8478f4ee374ccf4e1ed70f1501",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "71456612fbb16aad8ff683e40d3201b53c6ee499": {
       "fingerprint": "086028c2d0ddd2f3c0daa1af2d76c9b91f1eb290",
@@ -1249,7 +1520,7 @@
         "why": "Links cytoskeletal dynamics to tumor microenvironment polarization and heterogeneity, offering mechanistic translational context relevant to therapeutic strategies against brain tumors and potentially high-risk pediatric solid tumors."
       },
       "fingerprint": "803ae1f039100b297ab2d2944ce2e957bab62af6",
-      "last_seen_utc": "2026-03-02T15:10:48.361740+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "732ef5549ffd2f4dce6e856f3cc30a4f9db69a7b": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1270,7 +1541,7 @@
         "why": "Platform benchmarking with error rates; general methodological relevance but limited translational tie to NB or pediatric oncology."
       },
       "fingerprint": "0a6e86d199491cbf0532bda15a62d8a3428ef38e",
-      "last_seen_utc": "2026-03-02T15:10:48.361740+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "738945b6eaadc3abbfb0b668b3f8bfa3b56d686d": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1311,11 +1582,11 @@
         "why": "Mentions long-read sequencing plus proteomics in blood, which is methodologically adjacent to multi-omics biomarker profiling. Without a summary, it is unclear whether this includes clinically actionable signatures or robust computational integration."
       },
       "fingerprint": "e6ec47f0f3dcc1f4aca7819e596e638ff0905e7f",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "7396bfbbdf23e163dc449a3977ad7123a758e71f": {
       "fingerprint": "5542ddb427953c37e14edd3b20da5b6f1025def2",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "752dcd4112b534a66183bec0dc8c0bb3ae2e388d": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1353,7 +1624,7 @@
         "why": "Focuses on gut microbiome dysbiosis modeling with temporal deep learning, which is outside the core pediatric oncology/single-cell multi-omics scope described. Potentially method-adjacent but not clearly transferable based on the entry."
       },
       "fingerprint": "a26b0c7be9d8368dc72be0d2d1f202dd505f03ad",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "7593221d5191f1e084f061dab42788a4e7f18def": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1392,23 +1663,44 @@
         "why": "Focuses on modulating tumor-infiltrating myeloid immunosuppression to improve anti-PD-1 efficacy, which is conceptually relevant to therapy response. However, the RSS entry provides no summary/method details and may be largely wet-lab without clear computational/omics components."
       },
       "fingerprint": "7ac55ac11639f6b09ae02c0d5f6c4f81c76295af",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "76b01c0169d5b00b4ce57fdcba9d744ce519863a": {
       "fingerprint": "295ca83ac838484fc53d4a42318318d44c6bc286",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "7707fba9a78aa23cb1af2889e7e92d2e01d0ab10": {
+      "fingerprint": "0073c0abd2f1eed8f9747f0ec9d0ee53219ac53e",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "782d05d231262777f402abb7550caf809f9ba207": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "782d05d231262777f402abb7550caf809f9ba207",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.25.707939v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.5,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "cancer-biology",
+          "drug-repurposing",
+          "apoptosis",
+          "cell-cycle"
+        ],
+        "title": "Anti-diabetic drug Repaglinide induces Apoptosis, Cell Cycle Arrest, and Inhibits Cell Migration in Human Breast and Lung Cancer Cells.",
+        "why": "Demonstrates mechanistic effects of a repurposed drug in cancer cell models; translational relevance though not NB-focused."
+      },
       "fingerprint": "ad99a79a5731415f70258dbc8297d002be5e4c58",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "78ce287ec91e81b5e82439f04c5e7dd4e1f93532": {
       "fingerprint": "e939dd1b5f712084f60b50be15e3622a67208c8b",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "7a317ec2ea8d36d8ebb31c22d70a1db9cfd57553": {
       "fingerprint": "b5ea6bb2a143441f71b368676f56152f8e4e317d",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "7a8b2b320975d191376d59a382e111e13179226b": {
       "fingerprint": "2d427312b2274eee763a89f04674f389278b43fc",
@@ -1450,15 +1742,15 @@
         "why": "Oncolytic virotherapy development and characterization of gorilla-derived adenoviruses as vectors, with emphasis on selectivity and immunity concerns. This is translational oncology but not computational/omics-focused per summary."
       },
       "fingerprint": "7c26e46eb3cd2e3b1fb01d26ea870db093c990d3",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "7e0f89677e4351ebabf4c1d1662d4771138a2845": {
       "fingerprint": "c9979f02ac8e7bb08d95491cfe35a016d7b4c1e1",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "7e718e26520d90acd86694da099a588c83255d10": {
       "fingerprint": "e5271729e09524097a8a2ebe07a31b310932fb2d",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "805082b83b0fccd3f83035e019c6f9143c6c6a09": {
       "fingerprint": "21b50a7226ae2dc02bfdbca8998debbd00bdb12d",
@@ -1466,11 +1758,19 @@
     },
     "826b2d4997c9dc5212a68f23f7a520d925c6a53f": {
       "fingerprint": "15f4edc247a2fdf0bf586f00436d9df19a936e3e",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "830e55f1a6052d0df0ecba1d05a0baff000bcaa0": {
+      "fingerprint": "175a97d537771959d004d13e500da65407e598f7",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "84451d9a40fce4a231a81cc207589af7056e4449": {
+      "fingerprint": "bb2099bb6de5c7357003e91e1ab2fff8d80b9faf",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "8481fca28cc9e99d08ac7369f680b7790f272d20": {
       "fingerprint": "061f9f80294356f7e1946bd3a93c1f94fa3e8257",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "856ae70e375acdcdd71ad79896ee480c8129fe92": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1508,19 +1808,19 @@
         "why": "Proposes graph contrastive learning with spectral filters to cluster single-cell proteomics data, addressing a gap where scRNA-seq tools don’t transfer cleanly. Relevant for single-cell protein profiling in translational studies and cell-state discovery."
       },
       "fingerprint": "aa333ee5b977d410d4c0886cf31f7f24b747e472",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "857a1b586f555315caacac67e16f05aef203d9c6": {
       "fingerprint": "687652d1ac4116d418c72124747e5d87f07d1f36",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "86d626ffe60f1c808773a34c0d46603fcfbd8eea": {
       "fingerprint": "7c4483d910f05a2bdca7c12f089ad7ecf6e7e812",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "87c7b9dd0cc545d08ef2e790aa30244783bed8ce": {
       "fingerprint": "bdfae2b8dda6e413d001283555792a8db0c03f46",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "886c6e6546b5d9f4e96c497863b242cdf1298c83": {
       "fingerprint": "b5a0575d9c6c57c5ea167b7874f0e5e96d47f32a",
@@ -1528,11 +1828,11 @@
     },
     "89b6488b00e33eae8917454884e1e35de4c4ce3d": {
       "fingerprint": "0d74ac8389f0bb846065ff5b34a9955af2be873b",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "8ad1c071c62fd7d7a95b6be9d9795391445afcee": {
       "fingerprint": "1c6f65e7fac7f2970771d37c1671fe4ea5e19400",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "8af4308a01f7a40221b468ab3d813c92ffc29014": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1571,11 +1871,29 @@
         "why": "Addresses ambiguity in bulk-DNA tumor phylogeny by using sparse low-pass scDNA-seq to prioritize candidate phylogenies. This is relevant to clonal evolution/relapse questions and to studies where only low-depth single-cell DNA data are feasible."
       },
       "fingerprint": "a3b1e04b2a5d48a6811711f35a41371d93bcddaa",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "8c5d5dd462a6a45cd097f5505cb1631d4c5223a4": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "8c5d5dd462a6a45cd097f5505cb1631d4c5223a4",
+        "link": "https://www.nature.com/articles/s41571-026-01139-w",
+        "published_utc": "2026-03-02T00:00:00+00:00",
+        "score": 0.65,
+        "source": "Nature Reviews Clinical Oncology",
+        "tags": [
+          "bladder cancer",
+          "immunotherapy",
+          "antibody-drug conjugate",
+          "translational",
+          "therapy"
+        ],
+        "title": "Enfortumab vedotin plus pembrolizumab effective in patients with resectable bladder cancer",
+        "why": "Translational oncology focus on combination immunotherapy/ADC; therapy-response context."
+      },
       "fingerprint": "9ee45109824be7e6f4fd69f07ca927d8a1a0d355",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "8e7eab09f27a77fd73d17d3c1cd6b1f417d1a77e": {
       "fingerprint": "ba287c27ec0169d181d20c02f3d002c060eb8738",
@@ -1583,7 +1901,7 @@
     },
     "8f5d7949348a517bca26ae6c4123fa4d9da46eb6": {
       "fingerprint": "7c67a2ffe42ceb035fdaf577af0c8ff23fe384aa",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "8fb2194545143fe63e78b17557100e28b021d31c": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1623,23 +1941,31 @@
         "why": "Uses spatially integrated multi-omics to connect genomic drivers, cell states, and microenvironment interactions with progression/survival in glioblastoma. While not pediatric/NB-specific, the integration of spatial + omics for multicellular programs is highly transferable to tumor ecosystem and biomarker analyses."
       },
       "fingerprint": "558d16f34d4eee1167961c9d4a379f163a2f509e",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "9133870468d3e9b9337820ad384ad62507a6017b": {
       "fingerprint": "d95aca92ee463a30e60cbcf6d2c1726b7d4c19b9",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "922d995bc1cb02c4327b955d02eb384d36fb95d7": {
       "fingerprint": "83a26cdb15548887e7d55abd1f349b003ae458e4",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "92f97d0dfd83cf21fa581285f39aa9459ba0c54e": {
       "fingerprint": "389af0d260934e0d357f91d1e2b2b6ee52026925",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "93be4d6fe2dbfbc534c96a8efc32cd6c24a10091": {
       "fingerprint": "2236d14a6e06acbe96bc46e7f597bf5c2938bb5f",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "96ef29c383d7f0dbfe1385cc94b9a8a65958188a": {
+      "fingerprint": "9e77d2d6983850a29fb8c5e56c7f218d558af9a2",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "98a557b7e295393b79a7bf6ad83375aa80dd9bfd": {
+      "fingerprint": "1dfd403b5a95d1338d0e5c834f1ed766120fe065",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "98b13248ffc85489942df5b8fa31ba96d22604a9": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1681,19 +2007,65 @@
         "why": "Presents a ChIP-seq analysis pipeline to quantify co-binding and assess antibody background effects in cohesin ChIP-seq. Potentially useful for chromatin pipeline QC, but not directly tied to oncology or biomarkers in the provided summary."
       },
       "fingerprint": "e1ce188f02a36493e7241794c8cdf52206d69a12",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "9a84d071a7a134c0106323c7a7f08b4fe51f1757": {
       "fingerprint": "5e6af7a8e3b3db80adacb715107416a70150581c",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "9bbeb34c73c280a9b9a32c5a2639ae1eed7d1e51": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "9bbeb34c73c280a9b9a32c5a2639ae1eed7d1e51",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.26.707870v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.85,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "AI-for-single-cell",
+          "scRNA-seq",
+          "multi-agent",
+          "foundation-model",
+          "representation-learning",
+          "translational"
+        ],
+        "title": "PantheonOS: An Evolvable Multi-Agent Framework for Automatic Genomics Discovery",
+        "why": "AI-powered multi-agent framework for genomics discovery with single-cell biology; aligns with AI-for-single-cell approaches and translational discovery."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "9bbeb34c73c280a9b9a32c5a2639ae1eed7d1e51",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.26.707870v1?rss=1",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.74,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "LLM",
+          "agents",
+          "genomics",
+          "computational workflow",
+          "automation",
+          "reproducible pipelines"
+        ],
+        "title": "PantheonOS: An Evolvable Multi-Agent Framework for Automatic Genomics Discovery",
+        "why": "Presents an LLM-powered multi-agent framework aimed at automating genomics discovery workflows, aligning with AI/ML methods that could transfer to omics and single-cell analysis pipelines. The summary emphasizes evolvable, domain-specific agent systems and privacy-preserving design, which are relevant for robust computational workflow development."
+      },
       "fingerprint": "0961fffcd0ffb0f34012c775fd6bb1711d6cec01",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
+    },
+    "9c8751a3782866e82e4c6e29d7915e7f6e5330cb": {
+      "fingerprint": "aa1dcfb0257d1ae423b1cec37846be833b649e1e",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "9f6e2bc7ca5408a8fbf19be7a2d6ae8b4a68d165": {
       "fingerprint": "741d394bc815afafb1c04e7d52ea9786a3adea59",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "a094bf50160915108e1d38f5cf77e9ba364bf2c2": {
+      "fingerprint": "1ff874c88cb5275982999e932be8629d7aaf143a",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "a119e64d849fd7b70c8b99faedae3db35d77bbbe": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1732,11 +2104,11 @@
         "why": "Proposes an LLM-based orchestration approach that selects from validated tool schemas (instead of generating free-form code) to run spatial transcriptomics analyses across Python/R, aiming at reproducibility. This is relevant as infrastructure for robust spatial omics pipelines, though translational/clinical utility is not evident from the summary."
       },
       "fingerprint": "568b66891d02c3c15b370f59f8e03d24cfb47772",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "a2485d8f1b7663993942224c220ce3053aed51c7": {
       "fingerprint": "8e3862948f6cf20bbab3a08985df07d377efc50b",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "a31dd06f31fbf66d59b100d9310467bde66565c8": {
       "fingerprint": "ae2fd090a9429d9aed6e307fdb30c802137d7969",
@@ -1761,31 +2133,65 @@
         "why": "Identifies an epitranscriptomic mechanism (m6A) promoting cancer progression, with potential translational biomarker/therapeutic implications in colorectal cancer; context useful for cross-cancer biomarker concepts."
       },
       "fingerprint": "4fd285278516efd52f951259b77993d7feebe7a3",
-      "last_seen_utc": "2026-03-02T15:10:48.361740+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "a3fe2aa6206dfe859e7cdfcd4b5beb014a7f9588": {
       "fingerprint": "bb7bbc47f0c3d66d72a5f24209525bc4640ad47c",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "a44c676a094659363a00647d30398d4b3ec50893": {
       "fingerprint": "28a563021c328e9ea1c85a61bb135a3150f64edb",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "a4baaae795ac043166c0f323b85a4688a168b131": {
       "fingerprint": "0fcdb332e86eedba14d52977303943d94ce42b4a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "a972f9629cc3878d05efaf7ca3185875c5a91827": {
       "fingerprint": "4c0dbea2267e916c5d9474b9a4e0cdef33ec4185",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "aa92171d806818788fd180c7f79ff5b1e439f2ca": {
       "fingerprint": "a5d24c559841f296c77479854566e6c9a73ad6f7",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "abd3e3941e59928315158bf069e2194b2e88d90e": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "abd3e3941e59928315158bf069e2194b2e88d90e",
+        "link": "https://link.springer.com/article/10.1186/s12885-025-15439-4",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.8,
+        "source": "BMC Cancer",
+        "tags": [
+          "SCLC",
+          "chemotherapy",
+          "meta-analysis",
+          "clinical-trial-evidence"
+        ],
+        "title": "Efficacy and tolerability of first-line treatment regimens for extensive-stage small cell lung cancer – a grade-assessed network meta-analysis of randomized controlled trials",
+        "why": "Network meta-analysis comparing first-line regimens in extensive-stage SCLC; provides evidence that could inform treatment decisions and translational considerations for therapy strategies."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "abd3e3941e59928315158bf069e2194b2e88d90e",
+        "link": "https://link.springer.com/article/10.1186/s12885-025-15439-4",
+        "published_utc": "2026-02-27T00:00:00+00:00",
+        "score": 0.08,
+        "source": "BMC Cancer",
+        "tags": [
+          "network meta-analysis",
+          "SCLC",
+          "RCT",
+          "clinical outcomes"
+        ],
+        "title": "Efficacy and tolerability of first-line treatment regimens for extensive-stage small cell lung cancer – a grade-assessed network meta-analysis of randomized controlled trials",
+        "why": "Network meta-analysis of first-line regimens in adult extensive-stage SCLC, focused on efficacy and tolerability across RCTs. Limited methodological transfer beyond standard evidence synthesis and outside the user’s pediatric/NB scope."
+      },
       "fingerprint": "9fee5f0fcad65a575e12146379231b823f830522",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
     },
     "ac57a1f7af4e61cb022397143aaee590b09d5e62": {
       "fingerprint": "aba0ec9b063584b2f994f2d0cebe59e88219d238",
@@ -1793,15 +2199,33 @@
     },
     "ae0e106798d4e336dc895bbc13ce2252f2ab6206": {
       "fingerprint": "b62c4aaeae15696f9f32357949d91155f65e94fd",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "b079d8e495b3f489811f7e6a2be45a0dfb810886": {
       "fingerprint": "9ad437d62a9c094b12b73ee832c4c748be91fca1",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "b246ee3ed0567b82b7dc43185ddc6ecc0d4c53df": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "b246ee3ed0567b82b7dc43185ddc6ecc0d4c53df",
+        "link": "https://link.springer.com/article/10.1186/s12885-026-15728-6",
+        "published_utc": "2026-02-28T00:00:00+00:00",
+        "score": 0.4,
+        "source": "BMC Cancer",
+        "tags": [
+          "RIPK1",
+          "ccRCC",
+          "bioinformatics",
+          "biomarker",
+          "translational"
+        ],
+        "title": "Bioinformatics analyses reveal the role of RIPK1 in clear cell renal cell carcinoma",
+        "why": "Biomarker/mechanistic gene in cancer; translational relevance but not NB."
+      },
       "fingerprint": "efbed94edab0c389a8704776565a84e77504aa53",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "b28c03b06c2ee564f53df842268234a2de36bdf8": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1841,23 +2265,23 @@
         "why": "Describes CRISPR/Cas9 multiply-edited CD30 CAR-T cells and discusses potency vs translocation risk, largely a CAR-T engineering safety/efficacy topic. Not clearly connected to computational biology, single-cell omics, or pediatric solid tumors from the summary."
       },
       "fingerprint": "735d5068bb8b7d20eda98cc6476716fd49412bf7",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "b4765814202e29bda058a53768061bbcecace518": {
       "fingerprint": "13131db7ca4bae9fd2f04b1972852a8b4ca3c7f2",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "b4e7a192bb0dc7296027917e61882fe8297d8f57": {
       "fingerprint": "f121aeb67b37f78f3bb27586e0d7fb7528ad2650",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "b618fdd2f33bffd37769aa1f44903fa5815dba9c": {
       "fingerprint": "c04374388be3cb21f577c7eb88ce6dd343b44fc2",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "b7008d34d24d50c3704a5da68bfc328734021afc": {
       "fingerprint": "ff116d5badf3513223554892687a81491750fb6a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "b7995989682b809bf863cbaf5b76da0efea9cda6": {
       "fingerprint": "b8ea6e788e709ec2a9670313d705907de7cc40df",
@@ -1865,19 +2289,19 @@
     },
     "b94ddbfb322698eff9b6d87de757f385bea9713d": {
       "fingerprint": "e6c1df98c1b8f55bebc2bb5ba265c66d119f48c0",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "b9d632faa18335368c25504fda3288f330a80d00": {
       "fingerprint": "81155ce3653419f2ee11449d2a65dbba5f128eb3",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "bb6a68b4088d7fdc34ce9f47e94bc1364dd7e286": {
       "fingerprint": "bae1710b22b40df4217654ca3d08b43ad87681c8",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "bc6daedaca8a502c82ab83afe9545c10d179f31f": {
       "fingerprint": "ed7d376d7f64831880d2308545745473bd5e6b78",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "becf479bb9aa3162ceb5c1882ff8f43579c127e1": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1918,7 +2342,7 @@
         "why": "Provides a Nextflow pipeline to standardize and reproduce ONT RNA/DNA modification analyses amid changing basecallers and tools. Strong fit for reproducible computational oncology pipelines and epitranscriptomic/epigenetic signal processing where applicable."
       },
       "fingerprint": "527d8743a9719951f90c658872eaf276d7b802af",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "c2bed369298efb75764fb7b6f1b9bc9133105520": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -1961,15 +2385,15 @@
         "why": "Describes DECODE as a universal framework for deconvolving both cell types and cell states across transcriptomic, proteomic, and metabolomic data. This is directly relevant for integrating bulk/mixed tumor measurements and disentangling tumor/immune/stromal programs."
       },
       "fingerprint": "6ac03ce736f4f68b8cd2817becb479db0ab0e398",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "c3a26da8be2fbc017fc6e7a5b8739bdf0f5124c4": {
       "fingerprint": "66acaa422b494a13d46e6ddf01a0744c71341c90",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "c703744d3bb6c8b338635ec4bf536644d34d942c": {
       "fingerprint": "53dfa7efd0c99db1691acc638d646aecdc09e102",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "cd2b3f0431b504d7315bdefdde74b75690599616": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2006,7 +2430,7 @@
         "why": "Review-style translational perspective on metabolic reprogramming to improve adoptive immunotherapy. Potentially useful background, but not clearly tied to single-cell/multi-omics or pediatric oncology in the provided entry."
       },
       "fingerprint": "9b0e759a70d3ae0828dc73647ba8b80e449a47dd",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "cd628c49aefec0a5027746816a25a6814a10dbc5": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2028,11 +2452,48 @@
         "why": "ML-based cancer detection/grading in pathology; translational relevance in oncology imaging and biomarker contexts."
       },
       "fingerprint": "002b472448291c84b1b9e48c0909c28948d3d279",
-      "last_seen_utc": "2026-03-02T15:10:48.361740+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "cdeac5fc2ebedde6497fa338f86b27fdf36003e0": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "cdeac5fc2ebedde6497fa338f86b27fdf36003e0",
+        "link": "https://link.springer.com/article/10.1186/s12967-026-07896-7",
+        "published_utc": "2026-02-28T00:00:00+00:00",
+        "score": 0.88,
+        "source": "Journal of Translational Medicine",
+        "tags": [
+          "immunotherapy",
+          "biomarker",
+          "PD-L1",
+          "SCLC",
+          "circulating-immune-cells"
+        ],
+        "title": "Baseline PD-L1 expression on circulating immune cells as a predictor of survival and immune-related adverse events in extensive-stage small-cell lung cancer patients treated with durvalumab and carboplatin-etoposide (NCT04712903 Trial)",
+        "why": "Biomarker study for immunotherapy response and toxicity in a solid tumor; potential translational relevance to biomarker-guided therapy."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "cdeac5fc2ebedde6497fa338f86b27fdf36003e0",
+        "link": "https://link.springer.com/article/10.1186/s12967-026-07896-7",
+        "published_utc": "2026-02-28T00:00:00+00:00",
+        "score": 0.27,
+        "source": "Journal of Translational Medicine",
+        "tags": [
+          "PD-L1",
+          "circulating immune cells",
+          "biomarker",
+          "immunotherapy",
+          "SCLC",
+          "clinical trial"
+        ],
+        "title": "Baseline PD-L1 expression on circulating immune cells as a predictor of survival and immune-related adverse events in extensive-stage small-cell lung cancer patients treated with durvalumab and carboplatin-etoposide (NCT04712903 Trial)",
+        "why": "Adult extensive-stage small-cell lung cancer clinical biomarker study assessing baseline PD-L1 on circulating immune cells for survival and immune-related adverse events. Translational biomarker angle is present, but disease area is outside pediatric/NB focus."
+      },
       "fingerprint": "33291ed87953d9716b1370c43858c24008787fd4",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
     },
     "d0677c776a862b73db1cd2c56a13ae4884da191e": {
       "fingerprint": "5cd246775e07c67d3c98c73fa4192fd7feafca15",
@@ -2076,43 +2537,81 @@
         "why": "Focuses on CAR T sensitivity and redefining targetable CD70 expression in solid tumors, relevant to antigen thresholding/biomarker considerations for immunotherapy. The RSS entry lacks details on computational methods or pediatric translation."
       },
       "fingerprint": "7eb2252fd550320a93d9c2cdce07f31793c68dfa",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "d2ae6324dd8c49711146c33f8301d675316901ac": {
       "fingerprint": "692b95e460de678ccf8240690338769c6fca51e2",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "d41bd849b2fe495385762ca897a4b7d5c241cbcc": {
       "fingerprint": "f66d92f9c71f5684e86ff3cfc20e069a0d57baef",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "d4702d51f1a517bf119c9e99399987fcac835e6a": {
       "fingerprint": "634acc649978621091fa00c5aac41422569a8027",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "d4aadafada371edf5c70a3b6bbbc3af0a4f95a92": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "d4aadafada371edf5c70a3b6bbbc3af0a4f95a92",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.26.708368v1?rss=1",
+        "published_utc": "2026-02-28T00:00:00+00:00",
+        "score": 0.7,
+        "source": "bioRxiv Genomics",
+        "tags": [
+          "CRISPR-screen",
+          "drug-target-discovery",
+          "AI",
+          "translational"
+        ],
+        "title": "AI-Guided CRISPR Screen Accelerates Discovery of New Drug Targets",
+        "why": "AI-guided CRISPR screening for target discovery; translational potential to identify novel therapeutic targets and accelerate preclinical work."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "d4aadafada371edf5c70a3b6bbbc3af0a4f95a92",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.26.708368v1?rss=1",
+        "published_utc": "2026-02-28T00:00:00+00:00",
+        "score": 0.33,
+        "source": "bioRxiv Genomics",
+        "tags": [
+          "CRISPR screen",
+          "functional genomics",
+          "AI prioritization",
+          "drug targets"
+        ],
+        "title": "AI-Guided CRISPR Screen Accelerates Discovery of New Drug Targets",
+        "why": "Combines AI-guided prioritization with a genome-wide CRISPR KO screen, but the application described is psoriasis/keratinocyte inflammation rather than cancer. The general concept (AI + functional genomics screening) is transferable, yet the biological context is outside the user’s scope."
+      },
       "fingerprint": "2ebd6154a12beb3580fd367660ee7039aaf7a9d2",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:35:11.791525+00:00"
+    },
+    "d5a77b1ea08f9737cf93b387c35a96b468342c52": {
+      "fingerprint": "f0f786dfc10472ccc01f9aee03cb36b1e7fffad6",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "d5aecd8ef604b5809cb09700c4e30d60ff9d40b7": {
       "fingerprint": "01a892db223710c7698aa895fc774bfff361e2af",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "d8dcc97822b9445438903e0fe10d537c3d34ddc2": {
       "fingerprint": "49c7f256d3313156d94d8285a6687529fc504347",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "d908bdd6ad56d8832202ccdaa27f82523260ca13": {
       "fingerprint": "ed5ba7222978a8b5a114f681e04280cb34639092",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "dbec310e90e4876ae611ac08b6eec8f871eafd4d": {
       "fingerprint": "c5bf49acc690e7f91cf7f84391a0141013c3ded6",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "dc8f6e723fb31bcfd423efff5dab625a6f1c792b": {
       "fingerprint": "9076346ff88abbc3c70f3c41a911628955b482d3",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "dd4de18a4aa590754a1bfaca5079ea611075bd13": {
       "fingerprint": "a16fa145817fa4280131debab91ad3e478e8ef9e",
@@ -2120,7 +2619,7 @@
     },
     "dd9e4c6cbf9637da4f53d6fdd8b86744c81002bf": {
       "fingerprint": "754d75c4303a490928822ffba523695f1123f556",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "df57fce51be355d917de69568849e06ca34af2e8": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2159,11 +2658,11 @@
         "why": "Introduces DIME for \"diagonal integration\" of spatial multi-omics collected from unaligned serial sections, addressing a common real-world setting where modalities do not share features. The focus on integrated embeddings is broadly useful for multi-omics representation learning and downstream biomarker discovery workflows."
       },
       "fingerprint": "77a97d580184e3faa1aa109d0d73eeace5365911",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "e2c0b9cb83535184702b89a3b6152f77687bd2d2": {
       "fingerprint": "4e0503b148241b1384acf20abfe9c9525bc0a740",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "e2cccb44960aeb4ae13e7f6d172455bf5e1e701a": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2201,7 +2700,7 @@
         "why": "Drug efficacy study in chemotherapy-resistant TNBC centered on an AHR agonist, thematically related to resistance but in a distant disease context. The abstract snippet does not indicate a strong computational/omics component."
       },
       "fingerprint": "7cf5edb0dd14e1c212399f8018da10bb1ca9d7ee",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "e2d5334d641d2af9762eb163d6cfa9f4564784a8": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2223,7 +2722,7 @@
         "why": "Single-nucleus multiome analysis demonstrates multi-omics integration and cell-type–specific immune modulation relevant to complex clinical phenotypes."
       },
       "fingerprint": "56bf101a4d1cd7b9314e5790d227f4f262964dbb",
-      "last_seen_utc": "2026-03-02T15:10:48.361740+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "e360365847ed7cce2eacf046ebe9b3c523baf225": {
       "fingerprint": "f819d24fd9c84b1596c27eba0072a647d3e7f157",
@@ -2231,11 +2730,11 @@
     },
     "e77bcc9ff10c19bd6c5ba253a42375466f9cd965": {
       "fingerprint": "d6d4003ad301ebd477b885bea8510ed75f7b10cf",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "ea915e56b5c937ccc1b6d814d61eae0e89ef241d": {
       "fingerprint": "77dc6ebee5668bfb678cd584cb32765dd655cf5d",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "ebb52b419bd87e3627d2180fe75ee2bf29675607": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2274,11 +2773,15 @@
         "why": "Focuses on cachexia/systemic metabolism and muscle autophagy driven by PDAC-associated organ dysfunction in mouse models. Important biology but largely outside biomarker/multi-omics/single-cell computational priorities described."
       },
       "fingerprint": "3f23a88a49e0577e428af84191cf2dff23f201e5",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "ec35d27dbef1cf9791432319ea1cca8045319034": {
       "fingerprint": "d5838e740d60a210672f33bb663c32b23592685b",
       "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+    },
+    "ed6cdb755f06e633b638e75cccd2f56a56bf3f18": {
+      "fingerprint": "e52a676f35a673beda05a77ab3d5d9ea86a551d5",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "ee8853aecaea40061d26cc8796bce6fba590f2c2": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2298,7 +2801,7 @@
         "why": "Proposes microbiome interactions as biomarkers of health/disease; relevant to biomarker discovery and translational microbiome investigations, though not NB-specific."
       },
       "fingerprint": "2f05df7322fb0dfa7c9b0c5de218381617e5985a",
-      "last_seen_utc": "2026-03-02T15:10:48.361740+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "ef259194d9bc1bbf810392ce60269616852e60ff": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2340,19 +2843,23 @@
         "why": "Provides a high-resolution temporal map of chromatin and transcriptional changes after FACT depletion in murine embryonic stem cells. While mechanistically interesting, it is not cancer-focused in the title/summary and does not clearly align with translational oncology or single-cell/multi-omics integration priorities."
       },
       "fingerprint": "710537a0d2b5c6683fff31d7750da119d493893a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "ef91f7eb030b3a64a413a36f22f431f9057e0ac6": {
       "fingerprint": "c89b5e45f1bbdcaebf6b6ab4e3e893f700721d01",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "f045337f7aeb633be3f3e430e913390580f4bb79": {
       "fingerprint": "79195b62aafe04ef70646bd1a3c570c722c6d957",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "f10518fcae494abaf5c1c313d809d77ef7526eb0": {
+      "fingerprint": "cdd17375e9e6e5f584a3159235cf81650196d77d",
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "f23dfdd591390cb8427ee40d416b5bc889535c17": {
       "fingerprint": "2c12ccfe1f957c7b3d0b4e72ed700be378039f77",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "f2d4268d0949bab0c70b76fb2fd7ef9e9b2f2a60": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2392,15 +2899,15 @@
         "why": "Mechanistic/translational resistance study identifying chromatin remodeling (mSWI/SNF) as a determinant of EMT-mediated targeted-therapy resistance and testing a clinical-grade inhibitor to dampen resistance. Cancer type differs, but EMT/cell-state plasticity framing is relevant to resistance programs broadly."
       },
       "fingerprint": "3d709080b8b48e95446d21a0e2d9d4b6fe225a6d",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "f3424c196c35f661003c96817c4909a316010b53": {
       "fingerprint": "34cf90484354f04f9deaa1eb1d935ee0428d1d53",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "f3b43a1b48f5153999ba066a73faccb1b3ddafcc": {
       "fingerprint": "80bf7ce1d81178f6674e7a57c0d285667690213a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "f8054202015f4bb08f49e82447ee8a71432bca0b": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2440,19 +2947,19 @@
         "why": "Spatial atlas paper highlighting macrophage-driven stromal activation, potentially relevant to TME cell-cell interaction concepts. No summary is provided here, limiting evaluation of computational methods and translational implications."
       },
       "fingerprint": "df0e7e7fbe2e31ae562ca3aa577207aa0eb440cc",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "f935345f835a624e0c51abdb3ee138d53dbfcad1": {
       "fingerprint": "4e4c006849a49c0d7404478dd7af43f275fa67b8",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "f98ac49aff1db7aedd36169c8bc8e9b37a7932a0": {
       "fingerprint": "955d7ba25107f6a104693195e1999ef2f1ee96ca",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "fa7f8400aa6fad5ebb2375848df6be6aee51a144": {
       "fingerprint": "63463beedaa982488b401c138fb92d02db38f4fa",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "fab74a9f53f52f9db4b2cfadd60bad8add730cae": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2491,11 +2998,28 @@
         "why": "Clinical phase 1 trial of an SHP2 inhibitor in advanced solid tumors, which is directionally relevant to targeted therapy translation. The item does not indicate pediatric focus or molecular biomarker analyses in the provided summary."
       },
       "fingerprint": "a4fc95ea38f3d84e986769ce1fea404ccbfa5e43",
-      "last_seen_utc": "2026-03-02T15:11:34.018657+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "fc9aeaa3a87eafb2f3a07174944bc63d91fb016a": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "fc9aeaa3a87eafb2f3a07174944bc63d91fb016a",
+        "link": "https://link.springer.com/article/10.1186/s12885-026-15797-7",
+        "published_utc": "2026-03-02T00:00:00+00:00",
+        "score": 0.43,
+        "source": "BMC Cancer",
+        "tags": [
+          "bladder cancer",
+          "biomarker",
+          "clinical assay",
+          "translational"
+        ],
+        "title": "Celldetect test performance in monitoring bladder cancer recurrence after transurethral resection",
+        "why": "Clinical biomarker/test for surveillance of bladder cancer recurrence; translational relevance in oncology."
+      },
       "fingerprint": "77d74ddbd1960dc4fbdc46545ec2f03122c9bf66",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "fcfc960d60481ae8136f16244a52ba787c68e86c": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2535,29 +3059,47 @@
         "why": "Introduces a synthetic-lethality prediction framework leveraging pretrained biological foundation models with uncertainty awareness, relevant to prioritizing combination targets in cancer. The focus on generalization beyond curated PPI/GO can be useful for discovery in less-studied pediatric contexts."
       },
       "fingerprint": "872d322d82bad1dd4554a91aec3b05663b410b4e",
-      "last_seen_utc": "2026-03-02T15:10:48.362079+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
     "fde68cf6b06705c97445149681cd117e0992bd1a": {
       "fingerprint": "72ea97589e2abfee11d510377643e0fdcf331e13",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "fe00ffb32875c858cbe6d0140fdd3b34b0f3a24c": {
       "fingerprint": "66fe5c0eae4c56d135cc396fd325763f815e0b4a",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "feac6d9d738fe46346d5f3aabf93135374ff3386": {
       "fingerprint": "a102a97420c15292ed98444f1e2e14de494690ff",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
     "ff87a7affd768ecf571743fbeabaaef9b3b3c199": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "ff87a7affd768ecf571743fbeabaaef9b3b3c199",
+        "link": "https://link.springer.com/article/10.1186/s12885-026-15799-5",
+        "published_utc": "2026-03-02T00:00:00+00:00",
+        "score": 0.6,
+        "source": "BMC Cancer",
+        "tags": [
+          "immunotherapy",
+          "bevacizumab",
+          "systematic review",
+          "translational",
+          "clinical"
+        ],
+        "title": "Efficacy and safety of atezolizumab combined with bevacizumab-based chemotherapy in advanced malignancies: a systematic review and meta-analysis of randomized trials",
+        "why": "Systematic review of immunotherapy plus anti-angiogenic chemotherapy across cancers; translational relevance for therapy response."
+      },
       "fingerprint": "7cf92ae16f8fa72e55e24be70003b41784df9fed",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
     },
     "ffb6eae20e21dd6060c76e913d312418b1b46a83": {
       "fingerprint": "a3a6f507eaa9ea16e52f4b10b16f3b7289f4e80e",
-      "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+      "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     }
   },
-  "updated_utc": "2026-03-02T15:11:34.154916+00:00",
+  "updated_utc": "2026-03-02T16:35:11.972535+00:00",
   "version": 1
 }
