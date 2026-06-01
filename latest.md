@@ -1,368 +1,327 @@
-# Weekly ToC Digest (week of 2026-05-25)
+# Weekly ToC Digest (week of 2026-06-01)
 
 This digest is automatically generated from this week's RSS items and categorized into Neuroblastoma, AI, Methods, and Other.
 
-**Included:** 34 (all ranked papers)  
-**Scored:** 34 total items
+**Included:** 33 (all ranked papers)  
+**Scored:** 33 total items
 
 **Models:** `gpt-5-nano` first-pass, `gpt-5.2` re-rank top 40
 
 ---
 
-## Neuroblastoma (21 shown / 21 total)
+## Neuroblastoma (19 shown / 19 total)
 
-### [Selective scoring of drug effects in multicellular co-culture systems](https://www.biorxiv.org/content/10.64898/2026.05.20.726737v1?rss=1)
+### [A Foundation Model for the Cancer Genome](https://www.biorxiv.org/content/10.64898/2026.05.27.728319v1?rss=1)
 *bioRxiv Bioinformatics*  
-Score: **0.74**
-Published: 2026-05-24
-Tags: drug-screening, co-culture, tumor-microenvironment, dose-response, computational-metrics, translational
+Score: **0.83**
+Published: 2026-06-01
+Tags: foundation model, cancer genomics, self-supervised learning, copy-number, biomarkers, translational
 
-Defines a computational framework (Co-culture Efficacy Score) to separate selective interaction-dependent drug effects from nonspecific toxicity in multicellular co-culture screening. Strong translational fit for microenvironment-aware drug testing and combination triage.
+Proposes a self-supervised foundation model trained on large-scale tumor genomics to interpret co-occurring alterations and genome-wide copy-number patterns, directly aligning with scalable biomarker/response modeling in cancer. Strongly transferable to translational oncology workflows even without pediatric/neuroblastoma specificity in the title/summary.
 
 <details>
 <summary>RSS summary</summary>
 
-Multicellular co-culture screening reveals compound effects that depend on cell-cell interactions. Standard dose-response metrics fail to resolve effects that arise either from target-effector cell interactions or from non-specific toxic effects. Here, we developed Co-culture Efficacy Score (CES), a robust computational framework that enables systematic identification of compounds that selectively modulate cellular interactions in multicellular assays. CES framework supports both therapeutic sco…
+Cancer is a disease of the genome, in which somatic mutations and copy-number alterations determine tumour identity, clinical behaviour, and response to therapy. Consortium-scale sequencing has profiled hundreds of thousands of tumours, yet clinical interpretation still proceeds one alteration at a time against hand-curated knowledgebases, often ignoring co-occurring alterations and the genome-wide copy-number pattern. Self-supervised foundation models pretrained on unlabelled corpora have produ…
 
 </details>
 
 ---
 
-### [A cross-tissue POSTN+ fibroblast atlas links periodontal, tumor, and fibrotic stromal niches](https://www.biorxiv.org/content/10.64898/2026.05.20.726414v1?rss=1)
+### [Genomic-Adjusted Radiation Dose from Bulk RNA Sequencing for Personalized Radiotherapy](https://www.biorxiv.org/content/10.64898/2026.05.29.728725v1?rss=1)
+*bioRxiv Genomics*  
+Score: **0.74**
+Published: 2026-05-30
+Tags: radiotherapy, bulk RNA-seq, treatment response, predictive biomarker, clinical stratification, translational
+
+Links bulk RNA-seq to a radiosensitivity-based metric (GARD/RSI) intended to personalize radiotherapy dose and predict benefit, fitting treatment-response biomarker/stratification themes. While not pediatric-specific, the transcriptomics-to-clinical-decision framing is highly translational.
+
+<details>
+<summary>RSS summary</summary>
+
+Radiotherapy is delivered to more than half of all patients with cancer yet is prescribed using uniform physical doses despite well-established interpatient variability in biological response. The genomic-adjusted radiation dose (GARD), derived from the radiosensitivity index (RSI), integrates tumor transcriptomics with radiation dose to estimate patient-specific treatment effect, and has been clinically validated as a predictor of radiotherapy benefit across diverse disease sites, including bre…
+
+</details>
+
+---
+
+### [TF-DWGNet: a directed weighted graph neural network with tensor fusion for multi-omics cancer subtype classification](https://academic.oup.com/nargab/article/doi/10.1093/nargab/lqag054/8698434?rss=1)
+*NAR Genomics & Bioinformatics*  
+Score: **0.71**
+Published: 2026-05-30
+Tags: multi-omics, graph neural network, cancer subtypes, data integration, machine learning
+
+Introduces a GNN + tensor fusion framework to integrate heterogeneous multi-omics for cancer subtype classification, matching multi-omics integration and robust computational modeling priorities. Applicability is broad and could transfer to pediatric tumor stratification settings.
+
+<details>
+<summary>RSS summary</summary>
+
+<span class="paragraphSection"><div class="boxTitle">Abstract</div>Integration and analysis of multi-omics data provide valuable insights for improving cancer subtype classification. However, such data are inherently heterogeneous, high-dimensional, and exhibit complex intra- and inter-modality dependencies. Graph neural networks provide a principled framework for modeling these structures, but existing approaches often rely on prior knowledge or predefined similarity networks that produce eithe…
+
+</details>
+
+---
+
+### [Globular domain histone H3R131C mutation remodels chromatin accessibility to promote oncogenic transcriptional programs](https://www.biorxiv.org/content/10.64898/2026.05.27.728333v1?rss=1)
+*bioRxiv Cancer Biology*  
+Score: **0.68**
+Published: 2026-05-29
+Tags: chromatin, epigenetics, oncogene
+
+Epigenetic remodeling by an oncohistone offers mechanistic insight into transcriptional programs; has translational relevance for epigenetic therapy and biomarker discovery.
+
+---
+
+### [Personalized reference genome-based pipeline reveals comprehensive haplotype-resolved views of cancer genomes](https://www.biorxiv.org/content/10.64898/2026.05.28.728591v1?rss=1)
 *bioRxiv Bioinformatics*  
 Score: **0.67**
-Published: 2026-05-21
-Tags: single-cell atlas, fibroblasts, POSTN, CAF, tumor microenvironment
+Published: 2026-05-30
+Tags: cancer genomics, haplotype-resolved, structural variants, copy-number, DNA methylation, pipeline
 
-Builds a cross-tissue single-cell atlas focused on POSTN+ activated fibroblast states spanning tumor and fibrotic contexts. Useful as a reference for CAF state annotation and stromal program comparisons across pediatric solid tumors.
+Presents a pipeline to call somatic SNVs/SVs/CNAs and methylation using personalized diploid references and haplotype resolution, addressing hard-to-detect alterations relevant to actionable genomics. Method is directly transferable to clinical/translational cancer genome analysis pipelines.
 
 <details>
 <summary>RSS summary</summary>
 
-Cross-tissue single-cell atlases have re-framed fibroblasts as a continuum of activation states, with universal Pi16+ progenitors giving rise to tissue-restricted activated populations[1] and shared pathological states recurring across inflammatory diseases[2]. Periostin (POSTN), a matricellular protein of injured, fibrotic, and tumor stroma, has been independently linked to activated fibroblasts in liver fibrosis[3], colorectal cancer[4], head-and-neck cancer[5], and dental contexts[6, 7], but …
+Cancer genome analysis relies on standard human reference genomes but detecting somatic alterations in highly repetitive or individual-specific regions remains challenging. We developed the Personalized Reference genome-based Cancer Genome Analysis Pipeline (PRCGAP), to our knowledge, the first comprehensive pipeline integrating haplotype-resolved analyses of somatic point mutations, structural variants, copy number, and DNA methylation on personalized diploid reference genomes. We applied PRCGA…
 
 </details>
 
 ---
 
-### [Multiomic State-Transitions Reveal Post-Treatment Transcriptome Desynchronization in Acute Myeloid Leukemia](https://www.biorxiv.org/content/10.64898/2026.05.20.726707v1?rss=1)
-*bioRxiv Cancer Biology*  
+### [Rare RNA Polymerase II failure modes mark the cancer-driving genes most affected by epigenetic perturbation](https://www.biorxiv.org/content/10.64898/2026.05.28.728581v1?rss=1)
+*bioRxiv Bioinformatics*  
 Score: **0.66**
-Published: 2026-05-24
-Tags: multi-omics, miRNA, time-series, state-transition-model, therapy-response, AML
+Published: 2026-05-31
+Tags: transcription, RNA Pol II, epigenetics, perturbation, computational method, ChIP-seq
 
-Uses a mathematical state-transition model on temporal mRNA and miRNA data in a mouse AML model to study treatment response dynamics and resistance-linked state changes. Although not pediatric solid tumor, the multi-omic temporal modeling approach is transferable to therapy-response studies.
+Introduces a computational tool to compare Pol2 activity state shifts using ChIP data before/after chemical perturbation, expanding beyond promoter-proximal pausing. The focus on perturbation response and identifying cancer-driving genes affected by epigenetic perturbation is methodologically relevant even outside pediatrics.
 
 <details>
 <summary>RSS summary</summary>
 
-Temporal dynamics of the peripheral blood transcriptome are crucial for understanding leukemia evolution and response to therapy because they can reveal how gene expression programs drive abnormal cell states, disease heterogeneity, and treatment resistance. Using a mathematical model of state-transitions, we studied the temporal dynamics of peripheral blood messenger RNA (mRNA) and microRNA (miRNA) transcriptomes in a mouse model of acute myeloid leukemia (AML). In our model, mRNA and miRNA tra…
+RNA Polymerase II (Pol2) transcribes genes through a complex life cycle (initiation, pausing, elongation, co-transcriptional splicing, termination, and recycling). Chromatin immunoprecipitation of Pol2 before and after chemical perturbation has identified promoter-proximal accumulation (pausing) as a critical step in the transcription genome-wide. However, the full landscape of Pol2 responses has not been well characterized. Here, we introduce a tool for comparing Pol2 Activity State Shifts (com…
 
 </details>
 
 ---
 
-### [Long read sequencing reveals novel isoforms and spliceosome-mutant-enriched transcripts in AML and MDS](https://www.biorxiv.org/content/10.64898/2026.05.20.726635v1?rss=1)
+### [Assessing and Optimizing Low-Frequency Somatic Mutation Detection: A Multi-Platform High-Throughput Sequencing Perspective](https://www.biorxiv.org/content/10.64898/2026.05.28.728367v1?rss=1)
+*bioRxiv Bioinformatics*  
+Score: **0.63**
+Published: 2026-06-01
+Tags: low VAF, somatic variants, cfDNA, benchmarking, sequencing platforms, MRD
+
+Systematically compares sequencing platforms for low-VAF somatic variant detection using GIAB and cfDNA reference standards, which is relevant to ctDNA/MRD-style assay design and benchmarking. Emphasis is methodological/technical but directly impacts translational biomarker detection sensitivity.
+
+<details>
+<summary>RSS summary</summary>
+
+The availability of multiple commercial short-read sequencing platforms necessitates systematic cross-platform performance comparisons, particularly for challenging applications such as low-frequency somatic mutation detection. Here, a large-scale targeted sequencing dataset from five Genome in a Bottle (GIAB) human genomic DNA reference standards, HG001 to HG005, alongside Twist Biosciences cfDNA reference standards featuring 1% variant allele frequency (VAF), was generated by six platforms (No…
+
+</details>
+
+---
+
+### [Auranofin potentiates cisplatin response through context-dependent NOTCH-associated signaling states in endometrial cancer](https://www.biorxiv.org/content/10.64898/2026.05.27.728338v1?rss=1)
 *bioRxiv Cancer Biology*  
 Score: **0.63**
-Published: 2026-05-21
-Tags: long-read RNA-seq, isoforms, splicing, biomarkers, transcriptomics
+Published: 2026-05-31
+Tags: therapy response, drug resistance, cisplatin, NOTCH, combination therapy, translational
 
-Uses Oxford Nanopore long-read transcriptomics across 71 AML/MDS-related samples to resolve full isoforms and identify spliceosome-mutation–enriched transcripts. While not pediatric/NB-focused, the isoform-discovery angle is relevant for biomarker and target discovery pipelines.
+Directly addresses therapeutic resistance and drug response modulation (auranofin altering platinum responsiveness) tied to NOTCH-associated signaling states. While not pediatric or neuroblastoma, the response/resistance framing and signaling-state context are translationally aligned.
 
 <details>
 <summary>RSS summary</summary>
 
-The alternative splicing landscape of cancer transcriptomes remains poorly characterized, since short read sequencing cannot resolve complete transcript structures. Using the Oxford Nanopore cDNA platform, we generated nearly 2 billion long reads (median 25.8 million per sample) from 71 human samples, including 48 acute myeloid leukemia or myelodysplastic syndrome samples, 25 of which had splicing-factor gene mutations (in SRSF2, U2AF1, or SF3B1). An additional 23 samples were from sorted hemato…
+Therapeutic resistance remains a major challenge in advanced and recurrent endometrial cancer (EC). Aberrant NOTCH signaling has been associated with aggressive tumor behavior and therapeutic resistance across multiple malignancies, yet its therapeutic significance in EC remains incompletely defined. We investigated whether auranofin (AuR), a noncanonical modulator of NOTCH signaling through the transcriptional effector RBPJ, alters platinum responsiveness in EC models. Elevated NOTCH3 copy-numb…
 
 </details>
 
 ---
 
-### [Reproducible transcriptional modules define glioblastoma ecosystems across independent cohorts.](https://www.biorxiv.org/content/10.64898/2026.05.20.726700v1?rss=1)
-*bioRxiv Bioinformatics*  
+### [Multiomic dissection of HR+/HER2- invasive lobular breast carcinoma reveals mobilized yet dysfunctional anti-tumor immunity shaped by tumor-stroma crosstalk and impaired antigen presentation](https://www.biorxiv.org/content/10.64898/2026.05.28.728418v1?rss=1)
+*bioRxiv Cancer Biology*  
 Score: **0.60**
-Published: 2026-05-23
-Tags: transcriptional-programs, reproducibility, module-discovery, glioblastoma, bulk-RNA-seq, spatial
+Published: 2026-05-29
+Tags: multi-omics, tumor microenvironment, immunology, antigen presentation, tumor-stroma crosstalk, translational
 
-Addresses reproducibility of program/module discovery across multiple GBM cohorts and platforms (including spatial), focusing on robustness to cohort composition and factorization rank. Transferable to defining stable cell states/programs in other tumors.
+Uses a multi-omics approach to characterize immune dysfunction, tumor–stroma crosstalk, and impaired antigen presentation in a clinically defined subtype, which is conceptually transferable to tumor microenvironment analyses. The clinical-translation angle (ICI context) supports relevance despite cancer-type mismatch.
 
 <details>
 <summary>RSS summary</summary>
 
-Glioblastoma (GBM) comprises a complex ecosystem of malignant, immune, vascular and neural transcriptional states. However, it remains difficult to determine which gene expression programmes are reproducibly recovered across independent cohorts and profiling platforms, because programme-level analyses are sensitive to cohort composition, technical context and factorization rank. Here, we analyzed three public GBM datasets--GLASS and IVYGAP bulk RNA-seq cohorts and the HEILAND Visium spatial tran…
+Context: Immunotherapy based on immune checkpoint inhibitors (ICI) revolutionized the treatment of triple-negative (TN) breast carcinomas (BC), but remains more challenging in HR+/HER2- BCs. Because invasive lobular carcinomas (ILC) generally exhibit low immune infiltration, ICIs were largely overlooked in this pathological type. The only clinical trial of ICIs dedicated to ILCs showed disappointing results, notably in HR+/HER2- cases. The immune landscape of HR+/HER2- ILCs has been poorly descr…
 
 </details>
 
 ---
 
-### [Reversion mutations define minimal BRCA1/2 requirements for therapy resistance](https://www.biorxiv.org/content/10.64898/2026.05.22.727163v1?rss=1)
+### [Ultra-efficient High Resolution 3D Reconstruction of Spatial Omics Data with Neural Transcriptomic Field](https://www.biorxiv.org/content/10.64898/2026.05.28.726140v1?rss=1)
+*bioRxiv Bioinformatics*  
+Score: **0.57**
+Published: 2026-06-01
+Tags: spatial omics, 3D reconstruction, neural field, representation learning, tissue architecture
+
+Addresses 3D reconstruction of spatial omics volumes from sparse 2D sections using a neural field approach, potentially useful for tumor architecture and niche analysis. Relevance is methodological (spatial) rather than directly translational/clinical in the provided summary.
+
+<details>
+<summary>RSS summary</summary>
+
+Biological tissues are inherently three-dimensional (3D) ecosystems where spatial architecture dictates cellular function. While spatial omics technologies have revolutionized molecular profiling, they are largely restricted to isolated two-dimensional (2D) tissue sections. Existing computational methods attempting to reconstruct 3D volumes from sparse slices rely heavily on local slice-to-slice interpolation, struggling to balance high-fidelity reconstruction, noise reduction, and atlas-scale e…
+
+</details>
+
+---
+
+### [Integrative prioritization of clinically and biologically relevant long noncoding RNAs across gastrointestinal cancers](https://www.biorxiv.org/content/10.64898/2026.05.26.728026v1?rss=1)
 *bioRxiv Cancer Biology*  
-Score: **0.58**
-Published: 2026-05-25
-Tags: therapy-resistance, PARP-inhibitors, platinum, BRCA1, BRCA2, DDR, clinical-cohort
-
-Compiles and analyzes hundreds of BRCA1/2 reversion mutations from resistant patients to understand determinants of platinum/PARP inhibitor resistance. Not pediatric/NB-specific, but directly about clinically observed resistance mechanisms with actionable implications for DDR-targeted therapy contexts.
-
-<details>
-<summary>RSS summary</summary>
-
-Although platinum salts or PARP inhibitors are effective in delivering anti-tumor responses in people with BRCA1 or BRCA2 mutated cancers, drug resistance is common and is often caused by secondary BRCA1/2 reversion mutations that restore function. By collating and analyzing 848 BRCA1/2 reversion mutations in 384 cancer patients with drug resistance, we confirm that pathogenic BRCA1/2 mutation type influences the acquisition of reversions, and that large BRCA1/2 deletions are an underappreciated…
-
-</details>
-
----
-
-### [Advancing Liver Cancer Precision Medicine with TARGET-SL](https://www.biorxiv.org/content/10.64898/2026.05.19.725819v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.58**
-Published: 2026-05-21
-Tags: synthetic lethality, precision oncology, drug screening, computational framework, translational
-
-Describes a bioinformatics framework (TARGET-SL) for predicting GOF/LOF/synthetic lethal events and drug candidates, with validation via ex vivo drug screening. The strategy is methodologically relevant for translational target nomination and prioritization, despite being liver cancer-focused.
-
-<details>
-<summary>RSS summary</summary>
-
-Background and AimsA major goal of personalised liver oncology is the ability to make targeted predictions about cancer-specific toxicity, however there are limited methods available. To address this, we validated the performance of our bioinformatics framework, TARGET-SL, through ex vivo drug screening. MethodsUsing TARGET-SL we predicted gain of function (GOF), loss of function (LOF) and synthetic lethal (SL) genetic events, and corresponding drug candidates. We validated drug predictions acro…
-
-</details>
-
----
-
-### [Circulating immune signatures reveal targetable inflammatory pathways in anaplastic thyroid carcinoma](https://www.biorxiv.org/content/10.64898/2026.05.19.726015v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.56**
-Published: 2026-05-21
-Tags: biomarkers, immune-signatures, single-cell, proteomics, inflammation, translational, thyroid-cancer
-
-Links systemic inflammation to survival and reports prospective circulating immune profiling including inflammatory proteome and single-cell peripheral readouts to nominate targetable pathways. Translational biomarker/immune-signature angle is relevant though the disease is outside pediatric oncology.
-
-<details>
-<summary>RSS summary</summary>
-
-Anaplastic thyroid carcinoma (ATC) is one of the most lethal malignancies. Immune dysregulation is believed to play an important role in ATC. Here, we aimed to characterize the systemic inflammation and the function of circulating immune cells of patients with ATC. First, we retrospectively assessed biochemical parameters of patients with ATC and observed that high systemic inflammation correlated with worse survival. Next, we prospectively investigated the inflammatory proteome, single-cell per…
-
-</details>
-
----
-
-### [Cyclin-Dependent Kinase-9 and Oxidative Phosphorylation Inhibition Overcomes Ibrutinib Resistance in Mantle Cell Lymphoma](https://aacrjournals.org/cancerrescommun/article/6/5/1192/785363/Cyclin-Dependent-Kinase-9-and-Oxidative)
-*AACR Cancer Research Communications*  
 Score: **0.52**
-Published: 2026-05-22
-Tags: drug resistance, CDK9, oxidative phosphorylation, combination therapy, translational
+Published: 2026-05-29
+Tags: lncRNA, biomarkers, integration, bulk RNA-seq, single-cell, pan-cancer
 
-Targets therapy resistance using CDK9 inhibition (AZD4573) in ibrutinib-resistant mantle cell lymphoma, including activity in resistant lines and primary cells. Mechanism-of-resistance and combination-therapy concepts are broadly relevant even though the disease context differs.
+Develops an integrative framework using bulk and single-cell transcriptomic resources to classify/prioritize lncRNAs across multiple cancers. The integrative prioritization concept could transfer to biomarker discovery pipelines, though the application is GI-specific.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div><div class="boxTitle"></div>Resistance to Bruton tyrosine kinase inhibitors is inevitable in mantle cell lymphoma (MCL). Cyclin-dependent kinase-9 (CDK9), a key regulator of oncogenic transcription, is a promising therapeutic target. In this study, we studied a selective CDK9 inhibitor, AZD4573, in MCL. Treatment with AZD4573 thwarted growth of both parental and ibrutinib-resistant MCL cell lines and primary MCL cells and downreg…
+Across gastrointestinal (GI) cancers, shared malignant programs are layered onto strong anatomical, lineage, and microenvironmental variation, making it difficult to distinguish disease-relevant long noncoding RNAs (lncRNAs) from context-dependent transcriptional signals. We developed a pan-GI integrative framework to classify lncRNAs across colorectal adenocarcinoma, gastric adenocarcinoma, and esophageal cancer using bulk and single-cell transcriptomic resources. This framework evaluates lncRN…
 
 </details>
 
 ---
 
-### [A targetable opioid/cancer associated fibroblast axis drives extracellular matrix remodeling and tumor aggressiveness in pancreatic cancer](https://www.biorxiv.org/content/10.64898/2026.05.20.726559v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.48**
-Published: 2026-05-21
-Tags: CAF, ECM remodeling, tumor microenvironment, therapy response, pancreatic cancer
-
-Focuses on a mechanistic, targetable axis involving opioids and CAFs that impacts ECM remodeling and tumor aggressiveness in PDAC. Relevant mainly as TME/ECM biology that can influence therapy response; computational/omics details are not evident from the summary snippet.
-
-<details>
-<summary>RSS summary</summary>
-
-Pancreatic ductal adenocarcinoma (PDAC) is an intractable disease with few effective treatment options. PDAC is characterized by a dense, fibro-inflammatory tumor microenvironment (TME) consisting mainly of cancer-associated fibroblasts (CAFs) and a CAF-generated collagen-rich extracellular matrix (ECM). As the ECM has profound impacts on tumor progression and therapy response, it is critical that we understand the mechanisms underlying ECM deposition and remodeling. In addition to a highly fibr…
-
-</details>
-
----
-
-### [Ferrous Iron Accumulation Is a Hallmark and Therapeutic Vulnerability of Therapy-Induced Senescence](https://www.biorxiv.org/content/10.64898/2026.05.20.726695v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.45**
-Published: 2026-05-23
-Tags: therapy-induced-senescence, ferroptosis, residual-disease, vulnerability, mechanism
-
-Reports lysosomal ferrous iron accumulation as a conserved feature of therapy-induced senescence and links it to hypersensitivity to ferroptosis induction across models. Strong therapy-residual disease concept, but the summary emphasizes wet-lab biology rather than computational or pediatric-specific context.
-
-<details>
-<summary>RSS summary</summary>
-
-Chemotherapy and radiation reduce tumor burden but leave behind residual cells that survive via therapy-induced senescence (TIS). These cells constitute a latent reservoir fueling recurrence, yet strategies for their selective elimination are lacking. Here, we identify lysosomal ferrous iron accumulation as a conserved hallmark and actionable vulnerability of TIS tumor cells. Across diverse models, senescent tumor cells exhibit marked hypersensitivity to ferroptosis induction. In breast cancer P…
-
-</details>
-
----
-
-### [Mirror-image mRNA display uncovers isoform-selective D-peptide macrocycles targeting a cryptic KRAS pocket](https://www.biorxiv.org/content/10.64898/2026.05.20.726527v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.44**
-Published: 2026-05-22
-Tags: KRAS, drug discovery, macrocycles, screening, targeted therapy
-
-Reports a screening/ligand-discovery approach (mirror-image mRNA display) yielding isoform-selective D-peptide macrocycles that bind a cryptic KRAS pocket. Interesting therapeutics modality work, but not clearly tied to pediatric oncology or omics/single-cell analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-Activating KRAS mutations drive millions of cancers diagnosed worldwide, yet for decades this oncoprotein was deemed "undruggable", reflecting the challenge of discovering molecules capable of perturbing its complex biological functions, and of translating these discoveries into effective cancer therapeutics. Recent advances propelled by innovative screening have identified diverse modalities that bind at or near the switch-II pocket (SII-P) of RAS proteins, including molecular glues, macrocycli…
-
-</details>
-
----
-
-### [A RHNO1-ATR/Chk1 positive feedback loop sustains the DNA replication stress response](https://www.biorxiv.org/content/10.64898/2026.05.22.727300v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.40**
-Published: 2026-05-24
-Tags: ATR, Chk1, replication-stress, DDR, mechanism
-
-Mechanistic study of RHNO1 in sustaining ATR/Chk1 replication-stress signaling via feedback, relevant to ATR/DDR therapeutic biology. However, the summary does not indicate computational/multi-omic analysis or pediatric/translational stratification components.
-
-<details>
-<summary>RSS summary</summary>
-
-Elevated DNA replication stress is a common feature of cancer cells, rendering them dependent on ATR/Chk1 signaling, which controls the DNA replication stress checkpoint, for survival. Although the activation of ATR/Chk1 signaling is well-established, how this signal is maintained until replication stress is fully resolved is less understood. Here, we investigated the roles of RAD9 HUS1 RAD1 interacting nuclear orphan 1 (RHNO1) in cancer progression and its involvement in maintaining ATR/Chk1 si…
-
-</details>
-
----
-
-### [Adaptive plasticity of aspartate metabolism in succinate dehydrogenase-deficient cancer cells](https://www.biorxiv.org/content/10.64898/2026.05.18.726122v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.40**
-Published: 2026-05-21
-Tags: cancer metabolism, SDH, aspartate, plasticity, metabolic adaptation
-
-Studies metabolic adaptation mechanisms in SDH-knockout cancer cells and alternative aspartate synthesis routes. Potentially relevant to metabolic vulnerabilities, but the summary does not indicate a strong computational or clinical biomarker component.
-
-<details>
-<summary>RSS summary</summary>
-
-Succinate dehydrogenase (SDH) supports cancer cell proliferation by enabling oxidative biosynthesis of the amino acid aspartate, yet SDH loss can also drive tumorigenesis. To cope with SDH loss, cancer cells can engage alternative aspartate synthesis pathways; however, the variables dictating pathway usage and adaptive mechanisms involved are incompletely understood. Here, we systematically profile the adaptation of SDH-knockout cancer cells and find that cells can adapt to SDH loss via at least…
-
-</details>
-
----
-
-### [ASS1 deficiency defines a therapeutic vulnerability in Philadelphia chromosome-positive acute lymphoblastic leukaemia](https://www.biorxiv.org/content/10.64898/2026.05.21.724233v1?rss=1)
-*bioRxiv Cancer Biology*  
+### [TNBC Spatial Transcriptomic Analysis across Clinical States Reveals Subtype-Specific Networks and Immunosuppressive Niches](https://aacrjournals.org/cancerrescommun/article/6/5/1246/785468/TNBC-Spatial-Transcriptomic-Analysis-across)
+*AACR Cancer Research Communications*  
 Score: **0.39**
-Published: 2026-05-25
-Tags: metabolic-vulnerability, ASS1, arginine-deprivation, ALL, transcriptomics, precision-therapy
+Published: 2026-05-29
+Tags: spatial transcriptomics, tumor microenvironment, networks, immunosuppression, TNBC
 
-Identifies ASS1-low status as an arginine-auxotrophy vulnerability and analyzes transcriptomes across a large B-ALL cohort to characterize the subgroup. Translational metabolic vulnerability is relevant, but this is adult Ph+ ALL and not strongly aligned to the user’s core solid tumor/single-cell aims in the feed text.
+Uses spatial transcriptomics across clinical states in TNBC to derive subtype-specific networks and immunosuppressive niches, which is relevant conceptually to resistance/microenvironment. However, it is breast-cancer specific and the method details/transferability are limited in the provided summary.
 
 <details>
 <summary>RSS summary</summary>
 
-Amino acid deprivation with L-asparaginase is a cornerstone of treatment in acute lymphoblastic leukaemia (ALL), but clinical challenges limit its use in adults. Deficiency in the enzyme argininosuccinate synthase (ASS1-low) confers arginine auxotrophy, defining a dependence on extracellular arginine, and represents an analogue metabolic vulnerability that is targetable through arginine deprivation. We analysed transcriptomic data across >550 adult B-ALL cases to establish clinico-biologic chara…
+<span class="paragraphSection"><div class="boxTitle">Abstract</div><div class="boxTitle"></div>Breast cancer is a heterogeneous disease composed of distinct molecular subtypes that influence prognosis and treatment response, with subtype discordance between primary and metastatic tumors contributing to therapeutic failure. Using GeoMx spatial transcriptomics, we profiled nonmetastatic primary tumors, metastatic primary tumors, and lymph node (LN) metastases to characterize transcriptional and im…
 
 </details>
 
 ---
 
-### [Febuxostat enhances the anti-tumor efficacy of 2-fluoroadenine and 5-methylthioadenosine in MTAP-deleted cancer](https://www.biorxiv.org/content/10.64898/2026.05.19.726298v1?rss=1)
+### [Targeting CD73-A2aR-Mediated Adenosine Signaling at the Tumor-Immune Interface Overcomes Radioresistance](https://www.biorxiv.org/content/10.64898/2026.05.26.727904v1?rss=1)
 *bioRxiv Cancer Biology*  
-Score: **0.39**
-Published: 2026-05-21
-Tags: MTAP deletion, combination therapy, metabolic targeting, preclinical
+Score: **0.33**
+Published: 2026-05-29
+Tags: radioresistance, CD73, adenosine signaling, tumor-immune interface, breast cancer
 
-Explores a combination strategy targeting MTAP-deleted cancers, adding febuxostat to enhance efficacy of 2FA+MTA. Translationally adjacent (genotype-linked therapy), but the item appears primarily preclinical and not single-cell/omics-oriented from the provided summary.
+Focuses on mechanistic immuno-metabolic checkpoint biology (CD73/adenosine/A2aR) affecting radioresistance in breast cancer models. Potentially relevant to resistance biology, but appears primarily wet-lab/therapy-mechanism rather than computational omics.
 
 <details>
 <summary>RSS summary</summary>
 
-BackgroundHomozygous deletion of the methylthioadenosine phosphorylase (MTAP) gene is a frequent genetic alteration in cancer. MTAP, which creates adenine from 5-methylthioadenosine (MTA), is constitutively expressed in all tissues throughout the body. Previously, we described a novel strategy to specifically target MTAP-deleted cancer cells by combining the antipurine prodrug 2-fluoroadenine (2FA) with MTA. In vitro, this combination efficiently killed MTAP- cancer cells, but in vivo the combin…
+Background: Radiotherapy efficacy is constrained by an immunosuppressive tumor microenvironment (TME) enriched in extracellular adenosine and suppressive myeloid populations that attenuate cytotoxic T-cell responses. The CD73-adenosine-A2a/A2b receptor axis represents a key metabolic immune checkpoint; however, the relative contributions of tumor cell intrinsic versus host-derived adenosine signaling to radiotherapy response remain incompletely defined. Methods: Using orthotopic murine breast ca…
 
 </details>
 
 ---
 
-### [Developmental plasticity of cancer-associated fibroblasts contributes to the malignant progression of gastric cancers](https://www.biorxiv.org/content/10.64898/2026.05.21.726806v1?rss=1)
+### [Cutaneous inflammation accelerates the premalignant expansion of melanocytes bearing oncogenic mutations](https://www.biorxiv.org/content/10.64898/2026.05.27.728115v1?rss=1)
 *bioRxiv Cancer Biology*  
-Score: **0.38**
-Published: 2026-05-22
-Tags: CAF, cell-state-plasticity, scRNA-seq, spatial-transcriptomics, gastric-cancer, co-culture
+Score: **0.24**
+Published: 2026-05-29
+Tags: melanoma, inflammation, microenvironment, mouse model, premalignant
 
-Integrates single-cell and spatial transcriptomics with co-culture to map fibroblast trajectories in gastric cancer and relate them to progression. Strong cell-state plasticity framing, but tumor type is distant from pediatric oncology priorities.
+Focuses on immune perturbations in a mouse model driving premalignant melanocyte expansion, emphasizing microenvironmental inflammation. The computational/omics angle is not evident from the provided summary, and it is not aligned with pediatric translational oncology priorities.
 
 <details>
 <summary>RSS summary</summary>
 
-Although cancer-associated fibroblasts display marked transcriptional heterogeneity, how they dynamically reprogram and contribute to tumor progression remains unclear. By integrating single-cell and spatial transcriptomics with in vitro co-culture, we constructed a spatiotemporal atlas of extracellular matrix-constituting (ECM) fibroblasts in gastric cancer. We identify a directed trajectory in which homeostatic (ECMh) fibroblasts transition through an inflammatory intermediate (ECMi) toward ti…
+How the cutaneous microenvironment influences early melanomagenesis is poorly understood. Here, we assessed the effects of three immune perturbations on premalignant melanocyte expansion in an autochthonous mouse model of disease. Depletion of regulatory T (Treg) cells markedly accelerated melanoproliferation, an unexpected phenotype that was associated with monocyte and macrophage infiltration, the production of inflammatory and angiogenic factors, and vascular leakage. In line with these obser…
 
 </details>
 
 ---
 
-### [Functional diversity of Vγ9Vδ2 T cells overcomes glioblastoma state plasticity and antigen heterogeneity](https://www.biorxiv.org/content/10.64898/2026.05.19.726243v1?rss=1)
+### [Conformational drugging pockets at the surface of c-MYC proto-oncongenes](https://www.biorxiv.org/content/10.64898/2026.05.28.728384v1?rss=1)
 *bioRxiv Cancer Biology*  
-Score: **0.36**
-Published: 2026-05-21
-Tags: tumor plasticity, immunotherapy, glioblastoma, antigen heterogeneity, T cells
+Score: **0.23**
+Published: 2026-05-29
+Tags: MYC, druggability, structural biology, oncogene
 
-Addresses tumor state plasticity and antigen heterogeneity in glioblastoma in the context of Vγ9Vδ2 T-cell functional diversity and ganglioside targets. Conceptually relevant to plasticity/heterogeneity, but not pediatric/NB and computational content is unclear from the snippet.
+Discusses structural/druggability aspects of MYC, an important oncogene, but the snippet reads as structural biology/drug discovery rather than omics, single-cell, or translational biomarker work. Relevance is indirect to computational oncology priorities.
 
 <details>
 <summary>RSS summary</summary>
 
-Glioblastoma (GBM) is characterized by a high degree of cellular plasticity and intra-tumoral heterogeneity, which frequently leads to the failure of standard therapies, including immunotherapies. While chimeric antigen receptor (CAR) T cells offer a potent means of MHC-independent tumor recognition, their efficacy is hampered by the coexistence of distinct molecular states, gathered as proneural (PN) and mesenchymal (MES) phenotypes. Here, we demonstrate that gangliosides GD2 and O-acetylated G…
+The MYC proto-oncogene encodes a master transcription factor essential for regulating cellular homeostasis, growth, and metabolism. However, its deregulation is involved in up to 70% of human cancers, where it drives uncontrolled cellular proliferation. Structurally, MYC is characterized by an N-terminal transactivation domain and a C-terminal bHLHLZ domain critical for DNA binding and dimerization with MAX. Despite its clinical significance, MYC has remained historically "undruggable" due to it…
 
 </details>
 
 ---
 
-### [Integrated computational and experimental analysis explores FOLH1 expression patterns across cancers and nominates melatonin as a potential modulator in prostate cancer models](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014315)
-*PLOS Comp Bio*  
-Score: **0.22**
-Published: 2026-05-22
-Tags: pan-cancer, FOLH1, prostate-cancer, computational-analysis, drug-modulation
-
-Pan-cancer expression/immunology analysis of FOLH1 with prostate cancer model follow-up and a proposed modulator (melatonin). Computationally oriented but not aligned with pediatric oncology, resistance, or single-cell/multi-omics priorities in the title/summary.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>by Rui Zhang, Junyu Zhou, Sihan Dong, Guoquan Liu, Xunbin Wei</p> Background <p>Growing evidence indicates that Folate Hydrolase 1 (FOLH1, also known as prostate-specific membrane antigen, PSMA) is aberrantly expressed across multiple malignancies, particularly showing significant upregulation in prostate cancer. However, systematic investigations into its pan-cancer expression patterns, immunomodulatory roles, and immune cell infiltration remain limited. The potential role of FOLH1 in prosta…
-
-</details>
-
----
-
-### [Denaturing purifications support direct interaction between PRC2 and RNA in cells](https://www.biorxiv.org/content/10.64898/2026.05.19.725914v1?rss=1)
-*bioRxiv Genomics*  
+### [Unveiling the novel role of PGAM5 in rewiring metabolism through PI3K/AKT/mTOR signaling in acute myelogenous leukemia](https://www.nature.com/articles/s41598-026-55582-x)
+*Scientific Reports*  
 Score: **0.18**
-Published: 2026-05-22
-Tags: PRC2, RNA binding, CLIP, epigenetics, reanalysis
+Published: 2026-06-09
+Tags: AML, metabolism, PI3K-AKT-mTOR, mechanism
 
-Reanalyzes CLAP/CLIP-style data to argue PRC2 directly interacts with RNA in cells. Interesting chromatin/RNA biology, but not clearly connected to translational pediatric oncology or omics biomarker workflows.
+Acute myelogenous leukemia metabolism/signaling study; computational/translational biomarker components are not indicated in the short summary line. Outside core neuroblastoma/omics-method focus based on available information.
 
 <details>
 <summary>RSS summary</summary>
 
-Polycomb Repressive Complex 2 (PRC2) maintains repression of genes specific for other cell differentiation states. PRC2 binds RNA in vitro with a preference for G-rich sequences. UV-based crosslinking coupled with immunoprecipitation (CLIP) experiments have shown that PRC2 also binds RNA in cells. Recently, Guo et al reported that a stringent denaturing variant of CLIP called CLAP did not detect PRC2 RNA binding in cells. We present a reanalysis of CLAP data that supports direct interaction of P…
+<p>Scientific Reports, Published online: 09 June 2026; <a href="https://www.nature.com/articles/s41598-026-55582-x">doi:10.1038/s41598-026-55582-x</a></p>Unveiling the novel role of PGAM5 in rewiring metabolism through PI3K/AKT/mTOR signaling in acute myelogenous leukemia
 
 </details>
 
 ---
 
-### [Comparative review of artificial intelligence for transcriptomic biomarker discovery in coronavirus disease 2019 (COVID-19)](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag249/8692731?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.08**
-Published: 2026-05-25
-Tags: review, AI, biomarkers, transcriptomics, COVID-19
+### [Population-specific heterogeneity in ontogeny of the broadly-conserved blood transcriptional program during the first week of life](https://www.nature.com/articles/s41467-026-73244-4)
+*Nature Communications*  
+Score: **0.15**
+Published: 2026-06-01
+Tags: neonatal, immunology, transcriptomics, population differences
 
-Review focused on AI methods for transcriptomic biomarker discovery in COVID-19 rather than cancer, pediatric oncology, or therapy resistance. Limited direct transfer value for the user’s core domain.
+Studies neonatal immune development across populations, relevant to pediatrics but not oncology, biomarkers for cancer, or therapy response. Any transfer to tumor immunology is indirect based on the provided abstract.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>The Coronavirus Disease 2019 (COVID-19) pandemic has highlighted the significance of reliable molecular biomarkers in clinical use. Despite the popularity of traditional statistical approaches, the high dimensionality of transcriptomic data presents challenges for these conventional methods. While artificial intelligence (AI) algorithms have emerged as highly advantageous for handling these complex datasets, there is a lack of ev…
+<p>Nature Communications, Published online: 01 June 2026; <a href="https://www.nature.com/articles/s41467-026-73244-4">doi:10.1038/s41467-026-73244-4</a></p>This study compares immune development (ie. ontogeny) in healthy newborns across two distinct populations, revealing differences on top of a strong core pattern of development. These differences can inform the influence of genetic or environmental factors on newborn immunity
+
+</details>
+
+---
+
+### [Fully synthetic replication of complex real biological cell clusters using a novel cluster-based ‘Rosetta-Routine’ computational modelling process](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014280)
+*PLOS Comp Bio*  
+Score: **0.12**
+Published: 2026-05-29
+Tags: flow cytometry, synthetic data, computational modeling, cluster simulation
+
+Focuses on synthetic replication of flow cytometry cell clusters for modeling/diagnostics support. It is computational but not clearly tied to single-cell transcriptomics, multi-omics integration, or oncology biomarker discovery in the provided summary.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>by Bradley Mason, Laura Justham, Liam Whitby, Alison Whitby, Stuart Scott, Samuel Nti, Jon Petzing</p> Flow cytometry (FC) is essential for the precise quantification and characterisation of individual cell populations in a larger heterogenous cell suspension. FC analysis provides a foundation for advanced clinical diagnostics and is a key component in many life-saving therapeutic strategies across a broad range of medical conditions. However, clinical, industrial and research laboratories al…
+
+</details>
+
+---
+
+### [Graph-based pangenome provides insights into the adaptive evolution of Cucurbita pepo](https://www.biorxiv.org/content/10.64898/2026.05.27.728270v1?rss=1)
+*bioRxiv Genomics*  
+Score: **0.02**
+Published: 2026-05-29
+Tags: pangenome, plant genomics, graph genome, evolution
+
+Plant pangenome/evolution study (Cucurbita pepo) is outside pediatric oncology and computational single-cell/biomarker priorities. Limited methodological transfer is evident from the snippet.
+
+<details>
+<summary>RSS summary</summary>
+
+Understanding how crops respond to environmental variation is crucial for biodiversity conservation and food security. Cucurbita pepo (pumpkin, squash, gourd) is one of the first domesticated crop species and exhibits remarkable phenotypic and ecological diversity, making it a powerful system for investigating the genomic basis of adaptation. Here, we constructed a graph-based C. pepo pangenome using nine chromosome-level assemblies and identified 229,431 high-confidence structural variants (SVs…
 
 </details>
 
@@ -370,71 +329,88 @@ Review focused on AI methods for transcriptomic biomarker discovery in COVID-19 
 
 ## AI (0 shown / 0 total)
 
-## Methods (4 shown / 4 total)
+## Methods (5 shown / 5 total)
 
-### [RANKOR: Direct Drug Prioritization from Bulk and Single-Cell Transcriptomic Signatures](https://www.biorxiv.org/content/10.64898/2026.05.20.726471v1?rss=1)
+### [TRACE: a graph-based workflow for TCR-epitope prioritization and tumor-reactive T-cell identification](https://www.biorxiv.org/content/10.64898/2026.05.27.728217v1?rss=1)
 *bioRxiv Bioinformatics*  
-Score: **0.84**
-Published: 2026-05-21
-Tags: drug-prioritization, precision-oncology, scRNA-seq, bulk-RNA-seq, machine-learning, signature-reversal
+Score: **0.72**
+Published: 2026-05-31
+Tags: immuno-oncology, TCR, epitope, graph methods, single-cell, tumor-reactive T cells
 
-Presents a machine-learning framework to prioritize candidate drugs directly from bulk and single-cell transcriptomic signatures, explicitly targeting precision-medicine drug matching beyond GSEA-style enrichment. Highly transferable to therapy response/resistance and signature-based repurposing workflows.
+Presents a graph-based computational workflow to prioritize TCR–epitope interactions and identify tumor-reactive T cells, a common need in single-cell immuno-oncology analyses. The method focus (graph modeling over independent pairs) appears broadly transferable to scTCR-seq + transcriptomics workflows.
 
 <details>
 <summary>RSS summary</summary>
 
-BackgroundPrioritizing therapeutics from transcriptomic data remains a key challenge in precision medicine. Signature reversal approaches, most commonly implemented through Gene Set Enrichment Analysis (GSEA), have been widely used to match disease signatures to candidate drugs. However, enrichment-based methods can be sensitive to noise and are restricted to previously profiled compounds MethodsWe developed RANKOR, a machine-learning framework designed to rank candidate drugs directly from tran…
+Accurate prioritization of T-cell receptor (TCR)-epitope interactions and identification of tumor-reactive T cells are important but difficult steps in immunotherapy-oriented bioinformatics workflows. Existing methods typically address these tasks separately and either model TCR-epitope pairs as independent observations or rely primarily on transcriptomic signatures. In this study, we present TRACE (TCR-epitope pRioritization And T-Cell idEntification), a graph-based computational workflow that …
 
 </details>
 
 ---
 
-### [From gene correlations to cell clusters: COTAN improved scRNA-seq analysis](https://academic.oup.com/nargab/article/doi/10.1093/nargab/lqag048/8688779?rss=1)
-*NAR Genomics & Bioinformatics*  
-Score: **0.82**
-Published: 2026-05-21
-Tags: scRNA-seq, single-cell methods, clustering, sparsity, computational pipeline
+### [Genotype and methylation interact to reconfigure transcriptional regulation in colorectal cancer](https://www.biorxiv.org/content/10.64898/2026.05.27.728350v1?rss=1)
+*bioRxiv Bioinformatics*  
+Score: **0.50**
+Published: 2026-05-30
+Tags: regulatory genomics, DNA methylation, eQTL-like, multi-omics, colorectal cancer
 
-Presents an improved scRNA-seq analysis approach aimed at handling droplet sparsity and lowly expressed genes, moving from gene–gene correlations to clustering. This is directly transferable to single-cell tumor/TME workflows where sensitivity for low-expression programs matters.
+Analyzes how methylation context modifies genotype–expression regulatory relationships using paired tumor/NAT samples, aligning with regulatory inference and multi-omics (genotype/epigenome/expression). Cancer-type specific (CRC), but concepts may transfer to pediatric tumor regulatory studies.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>Single-cell RNA-sequencing (scRNA-seq) now routinely profiles thousands of individual transcriptomes, yet no consensus pipeline exists for either laboratory protocol or downstream analysis. Droplet-based datasets are especially challenging: their count matrices are extremely sparse and many biologically important genes are expressed at very low levels. Standard workflows, borrowed from bulk RNA-seq, apply normalization, log-trans…
+Background Transcriptional regulation is shaped by both genomic variants and the environment. Yet, how the regulatory effects of genomic variants are reconfigured by dynamic epigenomic changes during tumorigenesis remains incompletely understood. Methods We investigated methylation context-dependent links between genotype and gene expression in colorectal cancer (CRC) using paired tumor and normal-adjacent tissue (NAT) from 80 patients, thereby controlling for germline genomic background. By int…
 
 </details>
 
 ---
 
-### [Artificial intelligence in drug research and development: a review of methods and applications in drug repurposing](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag203/8689978?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.34**
-Published: 2026-05-21
-Tags: AI, drug repurposing, review, computational methods
+### [Memory-safe high-performance sequence mapping with rammap](https://www.biorxiv.org/content/10.64898/2026.05.26.726289v1?rss=1)
+*bioRxiv Bioinformatics*  
+Score: **0.32**
+Published: 2026-05-29
+Tags: sequence alignment, minimap2, software, Rust, pipelines
 
-A review summarizing AI methods for drug repurposing across multiple tools and frameworks. Broadly useful background, but not specific to single-cell, multi-omics integration, or pediatric oncology applications.
+Presents a Rust reimplementation of minimap2 with performance and safety improvements and drop-in compatibility. Useful for infrastructure, but not specific to single-cell/omics interpretation, biomarkers, or translational oncology questions.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>Artificial Intelligence (AI) plays an increasingly significant role in drug research and development, particularly in drug repurposing, which involves identifying new therapeutic indications for existing pharmacological compounds. From classical algorithms-based tools e.g. DrugRep and DrugRepo, to more recent innovations (e.g. RosettaVS, RepurposeDrugs), this paper reviews the latest AI methods (e.g. AlphaFold3, mediKanren, AdaDR…
+We introduce a reimplementation of the widely used mapping tool minimap2 in Rust called rammap. We demonstrate perfect concordance with minimap2, enabling its backwards compatibility as a drop-in replacement for minimap2-based workflows. Additionally, rammap implements performance optimizations for modern architectures and applications, including AVX512 and WASM v128 SIMD support for dynamic programming alignment and SIMD-accelerated chaining. These achieve comparable or better performance than …
 
 </details>
 
 ---
 
-### [The aging genome exhibits organized vulnerability to somatic mutations](https://www.biorxiv.org/content/10.64898/2026.05.21.726885v1?rss=1)
+### [Optical genome mapping identifies source-associated structural variant differences across early-passage human iPSCs](https://www.biorxiv.org/content/10.64898/2026.05.29.728843v1?rss=1)
 *bioRxiv Genomics*  
-Score: **0.12**
-Published: 2026-05-22
-Tags: somatic mutations, aging, genome instability, population genomics
+Score: **0.30**
+Published: 2026-05-31
+Tags: structural variants, optical genome mapping, iPSC, genomics, model QC
 
-Analyzes over a million somatic mutations across human tissues to describe non-random patterns of mutation vulnerability with age. Important genomics, but it is aging-focused rather than cancer therapy response, biomarkers, or single-cell oncology methods.
+Uses optical genome mapping to assess structural variants across iPSC sources, relevant to model quality control. It is not directly tied to oncology, therapy response, or single-cell computational methods in the title/summary provided.
 
 <details>
 <summary>RSS summary</summary>
 
-Somatic mutations accumulate throughout life and have been hypothesized to drive organismal decline. Yet whether these mutations are distributed randomly or whether cells shield their most critical components has remained unresolved. Here we analyze over a million somatic mutations across thirteen human tissues, finding that the aging genome exhibits organized vulnerability, captured by the existence of hypo-mutated genes and longevity-associated pathways that have significantly lower mutation b…
+Background: Induced pluripotent stem cells (iPSCs) are an important model for studying human diseases in vitro. However, previous studies have shown that iPSC reprogramming and extended cell culture can introduce genomic structural variants (SVs). Technologies like karyotyping, CNV microarrays, and whole-genome sequencing have limitations in resolution, sensitivity, or the ability to detect large and complex structural variants compared to optical genome mapping (OGM). OGM is a genome-wide struc…
+
+</details>
+
+---
+
+### [QSyncFold: quantum neural network for multidimensional sync-discovery in protein folding](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag234/8698685?rss=1)
+*Briefings in Bioinformatics (Oxford Academic)*  
+Score: **0.06**
+Published: 2026-05-30
+Tags: quantum ML, protein folding, method development
+
+Proposes a hybrid quantum–classical neural network for protein structure prediction, which is far from single-cell/omics biomarker discovery and translational pediatric oncology workflows. The connection to the user’s stated priorities is not apparent from the title/abstract.
+
+<details>
+<summary>RSS summary</summary>
+
+<span class="paragraphSection"><div class="boxTitle">Abstract</div>Quantum computing provides alternative encoding and sampling paradigms for protein structure prediction (PSP), but existing quantum-PSP methods are often limited by resource-scaling issues and by discrete or inefficient encodings for continuous coordinates. To address these limitations, we propose QSyncFold, a hybrid quantum–classical neural network framework that combines quantum superposition with differentiable learning. QSync…
 
 </details>
 
@@ -442,154 +418,154 @@ Somatic mutations accumulate throughout life and have been hypothesized to drive
 
 ## Other (9 shown / 9 total)
 
-### [CMAPS: Causal Mediation Analysis of Perturbation Screens with Application to Genome-scale Perturb-seq Data](https://www.biorxiv.org/content/10.64898/2026.05.21.726924v1?rss=1)
-*bioRxiv Genomics*  
-Score: **0.82**
-Published: 2026-05-23
-Tags: Perturb-seq, causal-inference, mediation-analysis, single-cell, CRISPR-screen, gene-regulation
+### [Histology-informed spatial domain identification through multi-view graph convolutional networks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014281)
+*PLOS Comp Bio*  
+Score: **0.61**
+Published: 2026-06-01
+Tags: spatial transcriptomics, histology integration, graph convolution, clustering, tumor microenvironment
 
-Introduces a semiparametric causal mediation framework for Perturb-seq to identify molecular intermediates transmitting perturbation effects, addressing confounding and robustness. Directly relevant to mechanistic regulatory inference from single-cell perturbation screens.
+STESH integrates expression, spatial coordinates, and histology via multi-view graph convolution to identify spatial domains, aligning with spatial-omics computation relevant for tumor microenvironment studies. Not cancer-specific in the summary but the method is broadly applicable.
 
 <details>
 <summary>RSS summary</summary>
 
-CRISPR-Cas9 perturbation screens coupled with single-cell multi-omic profiling enable dissection of gene regulatory mechanisms, yet existing analyses largely quantify total perturbation effects and offer limited insight into the molecular intermediates that transmit these effects. We introduce CMAPS (Causal Mediation Analysis for Perturbation Screens), a semiparametric framework for robust mediation analysis that accommodates unmeasured mediator-outcome confounding and incorporates an adaptive b…
+<p>by Huihui Zhang, Jiaxing Chang, Zirong Li, Yue Sun, Pinli Hu, Haoxiu Wang, Hang Yang, Yonglin Ren, Xingtan Zhang, Zehua Chen, Kok Wai Wong, Haojing Shao</p> Identifying spatial domains is crucial in spatial transcriptomics, yet effectively integrating gene expression, spatial location, and histology remains challenging. We present STESH, a Spatial Transcriptomics clustering method that combines Expression, Spatial information and Histology. STESH extracts histological features using a convolu…
 
 </details>
 
 ---
 
-### [Atlas-Level Single-Cell and Spatial Transcriptomics Data Integration via PRIME](https://www.biorxiv.org/content/10.64898/2026.05.20.726698v1?rss=1)
+### [Decoding Hierarchical Cell-Cell Communication in Spatial Multi-Omics with CellSTIC](https://www.biorxiv.org/content/10.64898/2026.05.27.728114v1?rss=1)
 *bioRxiv Bioinformatics*  
-Score: **0.79**
-Published: 2026-05-23
-Tags: single-cell, spatial-transcriptomics, data-integration, batch-correction, atlas, representation-learning
+Score: **0.60**
+Published: 2026-05-31
+Tags: cell-cell communication, spatial multi-omics, ligand-receptor, tumor microenvironment, spatial transcriptomics
 
-Proposes an atlas-level integration approach for scRNA-seq and spatial transcriptomics across heterogeneous donors and technologies, focusing on integration beyond pairwise batch correction. Useful for building robust cross-cohort references and disease atlas analyses.
+Focuses on inferring cell–cell communication while preserving spatial context using spatial transcriptomics/multi-omics, a common need in studying immunosuppressive niches and stromal interactions. The summary indicates hierarchical/region-specific signaling programs, which are transferable to oncology spatial analyses.
 
 <details>
 <summary>RSS summary</summary>
 
-Single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics (ST) have enabled atlas-scale cellular cartography, with consortium efforts now assembling millions of cells across diverse tissues, donors, and technologies to build comprehensive references for cell identify and disease mechanism, yet the scientific value of these atlases hinges on robust computational integration across heterogeneous data sources. Unlike pairwise batch correction, atlas-level integration must jointly reconcile…
+Cell-cell communication helps to coordinate tissue development, homeostasis, and immune responses, but identifying signaling interactions within intact tissues remains difficult. Although single-cell transcriptomics has enabled systematic inference of ligand-receptor interactions, dissociation disrupts spatial context and limits the identification of bona fide local signaling and region-specific communication programs. Spatial transcriptomics and spatial multi-omics offer the opportunity to stud…
 
 </details>
 
 ---
 
-### [Generalist large language models complement tailor-made predictors for tumor genomics interpretation](https://www.biorxiv.org/content/10.64898/2026.05.21.726957v1?rss=1)
-*bioRxiv Genomics*  
-Score: **0.69**
-Published: 2026-05-22
-Tags: LLM, variant-interpretation, drivers, clinical-genomics, AI-evaluation
-
-Evaluates general-purpose LLMs on clinically relevant tumor genomics interpretation tasks (tumor vs non-tumor, driver vs passenger, cancer type inference) and compares them to task-specific predictors. Relevant as an AI-for-interpretation study with direct clinical genomics framing.
-
-<details>
-<summary>RSS summary</summary>
-
-General-purpose large language models (LLMs) are trained on large corpora to acquire broad knowledge, but whether LLMs can replace, or augment, task-specific models is unclear. We evaluated LLMs on three real-world, clinically important tumor genomic interpretation tasks, in order of increasing difficulty: (i) distinguishing tumor from non-tumor mutations (n=34,415 variants), (ii) distinguishing driver from passenger mutations (n=13,469 variants), and (iii) inferring cancer type from tumor seque…
-
-</details>
-
----
-
-### [Identifying batch-integrated domains from spatial transcriptomics via graph autoencoder with contrastive learning based on cross-modality and data augmentation](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag248/8692754?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.63**
-Published: 2026-05-25
-Tags: spatial-transcriptomics, graph-autoencoder, contrastive-learning, batch-integration, computer-vision
-
-Presents a spatial transcriptomics method using a graph autoencoder with contrastive learning leveraging cross-modality and augmentation to improve domain identification and batch integration. Methodologically relevant for ST analyses, though the biological use case isn’t specified in the feed text.
-
-<details>
-<summary>RSS summary</summary>
-
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>Spatially resolved transcriptomics (SRT) allows for the comprehensive profiling of gene expression while preserving spatial context, advancing the study of tissue architecture. However, existing computational approaches still face key limitations, particularly the insufficient exploitation of histology information and the lack of cross-modal meaningful contrastive strategies for biological analyses. To overcome these challenges, …
-
-</details>
-
----
-
-### [PerturbPlan: An analytical framework for designing Perturb-seq experiments](https://www.biorxiv.org/content/10.64898/2026.05.22.727199v1?rss=1)
-*bioRxiv Genomics*  
+### [Cophenetic Spatial Topology Embedding reveals multiscale tissue architecture in spatial omics](https://www.biorxiv.org/content/10.64898/2026.05.26.727847v1?rss=1)
+*bioRxiv Bioinformatics*  
 Score: **0.55**
-Published: 2026-05-23
-Tags: Perturb-seq, experimental-design, power-analysis, single-cell, CRISPR-screen
+Published: 2026-05-29
+Tags: spatial omics, tissue architecture, embedding, multiscale, computational method
 
-Derives an analytical power/cost framework for designing Perturb-seq experiments as an alternative to computationally costly simulations. Useful for planning scalable single-cell perturbation studies, though not directly tied to a specific cancer application in the summary.
+Introduces a spatial omics embedding framework aimed at capturing multiscale tissue architecture without choosing a radius/neighborhood cutoff, which is a practical analysis advantage. Could be useful for summarizing tumor organization but no cancer-specific application is stated in the snippet.
 
 <details>
 <summary>RSS summary</summary>
 
-CRISPR screens with single-cell RNA-seq readouts provide a powerful tool for characterizing the functions of noncoding elements and genes. However, designing these experiments to balance statistical power and cost is challenging, given the large number of design parameters. The only available tool for this purpose is a simulation-based power calculator, but it is computationally costly and requires high-performance computing to run. We derive a novel analytical formula for the power to detect pe…
+The spatial organization of tissues emerges from cell interactions across multiple scales, yet current spatial omics analysis tools often emphasize local neighborhoods and may not summarize broader tissue architecture. Here we introduce Cophenetic Spatial Topology Embedding (COSTE), a computational framework that embeds directed nearest-neighbor distance profiles into a hierarchical metric space without requiring the user to define a spatial radius or neighborhood cutoff. COSTE can be applied to…
 
 </details>
 
 ---
 
-### [A comprehensive survey of computer vision methods for spatial transcriptomics](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag255/8692756?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.46**
-Published: 2026-05-25
-Tags: review, spatial-transcriptomics, computer-vision, methods-survey, histology
+### [Supervised deep learning with gene functional annotation for cell classification](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014327)
+*PLOS Comp Bio*  
+Score: **0.52**
+Published: 2026-06-01
+Tags: scRNA-seq, cell classification, deep learning, interpretability, gene sets
 
-Survey/review of computer vision approaches for spatial transcriptomics, focusing on how spatial and image information are used in ST analysis frameworks. Helpful for method landscape awareness rather than immediate translational application.
+Proposes supervised deep learning for scRNA-seq cell classification that incorporates gene functional annotation to improve interpretability beyond long DE gene lists. Useful for single-cell workflows, though not explicitly oncology-focused in the summary.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>Spatial transcriptomics (ST) enables the simultaneous measurement of gene expression and spatial localization within tissue sections, providing unprecedented opportunities to dissect tissue architecture and functional organization. As a relatively new omics technology, bioinformatics has driven much of the innovation in ST. However, within these frameworks, spatial information is often reduced to locations and relationships betwe…
+<p>by Zhexiao Lin, Yuanyuan Gao, Wei Sun</p> Gene-by-gene differential expression analysis is a widely used supervised approach for interpreting single-cell RNA-sequencing (scRNA-seq) data. However, modern scRNA-seq datasets often contain large numbers of cells, leading to the identification of many differentially expressed genes with extremely small p-values but negligible effect sizes, thus making biological interpretation difficult. To overcome this challenge, we developed Supervised Deep lea…
 
 </details>
 
 ---
 
-### [An integrated protocol for multiplexed DNA FISH and protein detection in large tissue sections](https://www.biorxiv.org/content/10.64898/2026.05.20.726465v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.44**
-Published: 2026-05-22
-Tags: spatial-omics, DNA-FISH, multiplex-imaging, protein, protocol, translational
-
-Describes a protocol combining multiplexed targeted DNA FISH with multiplexed protein IF on a commercial platform to produce single-cell spatial gene+protein readouts. Potentially useful for translational tissue profiling, but primarily a wet-lab/protocol contribution in the summary.
-
-<details>
-<summary>RSS summary</summary>
-
-Different omics types such as genomics and proteomics all contribute to deciphering biology. Applying these omics approaches in a spatial context helps reveal biology in situ at a single cell level. Here we present a protocol for the combined multiplexed detection of targeted genes using DNA FISH, and proteins using multiplexed immunofluorescence. The protocol is integrated on the commercial PhenoCycler platform and generates one single dataset with gene and protein readout at a single cell leve…
-
-</details>
-
----
-
-### [A workflow for combined detection of protein interactions and cell types for translational studies](https://www.biorxiv.org/content/10.64898/2026.05.19.725895v1?rss=1)
-*bioRxiv Cancer Biology*  
-Score: **0.41**
-Published: 2026-05-21
-Tags: multiplex-imaging, proximity-ligation, protein-interactions, tissue, workflow, translational
-
-Presents a cost-efficient workflow combining multiplexed immunofluorescence with in situ proximity ligation to detect protein interactions alongside cell typing in tissues. Translationally interesting, but the feed text emphasizes instrumentation/workflow rather than computational analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-Multiplexed imaging approaches of various molecular modalities in tissues are becoming increasingly adopted in discovery and translational studies. For clinical implementation, novel instrumentation, complex analysis workflows and high costs per sample are bottlenecks that hinders broader introduction in the clinical setting. Here, we demonstrate a cost efficient integrated workflow that combines multiplexed immunofluorescence of a handful of protein markers, with in situ proximity ligation assa…
-
-</details>
-
----
-
-### [Autoimmune non-coding variants perturb transcription factor-cofactor complex assembly linked to enhancer activity](https://www.biorxiv.org/content/10.64898/2026.05.20.726379v1?rss=1)
+### [Epigenome Alterations and 3D Chromatin Architecture Remodeling in Inflammatory Macrophage Activation under Diabetic Conditions](https://www.biorxiv.org/content/10.64898/2026.05.27.727961v1?rss=1)
 *bioRxiv Genomics*  
-Score: **0.28**
-Published: 2026-05-22
-Tags: non-coding variants, enhancers, TF binding, regulatory genomics, CASCADE
+Score: **0.41**
+Published: 2026-05-31
+Tags: multi-omics, 3D genome, chromatin architecture, epigenomics, macrophages
 
-Uses the CASCADE method to profile differential TF/COF binding and enhancer activity across thousands of autoimmune-associated variants in Jurkat T cells. Methodology may be indirectly relevant for regulatory variant interpretation, but the disease context is not oncology-focused.
+Applies integrated multi-omics including 3D chromatin architecture to study macrophage inflammatory activation, showcasing analysis patterns relevant to chromatin/epigenome integration. However, it is not cancer-focused and is centered on diabetic conditions.
 
 <details>
 <summary>RSS summary</summary>
 
-Most autoimmune disease-associated variants lie in non-coding regions, but the molecular mechanisms linking these variants to gene regulation remain poorly understood. A major unresolved challenge is to determine how disease alleles alter transcription factor (TF) binding, cofactor (COF) recruitment, and enhancer activity at scale. Here, we used the CASCADE method to profile differential binding of five TFs and ten COFs to 2,901 autoimmune disease-associated variants in Jurkat T cells, identifyi…
+Aberrant monocyte and macrophage activation in diabetes drives chronic inflammation and complications. While epigenetic mechanisms are implicated, the role of 3D chromatin reorganization remains unclear. Using integrated multi-Omics, we profiled gene expression and 3D chromatin architecture in human CD14+ monocyte differentiated macrophages treated with high glucose plus TNF-alpha (HT) mimicking the diabetic milieu. HT induced inflammatory programs resembling those in diabetes, dynamically alter…
+
+</details>
+
+---
+
+### [Genomics-Informed Approach Identifies Which Cell Types Regulate the Metabolome](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag330/8698028?rss=1)
+*Bioinformatics (Oxford Academic)*  
+Score: **0.40**
+Published: 2026-05-29
+Tags: metabolomics, mQTL, scRNA-seq atlas, data integration, cell-type mapping
+
+Integrates large metabolite QTL resources with a large scRNA-seq atlas to map cell types regulating systemic metabolite levels, which is methodologically interesting for cross-dataset integration. Not oncology-focused and oriented toward body-wide metabolism rather than tumor context in the abstract snippet.
+
+<details>
+<summary>RSS summary</summary>
+
+<span class="paragraphSection"><div class="boxTitle">Abstract</div>Metabolism occurs in a cell type-specific manner, but which cells regulate metabolite levels remains unclear. Here, we integrate some of the largest metabolite quantitative trait loci datasets, TOPMed and UK Biobank, with one of the most extensive single-cell RNA sequencing resources, Tabula Sapiens. This integration allows us to identify cell types that regulate metabolites body-wide. We find hepatocytes are the primary regulato…
+
+</details>
+
+---
+
+### [Fibroblast-derived thrombospondin-1 shapes macrophage polarization in advanced human co-culture models](https://www.biorxiv.org/content/10.64898/2026.05.28.728363v1?rss=1)
+*bioRxiv Cancer Biology*  
+Score: **0.32**
+Published: 2026-05-29
+Tags: tumor microenvironment, macrophage polarization, fibroblasts, organoid co-culture, mechanism
+
+Describes advanced human co-culture/organoid-like models to study stromal–immune interactions and macrophage polarization, which is biologically relevant to TME. The snippet emphasizes model development/mechanism rather than computational single-cell/multi-omics analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+BackgroundTumor-associated macrophages (TAMs) are key drivers of the immunosuppressive tumor microenvironment (TME), supporting tumor progression through diverse functions. However, mechanistic studies of TAM polarization remain limited by the lack of physiologically relevant human model systems that capture stromal-immune interactions and macrophage heterogeneity. MethodsWe established advanced human co-culture systems that integrate healthy donor-derived macrophages with patient-derived organo…
+
+</details>
+
+---
+
+### [Matched pancreatic cancer liver metastatic model system reveals cancer cell-dependent organotropism and site-specific tumor microenvironment reflective of human disease](https://www.biorxiv.org/content/10.64898/2026.05.27.728281v1?rss=1)
+*bioRxiv Cancer Biology*  
+Score: **0.28**
+Published: 2026-05-31
+Tags: PDAC, metastasis model, organotropism, tumor microenvironment, preclinical model
+
+Presents a matched primary/metastatic PDAC transplant model to study organotropism and site-specific TME, which is translational model-system work. Computational/omics components are not evident in the provided snippet.
+
+<details>
+<summary>RSS summary</summary>
+
+Pancreatic ductal adenocarcinoma (PDAC) is a deadly, highly metastatic disease, driven by an interplay between cancer cells and the metastatic site-specific microenvironment. However, pre-clinical models that robustly capture these interactions within the context of matched primary and metastatic tumors are limited. Here, we present a novel transplant model system for matched pancreas and liver tumors to study PDAC metastatic progression. Using this model, we identified murine PDAC cell lines wi…
+
+</details>
+
+---
+
+### [PCSK9 Exhibits Novel Nuclear Localization in LSEC and Its Targeting with Bioinspired Nanoparticles Reduces Colorectal Liver Metastasis](https://www.biorxiv.org/content/10.64898/2026.05.26.727886v1?rss=1)
+*bioRxiv Cancer Biology*  
+Score: **0.20**
+Published: 2026-05-29
+Tags: metastasis, PCSK9, nanoparticles, liver microenvironment, colorectal cancer
+
+Describes PCSK9 localization in liver sinusoidal endothelial cells and nanoparticle targeting to reduce colorectal liver metastasis. This is largely a mechanistic/nanoparticle delivery study with no clear computational or multi-omics component in the summary snippet.
+
+<details>
+<summary>RSS summary</summary>
+
+Background & AimsColorectal cancer liver metastasis is the leading cause of mortality in affected patients, with liver sinusoidal endothelial cells playing a pivotal role in metastatic niche formation. Proprotein convertase subtilisin/kexin type 9 has emerged as a regulator of tumor biology, but its function in the hepatic microenvironment remains poorly defined. This study aimed to characterize the role and subcellular localization of PCSK9 in liver sinusoidal endothelial cells and to evaluate …
 
 </details>
 
