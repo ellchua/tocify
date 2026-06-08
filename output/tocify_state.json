@@ -1,5 +1,9 @@
 {
   "items": {
+    "0023c7f462d8c171c6c4c746c13e0be3c8c8f557": {
+      "fingerprint": "ee6fd0a0faf84dfed6e9f7b1c25f404e8de7c87b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "00321f8851708261313c61dfa20352b28a68672a": {
       "fingerprint": "69bf9731677bdd350d1cf913cccd726ebebc6cca",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -98,6 +102,10 @@
     "00d4a4315ccc5eb3b848f47486e2941c96d277cc": {
       "fingerprint": "c09f7e35b37dbae5c660c4cba939329b194ac2c2",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "00f5b8ceb62455578e26fe9af333002f206f23b0": {
+      "fingerprint": "cda4fe9f7fb45178d838b6a8877dd1b9facf37ea",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "0102bcb6d5f07dc88467f3efe9dcfdcb9d94ef7b": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -430,6 +438,46 @@
       "fingerprint": "28805bc21cc1401a6ae09fcecd331eca2815bae4",
       "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
     },
+    "02d685bba0347a53a769021fb35b7217bc63b8ef": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "02d685bba0347a53a769021fb35b7217bc63b8ef",
+        "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014346",
+        "published_utc": "2026-06-05T14:00:00+00:00",
+        "score": 0.78,
+        "source": "PLOS Computational Biology",
+        "tags": [
+          "spatial transcriptomics",
+          "trajectory inference",
+          "multi-omics",
+          "computational method",
+          "translational"
+        ],
+        "title": "StPedf: Cell trajectory inference of spatial transcriptomics via spatial proximity embedding and spatial density-adaptive fusion",
+        "why": "Novel method for spatial trajectory inference in transcriptomics; applicable to tumor microenvironments."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "02d685bba0347a53a769021fb35b7217bc63b8ef",
+        "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014346",
+        "published_utc": "2026-06-05T14:00:00+00:00",
+        "score": 0.66,
+        "source": "PLOS Comp Bio",
+        "tags": [
+          "spatial transcriptomics",
+          "trajectory inference",
+          "cell states",
+          "computational method",
+          "embedding"
+        ],
+        "title": "StPedf: Cell trajectory inference of spatial transcriptomics via spatial proximity embedding and spatial density-adaptive fusion",
+        "why": "Proposes a trajectory inference method tailored to spatial transcriptomics using spatial proximity embedding and density-adaptive fusion, a transferable approach for studying spatial cell-state dynamics."
+      },
+      "fingerprint": "ab838d1bbc9ac8c2adea85b283871146051fe8c1",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "02d93a79370925b0646b1e8124ec212fa28925e0": {
       "fingerprint": "88c87fdadd2180ce9dc68baad91d1db3ecd2da98",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -437,6 +485,10 @@
     "02fb07ec8d0d9a6e07af4da52cff8ab139a214b6": {
       "fingerprint": "69f183cfcab9cceb6dda7e00c6dae2f5742870d4",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
+    },
+    "0321a8158cf4962b75146f9274665da95d75873c": {
+      "fingerprint": "564d091d223fc0240a6e2491cd3c7b4fdad16ff9",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "032e8d2f7dc3d8580d498964e8397dd01f7c4125": {
       "fingerprint": "0fafd1ef4b140b513d4364dec815d326a287bc74",
@@ -470,6 +522,10 @@
       "fingerprint": "fcb0bb8031849e06c38b283133f0746844cd2048",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
     },
+    "040a3be89c800a85b5864bea13b5a2733a6529e3": {
+      "fingerprint": "d17e5c093dde1fcd56c2b12ec81d5f08caf4bdec",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "0415f6ac1af3bdf949cbd1eb9c79891f3cf37977": {
       "fingerprint": "aab807619ad1b9fcb8b1db7cf66e1279018c993c",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
@@ -485,6 +541,10 @@
     "044d7576bee5695135c70e0896f844734f8722b5": {
       "fingerprint": "742ee01a319ec3d25876a664a81a0c0fcbfcaf71",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
+    },
+    "04712a8c80be07be50d86ef9248ffe612c0fac91": {
+      "fingerprint": "d4743645479ddb14eb48543d9d5fe2f24309238e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "0491eab33cc16d9ea238dd5d9b456bc6e75e9086": {
       "fingerprint": "00478ef835b24dbc70cb30e164d6c8d6556d4930",
@@ -760,6 +820,10 @@
       "fingerprint": "2cbc733529c1edf03f514979443c61ff9dd38bf2",
       "last_seen_utc": "2026-05-25T17:31:23.303320+00:00"
     },
+    "06a96ef40e168e22419fb02480dfb37ada06eb7f": {
+      "fingerprint": "9c53414a33f87e3dff3b8de109839b83c94b3d3a",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "06aab1a8e7cffd48035d5a736a4d95af34a88f26": {
       "fingerprint": "dafbaae6fa8eadf3b60bac3c438b69f0b4f8b58a",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -819,6 +883,10 @@
     "06ebca9fbb9e25a88d28af4251c270b76e779124": {
       "fingerprint": "4d05870faf16b4c1561d890ebe349bd1a26b24e5",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "06f123dc4d4b17fda5e8fb690dfc5520b3657466": {
+      "fingerprint": "8edf448b5938cd76eda76b427d224efea4399af6",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "06f73061755dc9ed67c3a5ab22a0c072424a2214": {
       "fingerprint": "4560ff620467b4dd2b17c474966f689be52befb9",
@@ -891,6 +959,10 @@
     "07f7e9e83b0fdbf84674a4749df1abd99ca41648": {
       "fingerprint": "ef4c147a41948ca17e8780e3ed96f2627199d1cd",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "07f8d8a9ee861bb70ca9bdb719ae8f434de56657": {
+      "fingerprint": "09912e680e43a1ea92172c20ee0b8fcb72516b8e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "0803f8f991c1e2dd349704596e4cb597c80ad32c": {
       "fingerprint": "ec2841784be2764fd673eda605aa6009b73b43d1",
@@ -1060,6 +1132,10 @@
     "09413cb6e260a56326683203ee95946383d73ca1": {
       "fingerprint": "4e68bd036ef01d88b9e154985f0186feafa25f3e",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
+    },
+    "099a05f36ad535b61768796260eb090a07221f5f": {
+      "fingerprint": "df718dabdaa4c2fbaa4bae31f36f13af6fb6cc42",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "09a6d0b56c872cabbbbe626dc73a1820e457de35": {
       "fingerprint": "56541a6426537ea61213260eed495d44dbdf1dc7",
@@ -1290,6 +1366,10 @@
     "0a643dd2d1f9327edf169ed7943be49f27871370": {
       "fingerprint": "8b4f333ce1d0b15b6dc7f74af6a08a2d5cfb616a",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
+    },
+    "0a7271291853f466988bb949dc3418d3cfd57b1e": {
+      "fingerprint": "cc435cda6cf7614afea17165c91cb9a151ea8fb0",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "0a752ec8e461de48ec749916a33ba21d47253f3f": {
       "fingerprint": "8ed25676c0b6e47c8bac94fd9c971053c2181aa5",
@@ -1822,6 +1902,10 @@
       "fingerprint": "b54b949e466570b40d3e85044d75358c7cdcf334",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
     },
+    "0f30c93111f2020f3a9f942a14de27cd854a4ba6": {
+      "fingerprint": "0e92b862e949560b5c08b8c121dca27231dd22ca",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "0fc495e84386c1b089991d7e68a3a846c1b24b38": {
       "fingerprint": "e379f9e40029cdce466a39cc0d1f02c040495948",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
@@ -1842,6 +1926,10 @@
       "fingerprint": "df7a5cc4ec1db5e505c4d1d9e8486e66ce10cba0",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
     },
+    "1051f6b6c2eb3a16e019e6e9faf9c97d79c7f3fa": {
+      "fingerprint": "d583b0e03eae6bc3a1788f62b8c59715831aa9c8",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "106bdc96dc935ce1e91e304bb8b9dc90d8a99b37": {
       "fingerprint": "7511a55d31f4f727b4a8d199402d7d02672a7e6e",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
@@ -1857,6 +1945,10 @@
     "10b09998849cfe3d321368c8891853e2257c3a55": {
       "fingerprint": "b5924b5e9601c6d3e6b4e78f3ef908ff3a8e672c",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
+    },
+    "10dfcb5aaf75b51cd9062a7ee70df29c6cc6cd1a": {
+      "fingerprint": "1ee8572d77f6e5391d9c7710153a4c56c508d58d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "10e7826cf5c713f266f245abb1f6ba23c493f9c6": {
       "fingerprint": "2a29a699ec64040d059bf9ebfb987c24d9b700a5",
@@ -1936,6 +2028,10 @@
       },
       "fingerprint": "88fce8768b8e8e4339412763be3a3d8d2bb8bcfd",
       "last_seen_utc": "2026-04-13T16:57:44.350620+00:00"
+    },
+    "11ccb42015a031d57d9128f6ee90c36bf60508b8": {
+      "fingerprint": "27cecf404dc4d8cdf2398c846ec4735b0524db9f",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "11d38640066e945e313dc960cce5cc80b493f6ec": {
       "fingerprint": "a5aef763b72992f710b1cb7acb1ccdfcc0bac3e1",
@@ -2269,6 +2365,44 @@
       "fingerprint": "f8064da651035048cc136d7f76588bf1afee328a",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "13b8429320b02e08036eb88487b1d5473e5cb69d": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "13b8429320b02e08036eb88487b1d5473e5cb69d",
+        "link": "https://www.nature.com/articles/s41698-026-01540-9",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.82,
+        "source": "npj Precision Oncology",
+        "tags": [
+          "multi-omics",
+          "immunotherapy",
+          "NSCLC",
+          "biomarkers",
+          "translational"
+        ],
+        "title": "Author Correction: Multi-omics profiling reveals tumor microenvironment characteristics linked to immunotherapy response and prognosis in non-small cell lung cancer",
+        "why": "Multi-omics profiling tied to immunotherapy response and prognosis in NSCLC; strong translational biomarker angle."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "13b8429320b02e08036eb88487b1d5473e5cb69d",
+        "link": "https://www.nature.com/articles/s41698-026-01540-9",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.02,
+        "source": "npj Precision Oncology",
+        "tags": [
+          "correction",
+          "non-small cell lung cancer",
+          "multi-omics"
+        ],
+        "title": "Author Correction: Multi-omics profiling reveals tumor microenvironment characteristics linked to immunotherapy response and prognosis in non-small cell lung cancer",
+        "why": "This is an author correction notice rather than a new study; no new analyzable content is provided here."
+      },
+      "fingerprint": "29313325ae2547f66a789116b2bcba3b917ee764",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "13c183a4129ae9b96455061816155a2aff78a195": {
       "fingerprint": "e152d0485cc1c29c3f39a11b267c35bf20445413",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
@@ -2356,6 +2490,10 @@
     "144073cfa6dbb5c9d4c26ca6d3e30a8abce47acc": {
       "fingerprint": "bbc02df1af3443662a38c8e54a32003a9cca6e74",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
+    },
+    "147668b939b2aea06ec9658e3c600a306d479659": {
+      "fingerprint": "c14eb52c1f921a58ca8dca94028382cacb809748",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "148ae9bebcc220e77ada63b579cf129746328440": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -2502,6 +2640,10 @@
       "fingerprint": "f63b2786183e254710ccb3a2db7e75d602077a01",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "159c5654193b0ee2d25b49b17c7cea5ab4209bcf": {
+      "fingerprint": "a212e6c6f3893e1a1b9ee1a038e5843d4cbfc60b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "15ab5be518fb2a046e3d3c23e697d1fde50699ab": {
       "fingerprint": "c94a88f048d5e1a6f4cc7e84b58332c6b73d5885",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
@@ -2509,6 +2651,10 @@
     "15c8a20acfada676640f00fe701a0a0bf5b3fd65": {
       "fingerprint": "229c1ced889cd0ea8a444919c98bcfa25ee5fa7c",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
+    },
+    "15ec6e2a0da35b1dc6c7ff771f55c56f4be99647": {
+      "fingerprint": "f877b40afc86227ea218b1f9a6aeeec6edd37784",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "16009f30a9b144eb985a79bee426a3d99051f4e6": {
       "fingerprint": "6f1f04f60ecebd3355692df38a45073b25441296",
@@ -2855,6 +3001,47 @@
       "fingerprint": "b4a7021e234da3e93d5abe4df801d25779eecbb6",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
     },
+    "191c8c28188f12b36b85ef717460e7c67555ca88": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "191c8c28188f12b36b85ef717460e7c67555ca88",
+        "link": "https://aacrjournals.org/cancerrescommun/article/6/6/1319/785676/Identification-of-Pancreatic-Ductal-Adenocarcinoma",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.85,
+        "source": "AACR Cancer Research Communications",
+        "tags": [
+          "PDAC",
+          "proteomics",
+          "ECM",
+          "tumor microenvironment",
+          "biomarkers",
+          "immunology"
+        ],
+        "title": "Identification of Pancreatic Ductal Adenocarcinoma Extracellular Matrix Signatures from In-Depth Proteomic Profiling that Correlate with Lymphocyte Infiltration",
+        "why": "PDAC ECM signatures linked to immune infiltration; translational biomarker and TME insight."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "191c8c28188f12b36b85ef717460e7c67555ca88",
+        "link": "https://aacrjournals.org/cancerrescommun/article/6/6/1319/785676/Identification-of-Pancreatic-Ductal-Adenocarcinoma",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.3,
+        "source": "AACR Cancer Research Communications",
+        "tags": [
+          "proteomics",
+          "extracellular matrix",
+          "tumor microenvironment",
+          "lymphocyte infiltration",
+          "PDAC"
+        ],
+        "title": "Identification of Pancreatic Ductal Adenocarcinoma Extracellular Matrix Signatures from In-Depth Proteomic Profiling that Correlate with Lymphocyte Infiltration",
+        "why": "Proteomic ECM signatures linked to lymphocyte infiltration are interesting for TME biology, but the cancer type (PDAC) is outside pediatric translational oncology and the utility for therapy response is not explicit in the snippet."
+      },
+      "fingerprint": "2d7c19e3c98b380eb5a541f5a824172e3ba503b4",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "1929c38926e7a7f6ebb08afec01b46128b3a779a": {
       "fingerprint": "f342e0ba439a4c067d07a7bf18ace923849f4daa",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -2964,6 +3151,10 @@
     "19e1bb4d82c77e593235383e6fe7f858d443feba": {
       "fingerprint": "37b72f767f09a7663c15c27c0ac8d9eb0202eb45",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
+    },
+    "19ec72a24db63fc5d5e751320cce1f46a8c4a4cd": {
+      "fingerprint": "a1d32cf3484de6c3fe2beddf49311be2ef8baebd",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "1a05fb18c0e9b7ec7c81d46e05bc131fc5ea6090": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -3181,6 +3372,10 @@
     "1b1ea64fb283c333e5913eb7c3035547e40ede4b": {
       "fingerprint": "1cbd4c1c18ebda2d7e9b0a6eaa16c8a272a06124",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "1b3bc3666fa36409bce2036d38c7f421eab5e84a": {
+      "fingerprint": "773216b7b5cd35477e76018d2039cfdeb4139a60",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "1b402c0dddf1246151c9bfb14c382f24d7987d34": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -3444,6 +3639,10 @@
       "fingerprint": "dd24e744d47bb7a1ea96904a345831fa9b6b6323",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
     },
+    "1cf33df43240684e2b839a7c4fd30675cf5d66ac": {
+      "fingerprint": "03d01e7967b7b7869c65aafad137b03ba34fc9f3",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "1d061fbdada769163564bb5eafb0f43be101ca79": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -3486,6 +3685,10 @@
     "1d63628fc618ba60e203ddf539e2cb23d644d67f": {
       "fingerprint": "aeb548988692896b9fa38d89b1873492f4e2859c",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "1d7a8796492bdbabc176974a6bc9b17488d3e319": {
+      "fingerprint": "1b7b508f9383353e038640d6742625dc9a1b8282",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "1d8092df2731bb0ee19cf3e9a444bb3cf5da43a4": {
       "fingerprint": "4da3255e6bf78ccc2152e37c0018eacd822e14b3",
@@ -4015,6 +4218,43 @@
       "fingerprint": "a824b12799e5db8cd3e52e6536ecf6e72d78bd77",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
     },
+    "2188cb13a741c165e6ae0e04cd151dbb9d7aecf6": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "2188cb13a741c165e6ae0e04cd151dbb9d7aecf6",
+        "link": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2849982",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.7,
+        "source": "JAMA Oncology",
+        "tags": [
+          "immunotherapy",
+          "SCLC",
+          "clinical trial",
+          "survival"
+        ],
+        "title": "Durable Gains and Persistent Questions From the ASTRUM-005 Trial",
+        "why": "Long-term survival data for serplulimab plus chemotherapy in ES-SCLC; direct therapeutic relevance and biomarkers for response."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "2188cb13a741c165e6ae0e04cd151dbb9d7aecf6",
+        "link": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2849982",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.18,
+        "source": "JAMA Oncology",
+        "tags": [
+          "clinical trial commentary",
+          "immunotherapy",
+          "small cell lung cancer"
+        ],
+        "title": "Durable Gains and Persistent Questions From the ASTRUM-005 Trial",
+        "why": "Commentary on an immunotherapy trial in extensive-stage small cell lung cancer; clinically focused but outside pediatric oncology and not method/biomarker-centered in the snippet."
+      },
+      "fingerprint": "41476aa8b9dd8da7045eeb9e22d4fc2850d38d8e",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "219fcbd1d24fe5bd6e8490e08b67c553102ce9a2": {
       "fingerprint": "afa4f9d02a6cc755a3e3575c0b8cf9eb1db3477a",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
@@ -4490,6 +4730,10 @@
       "fingerprint": "040af93d06c451a9ce93d1c1c88a21881b3837a5",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "26d99daeb0a81102da2adbf894c6292788733a72": {
+      "fingerprint": "fc41a7e3e40312be10b9fbc6c40d73f3a95ce20c",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "26f69076c6a54ed2838eebd827be0503ef89b2ce": {
       "fingerprint": "5d5f5e9b96273b3847e73e70f71985a7641f2ede",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
@@ -4497,6 +4741,44 @@
     "2709f6edd9d632e0fc3dbe08e9cbc619ec649117": {
       "fingerprint": "c3c715b4570ac20d40e3330f01aed78fdca30e32",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
+    },
+    "271e615e3da2b89963b21f7e196d607adda7db86": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "271e615e3da2b89963b21f7e196d607adda7db86",
+        "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bbag285/8703117?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.66,
+        "source": "Briefings in Bioinformatics (Oxford Academic)",
+        "tags": [
+          "cryo-EM",
+          "protein structure",
+          "few-shot learning",
+          "protein function"
+        ],
+        "title": "CryoFSL: an annotation-efficient, few-shot learning framework for robust protein particle picking in cryo-electron microscopy micrographs",
+        "why": "Annotation-efficient approach for protein particle picking; supports structural biology relevant to biomarker research."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "271e615e3da2b89963b21f7e196d607adda7db86",
+        "link": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbag285/8703117?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.08,
+        "source": "Briefings in Bioinformatics (Oxford Academic)",
+        "tags": [
+          "cryo-EM",
+          "few-shot learning",
+          "computer vision",
+          "method"
+        ],
+        "title": "CryoFSL: an annotation-efficient, few-shot learning framework for robust protein particle picking in cryo-electron microscopy micrographs",
+        "why": "Few-shot learning for cryo-EM particle picking is an AI method but is not directly relevant to single-cell/omics biomarker discovery or translational pediatric oncology workflows."
+      },
+      "fingerprint": "fe4421a5155556d64a7f7d703b85061752b6f4d3",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "2726fc6bf5f9295170617f523fd273c7a4fd22f0": {
       "fingerprint": "2c08bed5752c59277af30031fd9251e91304f5af",
@@ -4574,6 +4856,10 @@
       },
       "fingerprint": "d8da9df91fe5cffd16955259f9dad82af4ad0bfd",
       "last_seen_utc": "2026-03-02T16:34:48.568352+00:00"
+    },
+    "28574189cdcbf8a829f139c799ed453a38324228": {
+      "fingerprint": "8c24db68dd53e6bad390fcfed160cc170ef1616c",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "28606a1369f705bd87006b7389db7238285ab567": {
       "fingerprint": "39672a0a5889c1e44d3ea77d39280455934d2f1d",
@@ -5023,6 +5309,46 @@
       "fingerprint": "33357005d2d79b4aa3377097d6abbe4a411be2d5",
       "last_seen_utc": "2026-04-20T16:57:43.723592+00:00"
     },
+    "2d22245c43a350ab3a5eb7aba9162e8b30c37970": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "2d22245c43a350ab3a5eb7aba9162e8b30c37970",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.04.730099v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.75,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "IHC",
+          "biomarkers",
+          "glioblastoma",
+          "clinical pathology",
+          "translational"
+        ],
+        "title": "Intra-slide calibration technology improves immunohistochemical harmonization within and between anatomic pathology laboratories",
+        "why": "Tests an intra-slide calibration approach to harmonize p53 IHC across labs in glioblastoma, addressing cross-lab biomarker assay reproducibility."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "2d22245c43a350ab3a5eb7aba9162e8b30c37970",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.04.730099v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.45,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "IHC",
+          "assay harmonization",
+          "pathology",
+          "biomarkers",
+          "reproducibility"
+        ],
+        "title": "Intra-slide calibration technology improves immunohistochemical harmonization within and between anatomic pathology laboratories",
+        "why": "Targets reproducibility/harmonization of IHC across labs using intra-slide calibration (tested on p53 IHC in glioblastoma biopsies), which is broadly relevant to biomarker assay standardization."
+      },
+      "fingerprint": "ea27b4bf709ab2fced54581998ace19fdd6765b9",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "2d2fbdf7123c34325fabbeeee96e14a052dc7b06": {
       "fingerprint": "212697c11f032b8a90bffebfdb8bc7f9283ba935",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -5408,6 +5734,10 @@
       },
       "fingerprint": "3378ac28a2100b32f29eb30dedd0963b458b59dd",
       "last_seen_utc": "2026-05-25T17:31:23.303320+00:00"
+    },
+    "30ce4b0ec10decd29b464fe58fc36c58c060dfba": {
+      "fingerprint": "c42b5ab41e5d32fe540776ac191467d517fd8d0f",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "30e5280897a06ef59e2ce87a9192075c6bef4078": {
       "fingerprint": "a9e0167be7f511d7fefbc98520f6f5ce1563ba12",
@@ -6053,6 +6383,10 @@
       "fingerprint": "cadc5f04a36eabfe31863e42bee211f06d2ad0aa",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
     },
+    "35850812ae84563d019cdd55971ca3fa0120d554": {
+      "fingerprint": "6a3d7328cd5c34bef106db20a9d70992b8075de3",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "358f507eb1814514df6867f22e9818a76b5f4abe": {
       "fingerprint": "5bc14ec00bca1653e919e8b6fc593eb1169aba58",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
@@ -6297,6 +6631,10 @@
       "fingerprint": "5d392475ac7b1a684b0c8abd959ead58bb48c164",
       "last_seen_utc": "2026-04-13T16:57:44.350620+00:00"
     },
+    "370b3fcea1edd4cd6d5c39eae67c7367e72baac3": {
+      "fingerprint": "9693812c7fef9e984d83aaf1de5e5afa521ccbef",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "374e6816907bc7fb1e822f33e659d1aadb587f82": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -6386,6 +6724,43 @@
       },
       "fingerprint": "525c253719126442d0b1ce5f1764c1c4e0e3ced8",
       "last_seen_utc": "2026-03-23T16:51:56.015905+00:00"
+    },
+    "3768261fd83b248b61e0811a7c7ca1ac64660a6d": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "3768261fd83b248b61e0811a7c7ca1ac64660a6d",
+        "link": "https://www.nature.com/articles/s41416-026-03488-w",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.65,
+        "source": "British Journal of Cancer",
+        "tags": [
+          "clinical trial",
+          "phase 1",
+          "drug development",
+          "translational"
+        ],
+        "title": "A first-in-human, open-label multicentre Phase 1 study of the orally administered E7386 in patients with selected advanced neoplasms",
+        "why": "Phase 1 study with translational potential; early pharmacodynamics/biomarker readouts may inform future NB-relevant targets."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "3768261fd83b248b61e0811a7c7ca1ac64660a6d",
+        "link": "https://www.nature.com/articles/s41416-026-03488-w",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.22,
+        "source": "British Journal of Cancer",
+        "tags": [
+          "phase 1 trial",
+          "drug development",
+          "clinical oncology"
+        ],
+        "title": "A first-in-human, open-label multicentre Phase 1 study of the orally administered E7386 in patients with selected advanced neoplasms",
+        "why": "Clinical phase 1 trial of an agent (E7386) in selected advanced neoplasms; the provided summary lacks biomarker, omics, or pediatric focus details."
+      },
+      "fingerprint": "b836cbcab3d2e1d1c9f2508da3d74a4b6ab4669f",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "37714fb4406f3252702e015db1b76a2fda2d02a5": {
       "fingerprint": "59c59a141a2384d1132d23d76c458f39e4cfc9dc",
@@ -6548,6 +6923,46 @@
       "fingerprint": "7d767befe0ae482db5ab8b9afba1adb2b78ce683",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
+    "3979417785c738da8e4551684ffa1838180e4ae5": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "3979417785c738da8e4551684ffa1838180e4ae5",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.03.729838v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.75,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "organoid",
+          "sarcoma",
+          "metastasis",
+          "lung co-culture",
+          "translational"
+        ],
+        "title": "A human lung organoid co-culture model of early bone sarcoma metastasis reveals contact-dependent epithelial remodeling at the metastatic interface",
+        "why": "3D organoid-based co-culture model of sarcoma metastasis; translational relevance for understanding metastatic niche interactions in pediatric/sarcoma contexts."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "3979417785c738da8e4551684ffa1838180e4ae5",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.03.729838v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.41,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "organoids",
+          "co-culture model",
+          "sarcoma",
+          "metastasis",
+          "preclinical model"
+        ],
+        "title": "A human lung organoid co-culture model of early bone sarcoma metastasis reveals contact-dependent epithelial remodeling at the metastatic interface",
+        "why": "Describes a human lung organoid co-culture platform with patient-derived bone sarcoma cells to model early metastatic interactions, offering preclinical relevance but not clearly computational or NB-focused in the summary."
+      },
+      "fingerprint": "19530da88003b21b745e31a44f19a4b4a81583b4",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "398b43bd4077a909db7460ffffd2e1b2bb43b064": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -6697,6 +7112,10 @@
       "fingerprint": "841b7a682788095ff7e778cbcd8b9d58b5eab679",
       "last_seen_utc": "2026-03-09T16:55:09.671519+00:00"
     },
+    "3b3b4f6477cae0ef33bb49c09125b1f3277c982e": {
+      "fingerprint": "bb5da161bb8da81bc3f30df8ffc837597a3f4a34",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "3b44994bb1fc88e12a85397fbbabf415638edc0c": {
       "fingerprint": "37c408bd5b0c17e2ea20f5ea566edbc26a2eba61",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -6704,6 +7123,10 @@
     "3b6357bc9821ed439cfb9aa789613600f8aed17f": {
       "fingerprint": "b6634bbd77a2f219cb86c42a6cdfc452ea8f3368",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "3b63d69efc436031e4ce12e7d9ae95e2cf5d8a6d": {
+      "fingerprint": "32d7913eed6c40c272b8cfdd295cc8b9a6063ee2",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "3ba76b588020cdf7218dda0ff41be665de6c4e97": {
       "fingerprint": "03e0fe6b42d9485d08ff0162f8ad04e21b68ddbb",
@@ -7284,6 +7707,10 @@
       "fingerprint": "b3203a8aa1161257fc505089e09cd73060db533e",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
     },
+    "3e9a60cce6f21280eeae85d80ce06a7193e63472": {
+      "fingerprint": "f28d21353db5ec521cd0c37d5049d49eeb6b4328",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "3ea23206252a57a454b402509a8fb0323193ac7d": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -7360,6 +7787,47 @@
       },
       "fingerprint": "033b6f42b757c09c6d79c545a88f940aaf19f3bc",
       "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
+    },
+    "3ef800ff862d9990b8d647dfd23d106f33ecf44e": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "3ef800ff862d9990b8d647dfd23d106f33ecf44e",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.03.729757v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.55,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "AML",
+          "chemoresistance",
+          "leukemia stem cells",
+          "therapy resistance",
+          "translational"
+        ],
+        "title": "Dnmt3a-mutant Leukemia Stem Cells evade chemotherapy through enforced quiescence in Npm1c-Flt3ITD Acute Myeloid Leukemia",
+        "why": "Chemoresistance mechanism via leukemia stem cell quiescence; while AML, the study informs resistance biology and stem-cell–driven relapse mechanisms that can inspire translational thinking in pediatric malignancies."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "3ef800ff862d9990b8d647dfd23d106f33ecf44e",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.03.729757v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.62,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "chemotherapy resistance",
+          "leukemia stem cells",
+          "DNMT3A",
+          "quiescence",
+          "relapse",
+          "preclinical models"
+        ],
+        "title": "Dnmt3a-mutant Leukemia Stem Cells evade chemotherapy through enforced quiescence in Npm1c-Flt3ITD Acute Myeloid Leukemia",
+        "why": "Focuses on a concrete mechanism of chemotherapy resistance/relapse (DNMT3A-mutant leukemia stem cells) using genetically engineered models in a defined high-risk AML genotype. While not pediatric solid tumor–focused, the resistance-through-cell-state (quiescence) theme is potentially transferable to relapse biology."
+      },
+      "fingerprint": "e434fe7effb7c5dabee8aedec28e5096693fdf8c",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "3f001e8ae91f72461e86348166b08372db9bc7f5": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -7448,6 +7916,10 @@
       "fingerprint": "1e9ab2c9ee50036a6daa99a25f77af1464f25547",
       "last_seen_utc": "2026-03-16T16:57:52.271665+00:00"
     },
+    "3f11e2e7fe986b3a1083268e04eca2f4115bd6cc": {
+      "fingerprint": "45bc345760e7bc79cf62567d3ea66df21191cbd7",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "3f1b3c7d3dd227d8462077eb4b43cc9aed80fa2d": {
       "fingerprint": "2775b5c3118e883ce7f2669659d421e61046dbb0",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
@@ -7520,6 +7992,10 @@
       "fingerprint": "dab8f3ffd7dbe4c463831906c051d5c7a1e3deb9",
       "last_seen_utc": "2026-05-04T17:26:00.352051+00:00"
     },
+    "3fac92f8d32b83dd19503c25f9ba0ff173581edf": {
+      "fingerprint": "444d0f6e916c0e68fc639d0efc1122780ad581f8",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "3fb9d8f5c508dbc3df58e877286a48c43e1831ed": {
       "fingerprint": "c174d1d3634aff400f4772b6f7fb98805fc3b42d",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -7527,6 +8003,10 @@
     "3fbaa0c8f928117ed261b049b72977ff204303bc": {
       "fingerprint": "86392be4baf057048a978dc903e75e68482a806d",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
+    },
+    "3fc7a4c6dc9d4a62a3305acc4a02d1069abf15f2": {
+      "fingerprint": "bd640c09db0d771366c3b33485cad7f251b39d12",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "3fdfa309a2c874a8b399348008ae8e7c7259a301": {
       "fingerprint": "6251e421a017f3ffdbfa3d0a0368e51b31add592",
@@ -7724,6 +8204,10 @@
     "42856f6aeafb0a46dd1666f787dbf8acd813fb36": {
       "fingerprint": "8e9c8b67128c92a304876f2b595ff1cc6895836e",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
+    },
+    "428c13c3458bd5721774105e26eec6ed5afca5c4": {
+      "fingerprint": "383a1adf3e35380061b6a21e34b2fbeb33ec1516",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "42a15a5597938e9b5b2cb314a98ce4dd303894f6": {
       "fingerprint": "88c7045603481cb80a394b9c7034a75259c9bcf0",
@@ -8129,6 +8613,10 @@
       "fingerprint": "1ad9552aafdfb783da2787df09ef2821f6e9b3de",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
     },
+    "44fedf44dab4116a4434bda53cccaf5742268502": {
+      "fingerprint": "8579fea75293858d3e622d7d79a911f283f96945",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "45077bc69740f88c0c17cdc7aa4b14b2eeaf8181": {
       "fingerprint": "79b2eaeeb5c18b7bab09ff89e66814209ea6cb77",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
@@ -8519,6 +9007,10 @@
       "fingerprint": "068b575f42ab7db1a7a27edd1358a8c77bd7768d",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
     },
+    "479e0edff0d63988255aa482f9c346398cb2f277": {
+      "fingerprint": "6c1a52319435d9a7d19db2e55edb0e90ec717e93",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "47ab70f9333534f39416d3074d5a7345e57ef17c": {
       "fingerprint": "608e0f69caa06439653b51006d44d7ce78ebc41f",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -8589,6 +9081,10 @@
     "487b13f735ce4de6324dd5a7617f4b1d8a56a4b3": {
       "fingerprint": "e2d5b69ffc327ea5f53fd50d6e83117abb7e32b8",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
+    },
+    "487ff92d78de4d926c1304c8ce39c2cee75896b2": {
+      "fingerprint": "4ecc7a918a5879438017ec7b46048f0c8c126980",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "489c03c9f15cbd10326e96345d286ca8bd6e2fcf": {
       "fingerprint": "d573d9597423d49e5261de27e3d77df628baf526",
@@ -8674,6 +9170,10 @@
     "492ca256bb8c4a577a3e5847d8190ab16237fb1a": {
       "fingerprint": "f9f4d030d2d86cc44035651cc123f10d14d87568",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "493e9bb83008d914b2c8941798382f54fdc230b7": {
+      "fingerprint": "9595291b574a7b267fba4a8ee9410cfa9b6df326",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "494768f517bf57d3ba9133584ad23a9c9eb82015": {
       "fingerprint": "1ddba3ad9333adca8d20995584a6d130f861d648",
@@ -8835,6 +9335,10 @@
       "fingerprint": "e47fd1e318350f996cdc575d865e4a58982e04b8",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "4b4c1dc8faa5c0f11dabc1d16f587ce7ee182824": {
+      "fingerprint": "b432a9d1b1d94de1e6302d3afa5e0e82c53340ff",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "4b4d79554cd8f926996a4698b787d26e0b19b39b": {
       "fingerprint": "a742428ad874edf0379659f4c48b2c9ffa7e05f6",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
@@ -8916,6 +9420,10 @@
       "fingerprint": "51be4448f0eac7143be5632645ca48df31de3119",
       "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
+    "4b99b9620d4110850a863f0c6e0eb5b2367688a5": {
+      "fingerprint": "28a50b4e0bb548528f28fe83bb43a27ef5f07d2c",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "4ba10d27c3eb3b73727892a8484de747a3073528": {
       "fingerprint": "5f5f5f304dec63b81d946ef27899642ad4f7906f",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -8935,6 +9443,10 @@
     "4c16e1ac8d3a76d68010d6613df3e9f8bde46d5e": {
       "fingerprint": "c0104eacbeca52191a095a91ababbdec8aeaf02f",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "4c1731ebabbd244460ef82c333f513afe6d24615": {
+      "fingerprint": "d0424f2c5b02f72397212eb3e4f50f8d0df6d680",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "4c33ec04b007b557d8ae880329079aebbcf462e0": {
       "fingerprint": "12aa7a56ec323d9d68a2580759e30e9feb6de286",
@@ -9212,6 +9724,45 @@
     "4f0e1e73d7c005f95cdadb2fbfe9581791e7a2e3": {
       "fingerprint": "20f263c1b1361ab094dee504e9428666f54de47a",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
+    },
+    "4f11d8f46beb929da084860fdec040ae2e246e8f": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "4f11d8f46beb929da084860fdec040ae2e246e8f",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.04.730045v1?rss=1",
+        "published_utc": "2026-06-06T00:00:00+00:00",
+        "score": 0.5,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "GO enrichment",
+          "bioinformatics",
+          "statistical analysis",
+          "translational"
+        ],
+        "title": "Ontologizer 3: a cross-platform desktop application for frequentist and Bayesian GO enrichment analysis",
+        "why": "Provides GO enrichment analysis capabilities; may support interpretation of multi-omics or regulatory data in pediatric cancer studies, including biomarker discovery workflows."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "4f11d8f46beb929da084860fdec040ae2e246e8f",
+        "link": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940",
+        "published_utc": "2026-06-05T14:00:00+00:00",
+        "score": 0.16,
+        "source": "PLOS Genetics",
+        "tags": [
+          "chromatin insulators",
+          "enhancer-promoter",
+          "gene regulation",
+          "3D genome",
+          "basic biology"
+        ],
+        "title": "Chromatin insulators <i>homie</i> and <i>nhomie</i> can interact with distant copies either together or separately, with distinct outcomes for enhancer-promoter interactions",
+        "why": "Mechanistic study of chromatin insulator interactions and their effects on enhancer–promoter communication (likely basic genomics in a model system). The summary does not indicate cancer, biomarkers, therapy response, or translational/clinical linkage."
+      },
+      "fingerprint": "d98045031e198a2e56627cd22cee437383f387da",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "4f13a5bdc9b46a2319cb5c08dc3b5b62c9966369": {
       "fingerprint": "2795006a9c01c0dc633f1202e2d00937669d7128",
@@ -9510,9 +10061,55 @@
       "fingerprint": "a35446dfbe20cdab2331ed76f4ee183a686a39ce",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "52b71b4b24f06a74f4d562e4dc8f86389cbaf710": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "52b71b4b24f06a74f4d562e4dc8f86389cbaf710",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.03.724934v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.92,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "pediatric",
+          "rhabdomyosarcoma",
+          "PAX3::FOXO1",
+          "USP7",
+          "therapeutic vulnerability",
+          "fusion-driven"
+        ],
+        "title": "USP7 sustains PAX3::FOXO1 enhancer reprogramming and represents a therapeutic vulnerability in Rhabdomyosarcoma",
+        "why": "Fusion-positive rhabdomyosarcoma (PAX3::FOXO1) biology is highlighted; identifies USP7 as a potential therapeutic vulnerability, implying translational relevance for a pediatric sarcoma."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "52b71b4b24f06a74f4d562e4dc8f86389cbaf710",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.03.724934v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.44,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "pediatric sarcoma",
+          "rhabdomyosarcoma",
+          "PAX3-FOXO1",
+          "enhancers",
+          "therapeutic target",
+          "USP7"
+        ],
+        "title": "USP7 sustains PAX3::FOXO1 enhancer reprogramming and represents a therapeutic vulnerability in Rhabdomyosarcoma",
+        "why": "Pediatric cancer–relevant and proposes a therapeutic vulnerability (USP7) tied to fusion-driven enhancer reprogramming in fusion-positive rhabdomyosarcoma, but the computational/translational details are not clear from the truncated summary."
+      },
+      "fingerprint": "6ac263c1768d6d11c0d2200698dafb084aeb37e7",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "52e55941c93cc4a019740385be933454a9f421af": {
       "fingerprint": "24bfbcb91f710c8216e8867588875d11c62f9cc1",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "5305fe70a4aceb3dbb71514589b1fce6219e3915": {
+      "fingerprint": "40e347b27ca0aeee6b80e9857fcc5908e00612ea",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "530f81c18eb7f69e8330e4a69d9c4ede4784c99b": {
       "fingerprint": "a493ffc9a0e0ae3ba9c4217a12e4f545d3497cac",
@@ -9627,6 +10224,10 @@
       "fingerprint": "4ddd26b985e643f6c0fd48b373359509efab3899",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "545d62957e79a116f8aaa8b9037a536c631cd190": {
+      "fingerprint": "e80439e2dd757c366e3c50d7251465d796053c2c",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "547ab8da7ade6c52a2b7562a6b6c4e038b0ebad6": {
       "fingerprint": "a09ebb2701d55f0bd41dcb772170aba06ca18e8f",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -9706,6 +10307,10 @@
     "5593f2e3e265df1816531be63e6898f229b891bf": {
       "fingerprint": "1fc2c055b826e58d76b674cbf6a788f8f6e657a2",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "55946a96e1bec525a33b9d167012572967ce43fa": {
+      "fingerprint": "831a47dd9a836d92a64f1dc9b2b05d8868de7f90",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "5596d8067210c11c7f565cbf733373194aff30d0": {
       "fingerprint": "c40ee67a06b7d0be368e9661f6379606ec674664",
@@ -9811,6 +10416,10 @@
       "fingerprint": "d11393e8a6553a5e46bbcbe172d15485705d54b4",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "569b031ec0aca7add9c9763258a7a62e392f0825": {
+      "fingerprint": "a887282a6a3afee54a1d0511e4a8e4fa536d988e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "569d0b57ab7b07c14cc5c0bde67f1bac8866f002": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -9860,6 +10469,10 @@
       "fingerprint": "2d3ffc366e5f9d492ff33f516a850e89d82cd57a",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
     },
+    "575a0222f183d2762a8b63f74055b927ad08ff23": {
+      "fingerprint": "10c199a1b8ee047246bc90c7ab0ceff17e4b18fa",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "57701853be4d4b675b8649f183681c009b6842bd": {
       "fingerprint": "220849c2775491dc106d3768b3366bcf74539122",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -9906,6 +10519,46 @@
       },
       "fingerprint": "80040fa3c4acb5c9b38d7be970b1ce12d97433d5",
       "last_seen_utc": "2026-03-23T16:51:56.015905+00:00"
+    },
+    "57a61ca05f3948717945ec9722f7b2fa60643c0d": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "57a61ca05f3948717945ec9722f7b2fa60643c0d",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.02.729483v1?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.87,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "ecDNA",
+          "spatial multi-omics",
+          "causal inference",
+          "cancer",
+          "biomarkers"
+        ],
+        "title": "Extrachromosomal DNA as a Causal Instrument for Spatial Multi-Omics",
+        "why": "Proposes ecDNA-based causal inference in spatial multi-omics; relevant to cancer mechanisms and potential biomarkers."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "57a61ca05f3948717945ec9722f7b2fa60643c0d",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.02.729483v1?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.55,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "spatial multi-omics",
+          "causal inference",
+          "ecDNA",
+          "computational framework",
+          "cancer"
+        ],
+        "title": "Extrachromosomal DNA as a Causal Instrument for Spatial Multi-Omics",
+        "why": "Proposes a causal inference framework for spatial multi-omics leveraging properties of ecDNA, moving beyond correlational spatial analyses; cancer-focused but not pediatric/NB-specific in the provided summary."
+      },
+      "fingerprint": "54ec62064a09596e2f419022f6bcb5989c969af0",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "57e847993f1ecb683444deb880d2629a3d53fc79": {
       "fingerprint": "79b076c6963976c66b6bc4f12016f0ff563d2ff1",
@@ -9965,6 +10618,10 @@
     "5817d8e606477b5ee96317ee51e6669d7802e8bf": {
       "fingerprint": "6b5df2cd8066216e677c8afd7f92984a02f90e8d",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
+    },
+    "582ab5e198f4a96ee4a479a4b71c2eebf439cccd": {
+      "fingerprint": "00cf9959db1fc1c71ca01aabe9efe93e9c6fcf36",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "582eb3d70bc382018ca160a7421f2da4936e3d4e": {
       "fingerprint": "ad7d96213d33d5e5df2c157f06768344d8eacafd",
@@ -10242,6 +10899,10 @@
     "59707e1efe6dc2cbeb4d6438629ce937f56ea743": {
       "fingerprint": "7b93531004149057da635dec1de61e8c26931147",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
+    },
+    "59807c406b8433691fae96fdba5c528b8f6d101f": {
+      "fingerprint": "1a1b6b6c3e930b9b5fea8709f3d6afdc3c6bad5e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "5982d412991282473f67f112fd1d2c9ee412a567": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -10608,6 +11269,10 @@
       "fingerprint": "ecebf8f06baebb703bfb1afd10852dbaf5e71147",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
     },
+    "5c4d7e421d841bb1559c4a478b5c55cf8726f268": {
+      "fingerprint": "00e64af7aec51c43132d26a5f3086db0bd88d063",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "5c582d6a8fbf85162bf93aa47405dcb514a1b107": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -10692,6 +11357,10 @@
       },
       "fingerprint": "03534ac714c636cf529e9f0b78de876b15cd8c36",
       "last_seen_utc": "2026-05-04T17:26:00.352051+00:00"
+    },
+    "5c9497c4273c015caa037160070a893efa269c85": {
+      "fingerprint": "1c9263b9f669140d8120cd0d28fd45175089ce3e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "5c9709879f0dc208d41ebd795dce2b1af98ec290": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -10989,6 +11658,10 @@
       "fingerprint": "2a69e438f204bbdf821714d3fc5d99d705baf9f4",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
     },
+    "5dba643f55ae7a5b8f41760cd5148cfc3e960a52": {
+      "fingerprint": "c05b1b7bd6b7e8a6b2c2f32571c5019f192e0dc6",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "5dbfbfb7431b07887be88c8009854b6468698996": {
       "fingerprint": "3a5220185c4861ff936e4b72198b8a1084b60ecf",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -11028,6 +11701,10 @@
     "5ecccdab751a09b061ba7435497752ac42869ba7": {
       "fingerprint": "1a831644a5b36086a64a0fd7b41863e8ddec3489",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
+    },
+    "5ef7dab49d496d2001d98dc2e875cf83ae2595fd": {
+      "fingerprint": "bb9afd7f336024c0bd2d8b15933a87c37c4c9022",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "5f09b7197db6afc68c1a89e5767f70dcaa81c06f": {
       "fingerprint": "c078da126b6f29d35439b814a229b6e5f391967b",
@@ -11371,6 +12048,10 @@
       "fingerprint": "7aba195c9b2edd475481dc626a814bfb424b5cf3",
       "last_seen_utc": "2026-03-23T16:51:56.015905+00:00"
     },
+    "617122bc2f5cd76924587d007a3a7e362e717a4e": {
+      "fingerprint": "ef590710d8eb73708aa291658cf08cebbe122abb",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "61a39d0c4c1e2c19deaab40c54335f5a70e0eb55": {
       "fingerprint": "7d794cc0fb0dd2787ce9390c1e317e132c5a240c",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -11395,6 +12076,10 @@
       "fingerprint": "15fc178356bf3187fdabd683ac759a1e19d6785b",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "620cb5d44e01a62801aeb5213ff01960b583489c": {
+      "fingerprint": "dce20c697909d02acae0cc4c3b96dad8a199f56b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "621eaead61e390cbc2722be636719a908d1bf641": {
       "fingerprint": "0739d0da0ddba1c44b15e813aa95a29971b11891",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
@@ -11402,6 +12087,10 @@
     "62275a3936b75bbdda9cff743c4089826fe62221": {
       "fingerprint": "d8d0b52f2bddd92f90f17b61bcaa2230bc39fa81",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
+    },
+    "623a04a84f82c3b7434633eb7af58d0ce0c7d98c": {
+      "fingerprint": "26fc8e5ab04e657881fe84dd482588804e92769a",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "62642cb81137cb94974e5a94fc138edbbfadfb84": {
       "fingerprint": "82d5a66b8383b637a48666f838a0d388d19e6286",
@@ -11414,6 +12103,10 @@
     "62b148a4afb73e7d305ec9952f73bbcd001e3af9": {
       "fingerprint": "d87cbc7ce7bf92c480ddf9a05034987786b2057c",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
+    },
+    "62c4c62dd6f91dd12f87e61d1ec5d47f1902aacc": {
+      "fingerprint": "5bf87ef1b43aeeb442e12e679c6f7a978231a35d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "62c64417eb35e873e1f1b6240a5d5126ec2c4853": {
       "fingerprint": "0ed72480da95d593e3c32d1e1a9ad7a677b2180f",
@@ -11699,6 +12392,45 @@
       "fingerprint": "ebee8bcce5c4f405bf10c023858f8bb8c509527d",
       "last_seen_utc": "2026-04-06T16:41:24.013757+00:00"
     },
+    "63a9a7791b32032afed4faa16c20a0a4e75a8b2c": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "63a9a7791b32032afed4faa16c20a0a4e75a8b2c",
+        "link": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2849978",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.6,
+        "source": "JAMA Oncology",
+        "tags": [
+          "immunotherapy",
+          "SCLC",
+          "clinical trial",
+          "survival"
+        ],
+        "title": "First-Line Serplulimab in Extensive-Stage Small Cell Lung Cancer",
+        "why": "Randomized immunotherapy trial in ES-SCLC; relevant for understanding therapy response patterns and resistance."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "63a9a7791b32032afed4faa16c20a0a4e75a8b2c",
+        "link": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2849978",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.28,
+        "source": "JAMA Oncology",
+        "tags": [
+          "clinical trial",
+          "immunotherapy",
+          "serplulimab",
+          "small cell lung cancer",
+          "chemoimmunotherapy"
+        ],
+        "title": "First-Line Serplulimab in Extensive-Stage Small Cell Lung Cancer",
+        "why": "Randomized clinical trial of adding a PD-1/PD-L1–axis immunotherapy (serplulimab) to chemotherapy with efficacy and safety outcomes. Translationally relevant as an immunotherapy + chemo regimen study, but the disease context (adult SCLC) is outside pediatric oncology and no omics/biomarker angle is stated in the summary."
+      },
+      "fingerprint": "846150fb61fafde6538182ba48e7ccbd7618ada9",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "63b6627e28ce245e5c15e0da93e0cbd390e8ec9c": {
       "fingerprint": "4331c5a0a33a06657709fcdf0766867ac2bb4731",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -11710,6 +12442,10 @@
     "6441b4e5a6d4925494ccb5bb489ded37da9257cb": {
       "fingerprint": "4bdd6fc5883c69aa525b0a38242478ef77c7baf8",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
+    },
+    "6479fb5823ee4bf3c03328c0f99df1d0598d0ec1": {
+      "fingerprint": "145ce05821476de9c2ff617a163feda855c741cd",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "647af89a81793586791b69422dab73d42b18bd72": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -11837,6 +12573,10 @@
     "65459af70d50a4598ce986947394c7f2ad28be1c": {
       "fingerprint": "87122eb0b29a00bd2efc8fb538e427b38d1ccb2c",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
+    },
+    "655a01092a7b82aef055cbf288d19278846d4ad8": {
+      "fingerprint": "17fb69ec3318ff4c58ba7a9a8c473fcf5e1a825b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "65617402e2f8a713f5bff351c9bdcff49f77cf19": {
       "fingerprint": "54d9b2b9b5752ff932df59c3eb7116131242058a",
@@ -12295,6 +13035,14 @@
       "fingerprint": "6c123c01b384422287859b4e861e8f95d9ed8ff1",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
     },
+    "68f1c38a30c54c54021d1319434453f02b21a286": {
+      "fingerprint": "ed7491d25d44cbbd944b85fab66d45d6d299cd79",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "68fa1827848b42b412b04f2c54800bb73c55571b": {
+      "fingerprint": "bd61d6414c34a53fa4f3019e0e360ee2b4b068fe",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "690a5de6cf4de9eeb7e60b37aede7ba82ee0a497": {
       "fingerprint": "f72d14a663adc9ce5c921729142311641520b08c",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
@@ -12334,6 +13082,10 @@
     "697352b92dd50db05e392c83ce009160f1d5ea02": {
       "fingerprint": "da0413e199b6f7ac259d23e95b32105b205569bf",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "69824bbd4952291faa87e4e154a5414fbe13ef38": {
+      "fingerprint": "5ed91e24de05a5844b245ba9ebafce2f8063ef84",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "698f560c22ae0b843b4935b7513fbfc4aea55730": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -12443,6 +13195,10 @@
     "6a267578f97617e681c13bcc9a86d6c3f20d54a2": {
       "fingerprint": "c01406ab49e738df3e745e388726dbf6d43fa74b",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
+    },
+    "6a4a98cb9a3ed1d11c082d320656a6f1d2879d8f": {
+      "fingerprint": "2b744aaacae55ff712cee8fb16ce0c10cd81c645",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "6a6d4fbe020720af205def74f360aa7683c57744": {
       "fingerprint": "e17f2b7dfa7d92c51551ee4f5e5adc579f383039",
@@ -12723,6 +13479,10 @@
     "6bb3ca2f745059d59dfef85df89c793f4d55ec6e": {
       "fingerprint": "747dee3387a2e04d5d8d91796d5f9ceb538a0d33",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
+    },
+    "6bca74b1728865609bfd5fc2a5ace2ade608acf8": {
+      "fingerprint": "644a88cc6f83f03abf5490773446c3f7aa8f1f82",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "6bd41bf3e1a8d9352defa9652f1d5ecbbeb6beed": {
       "fingerprint": "c477e186427142be2e070056a11c5d74afccca64",
@@ -13226,9 +13986,54 @@
       "fingerprint": "15ad6a62ef59d78aa5d37d6b5ee2111ccca1d49b",
       "last_seen_utc": "2026-05-04T17:26:00.352051+00:00"
     },
+    "6dfcfaa4cc965d0b4b5467db358fba64981c26ce": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "6dfcfaa4cc965d0b4b5467db358fba64981c26ce",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.05.730084v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.93,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "scRNA-seq",
+          "data standardization",
+          "scFAIR",
+          "reproducibility",
+          "translational"
+        ],
+        "title": "scFAIR Consortium: a decentralized hub for single-cell RNA-Seq data standardization and unification",
+        "why": "Proposes a decentralized framework to standardize scRNA-seq data, enhancing reproducibility and cross-study integration essential for biomarker discovery and multi-omics analyses."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "6dfcfaa4cc965d0b4b5467db358fba64981c26ce",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.05.730084v1?rss=1",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.75,
+        "source": "bioRxiv Bioinformatics",
+        "tags": [
+          "scRNA-seq",
+          "FAIR data",
+          "data standardization",
+          "integration",
+          "cell type annotation",
+          "reproducibility"
+        ],
+        "title": "scFAIR Consortium: a decentralized hub for single-cell RNA-Seq data standardization and unification",
+        "why": "Targets core pain points for scRNA-seq reuse—structured cell-type annotations and workflow descriptions—aiming to improve FAIR, integrative, and reproducible single-cell analysis across repositories."
+      },
+      "fingerprint": "b599dc0ad506b463d8e89c39459718e448c7d7c6",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "6e14c256a43c71ab124f3317738d20dc77453588": {
       "fingerprint": "b376b0637278d64eee70d5fbb02a37027fe165ed",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "6e2521e7f28f8d2cb86ea2a7fb4ee329ce9ddbfc": {
+      "fingerprint": "7ac3a7987628cb13389f21991d1595643da65965",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "6e28f3b03775293a993d2081d703c4f257e7fbb7": {
       "fingerprint": "ba7a11a58898e187d4b1a2886b476b0176923151",
@@ -13319,6 +14124,10 @@
     "6fe3cc9ce9d032e0fae9a9b53084ae912c3afa67": {
       "fingerprint": "f59f72968c0b5d7d8127b1a3dcd3f42d5a617843",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "70033f4ab29b06519d60d31bbd0a935ad5f36e54": {
+      "fingerprint": "ba13003f0856ac1a8661686df1f7240c8225dc2d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "7019084984fef7752d06b6c9011c844fc0ca8ad8": {
       "fingerprint": "8cc8e2868feb42dcef7d6ada8f69e02bf756ce9e",
@@ -13521,6 +14330,10 @@
     "71f436271c9160474a7b005482f16c933a579299": {
       "fingerprint": "b74ee0b251c733d172066db75197cf3863b9dd09",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
+    },
+    "71f512e9913f8733bcb26500009018ed3bad69ac": {
+      "fingerprint": "d26c15aa28b239069eae26fa94db493ab65afc34",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "71ff784292e95a46cb37ecc10196badbe338d8e4": {
       "fingerprint": "f0aa6fc79f9c15f58723f84fe0b03de0354b8d18",
@@ -13768,6 +14581,10 @@
       },
       "fingerprint": "6cc6a1017ff5465ff2ed319e8df532ea2de595db",
       "last_seen_utc": "2026-04-06T16:41:24.013757+00:00"
+    },
+    "73bf41f3a4c6deaa3b371e1876743c626a34de0c": {
+      "fingerprint": "44bf461c85219adac83ad73792d4b5f66715e3d9",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "73e614de409852513836695adddce58acd9d1741": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -14166,6 +14983,10 @@
       "fingerprint": "29d32e1e0277885c157bd21a0910a56f2655270b",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
     },
+    "75695a06e8fe7d548b7786b0f231f82fafe4718b": {
+      "fingerprint": "a3cfb8b1e89cb050265933839d8394a186a93aa0",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "757606455a37f463bf9c073ba9d72cbe4de0b640": {
       "fingerprint": "fdfc8daddd57ecd47b7f4f6c76f1e44d99e5c6a9",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
@@ -14391,6 +15212,10 @@
       "fingerprint": "a96702a5563fcbfcf04a7af5c1fc6b04740b1382",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
     },
+    "77aefe990db669ec66705803509c3d69c5263154": {
+      "fingerprint": "c9e217495bae68432a930c72dcc74a81004e4df6",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "77bcc97cbcb31ed8494f5f5f8845d80b5aed832d": {
       "fingerprint": "4b06a5f3712e32ece58f0566098cab46b7401f76",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
@@ -14516,6 +15341,10 @@
       "fingerprint": "0b36f5f040c8a8276beee7b82732bb6920d6967e",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
     },
+    "7851f3b471e22fe2da5ef3d2a13419fd6fee4bf9": {
+      "fingerprint": "1aac61c5302108029fde4b506e0b769fd24aa984",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "785beef3427336e6ad819b889bdc6aecac297e6b": {
       "fingerprint": "8d38e87ccddd1f6ff1b90d8e8c89033d3a4af381",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
@@ -14539,6 +15368,46 @@
     "78d974085f241e8fbf2a3bfed67d9eb164b54f46": {
       "fingerprint": "ea8e37aa30bdc912684b1560cffdb6bf08a6ef6d",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
+    },
+    "78f15b9fc056dcd5ad95a6a837ecf24d9729d95a": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "78f15b9fc056dcd5ad95a6a837ecf24d9729d95a",
+        "link": "https://www.nature.com/articles/s41698-026-01470-6",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.79,
+        "source": "npj Precision Oncology",
+        "tags": [
+          "multi-omics",
+          "biomarkers",
+          "HBV",
+          "HCC",
+          "prognostic signatures",
+          "translational"
+        ],
+        "title": "Comprehensive multi-omics analysis identifies cancer subtypes and prognostic signatures of hepatitis B virus-associated hepatocellular carcinoma",
+        "why": "Multi-omics analysis with prognostic signatures; clinically actionable biomarkers in HBV-associated HCC."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "78f15b9fc056dcd5ad95a6a837ecf24d9729d95a",
+        "link": "https://www.nature.com/articles/s41698-026-01470-6",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.15,
+        "source": "npj Precision Oncology",
+        "tags": [
+          "multi-omics",
+          "subtyping",
+          "prognostic signatures",
+          "hepatocellular carcinoma"
+        ],
+        "title": "Comprehensive multi-omics analysis identifies cancer subtypes and prognostic signatures of hepatitis B virus-associated hepatocellular carcinoma",
+        "why": "Multi-omics subtyping/prognostic signatures are methodologically adjacent, but the focus is HBV-associated HCC, which is not aligned with pediatric translational oncology priorities here."
+      },
+      "fingerprint": "a3aa6c11bf4b6d2bdc83370072b8b7a772be786a",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "7902452a2fd70514b564d0806d12d92bd08bac41": {
       "fingerprint": "7f4e0d1bb395490f3daaca750fcfae06ac9a5d15",
@@ -14738,6 +15607,10 @@
       "fingerprint": "69b8051c897185b2046dd744766ba8deff4a6d79",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
     },
+    "7aa118be989746e4ba2584fe820105b731865b09": {
+      "fingerprint": "cd5ad8b64eb9fdadc0f58dc4c965432eb3fc81f7",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "7aab3a659d8ad6e8043abe6524b5b62bd4a33f15": {
       "fingerprint": "f4d0fe20711b6a16958448cb0c9b700b8fbb7398",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -14795,6 +15668,10 @@
     "7b2a54aafb18da41430cf1de55f1fe73ab1c8587": {
       "fingerprint": "67018bc7024da4f7f1fbf17f59464d864c4bcd1c",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
+    },
+    "7b2cfb8dafb24eb2381969ad75b94ba028e0c064": {
+      "fingerprint": "ffabaaf9f157ce63ec66152c60506e3d078f6d18",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "7b54a41dd8a3490afa5593d6cbedb6886199fb0d": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -15036,6 +15913,10 @@
     "7cffd4685319b9444a2b1e3b4bdcc1d02ac9e8c9": {
       "fingerprint": "0a06ccefc8a8efb630c45a40e54da4a03a3b0e74",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
+    },
+    "7d004be3339afe9252c20394accbe5c1630ba356": {
+      "fingerprint": "8fb95890850e67f93d3396fcbae74250bf202710",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "7d1a74d03a09f486a3c85e042f78e2b40e1a71bb": {
       "fingerprint": "4bfe092d14960803c191f4ad3e224b1b7974459d",
@@ -15438,9 +16319,17 @@
       "fingerprint": "8970aa1ed66569f53fdb74f20260f746c25f609f",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
     },
+    "7f132388e80adc7765d06641da6eb2b662205125": {
+      "fingerprint": "0906b25d4eeeaed6d90ce6deb49fb4de5f3d7565",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "7f1d7f2e62c93592d3cfa0cadec79e176bd5150a": {
       "fingerprint": "46c8f95cbf881a03ec017a097ad5097622f49da7",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
+    },
+    "7f1ee1c5350fdd44f8af41367a243f48d6d90900": {
+      "fingerprint": "4b457a25b9b56100c02e85403fc9755923e383cf",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "7f2a48ca9fa91a17df65f5e671a3bc96f679a59f": {
       "fingerprint": "8a19d8b3de9b215cdf76a9dfb935d149f730fef6",
@@ -15575,9 +16464,17 @@
       "fingerprint": "a37a8799eac15bf4de49be0831c05547dd441525",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
     },
+    "7fedf9fdcebdf5a2460cd4c24ee4f23abf616ac3": {
+      "fingerprint": "af17bc1a4eeda8be4c5d4397ff8f93592241f43b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "7ff1b99848b5525f05e1dd71e856b20761cd422c": {
       "fingerprint": "93ed4a4d63e4375eda08a67fc1c328a766b63296",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
+    },
+    "7ff7f9946148726ac451eb08f30fd5c69099a218": {
+      "fingerprint": "6a787fe4c6cf6d88e3248667a3a54f98412588ef",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "80068d5ebada6eacc48ea0775102120f91ce522b": {
       "fingerprint": "fd5052d28a98efadd7cab1e2269d47f310521fef",
@@ -15876,6 +16773,10 @@
       "fingerprint": "b1d6d26dc567f846b50d178b10dc2f8c0e81496c",
       "last_seen_utc": "2026-03-30T16:51:11.515033+00:00"
     },
+    "817a17cefb741a093f1b748e89eb86b29d066c4d": {
+      "fingerprint": "46beb81058d7407978090bce3a66a912c6d90e12",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "819f3fd2743ce11c27e3badd3e8c7134c417da83": {
       "fingerprint": "a3b85bce6c95f501070813ee1d4b7defd43e1bfc",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
@@ -15932,6 +16833,10 @@
       "fingerprint": "667ed1b85ba126f441ff53348d6eef7152fedd56",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
     },
+    "82317f3b612f4b461dd3e40c560ff3f65dcb6b31": {
+      "fingerprint": "5f3a57c5aa4d193c770dd8a109a0a5013bf8e25b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "823c2858a08df1a10842c48ae3177e01ce53c078": {
       "fingerprint": "a0873b0b51a79594f1bfb1942a79832a490e6a44",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
@@ -15975,6 +16880,10 @@
     "830e55f1a6052d0df0ecba1d05a0baff000bcaa0": {
       "fingerprint": "175a97d537771959d004d13e500da65407e598f7",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "831d9e200a28e439d603b1155110eb48955e7912": {
+      "fingerprint": "476a43346717e0d88c4bae435b6cfb123956552a",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "83300bfb9b0e7d3c115a284c33b5162febc2e17f": {
       "fingerprint": "8d7435a5991babcbaf0cb6f53d9d17c53e0bf6de",
@@ -16317,6 +17226,10 @@
       "fingerprint": "1ce3cbbf0ae629899231be46524f7db95ab83124",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
     },
+    "86cd5210b2e93049365faa23c7cae8628c469300": {
+      "fingerprint": "df10294c7086f261f1651276fee9398bf6f52880",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "86d626ffe60f1c808773a34c0d46603fcfbd8eea": {
       "fingerprint": "7c4483d910f05a2bdca7c12f089ad7ecf6e7e812",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
@@ -16446,6 +17359,10 @@
       "fingerprint": "49afda73939ed38f997bcb8b03e5c33aa5e8d6af",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
     },
+    "88de109df0b433d25ba64051af60423884a00ae1": {
+      "fingerprint": "dceb465cdbadcc14c801c80ba994fc22d3860d7a",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "88f0a6c14ad04b8c2d2331ceb867d5af1ebac01f": {
       "fingerprint": "96ac25b9737a21f65f0630e5d7718b7fc261df0c",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -16544,6 +17461,10 @@
       "fingerprint": "3bb9e838ce5df6812e950f5aa7cea08fcbfcc3a3",
       "last_seen_utc": "2026-06-01T20:13:59.425710+00:00"
     },
+    "897e92614a0793d5d419a4f8d8b57229ddc5667d": {
+      "fingerprint": "12345cfe62b3f0e40526117f8a6d569d61cbdf20",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "8997db11d2fb50ab6e29e07f4a0fb89ff15794e0": {
       "fingerprint": "6549218f1658c53edd330dbea6694d700861cf89",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
@@ -16575,6 +17496,10 @@
     "8a63fbbb1f5851c864dfb57a30d5d77789c3bbc1": {
       "fingerprint": "1c9aa1f803e476cc102cef2222dac90024fd9fb6",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
+    },
+    "8a6fa2ec8e1d7dfca49211f7d783ff48ff5369bf": {
+      "fingerprint": "f6f9bcfa7a2a9a9633e92f3d02898f68de055874",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "8a7176f69cbc2e8f6ee1941fbf0bc3a39a58b50a": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -16717,6 +17642,48 @@
       "fingerprint": "a3b1e04b2a5d48a6811711f35a41371d93bcddaa",
       "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
+    "8b51d0fe0aae904e8f994a1cbaa2ddd143385189": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "8b51d0fe0aae904e8f994a1cbaa2ddd143385189",
+        "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014321",
+        "published_utc": "2026-06-05T14:00:00+00:00",
+        "score": 0.76,
+        "source": "PLOS Computational Biology",
+        "tags": [
+          "systems biology",
+          "Bayesian inference",
+          "cell signaling",
+          "machine learning",
+          "drug response",
+          "multi-omics"
+        ],
+        "title": "A multiscale, Bayesian inference approach to augment mechanistic models of cell signaling with machine-learning predictions of binding affinity",
+        "why": "Integrates mechanistic signaling models with ML-predicted binding affinities; transferable to drug-response modeling."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "8b51d0fe0aae904e8f994a1cbaa2ddd143385189",
+        "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014321",
+        "published_utc": "2026-06-05T14:00:00+00:00",
+        "score": 0.4,
+        "source": "PLOS Comp Bio",
+        "tags": [
+          "Bayesian inference",
+          "mechanistic modeling",
+          "cell signaling",
+          "binding affinity",
+          "machine learning",
+          "systems biology"
+        ],
+        "title": "A multiscale, Bayesian inference approach to augment mechanistic models of cell signaling with machine-learning predictions of binding affinity",
+        "why": "Methodologically relevant systems biology work combining Bayesian inference for signaling models with ML-predicted binding affinity to reduce uncertainty, but not directly tied to single-cell/oncology in the provided summary."
+      },
+      "fingerprint": "cc9c7a9e83b23aa7f8f7a875c4278e0da9c8d54f",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "8b97c6b1bbc1d25fb28ad96c3952c91477373944": {
       "fingerprint": "118a754c9f3888e7a336a301fc7700a6adec5a2c",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
@@ -16725,9 +17692,17 @@
       "fingerprint": "18027d0db81ad1be5bcfeb0def92842943882e7e",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "8bc5ac176d5bede4773e086646a2806ceb630ec7": {
+      "fingerprint": "3eeb283803e3667c176c8a6be2be48867b6738d3",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "8bf5b3457c7e27ca8ab4da3956df5643f3b8251b": {
       "fingerprint": "d3a8816e4a339ebfcd06f469e4bc1db1b2420424",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
+    },
+    "8c06e678b88c4a24f476016a35bb981995857b39": {
+      "fingerprint": "359e0be25dfed6a81e627941ad58dfbf91655f07",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "8c08c0ad815ef71c8723b784ae2fb5e8c98172b1": {
       "fingerprint": "0e73812f2f6489669c8cc90bb4af272906ed8f81",
@@ -16813,6 +17788,10 @@
       "fingerprint": "5204c0f99df266a5bd4b4b21038e705bfd9b9d0d",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
     },
+    "8ccca2ca60415e72378cfa9e374853fb84355980": {
+      "fingerprint": "d5603328581ed1fb95ecb5533598ddf813c2b834",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "8cd8b386d3f797c74c66c74801fe34e48443f7d7": {
       "fingerprint": "0b508e51baf3a63edff97b4861c3d32b4e5464be",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
@@ -16864,6 +17843,10 @@
       "fingerprint": "4775f37131ff02bbc15d26f26edcc9aeb3c83b28",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
     },
+    "8cffc28d6347ff870a577c471804b2abf5dc6f17": {
+      "fingerprint": "01e04510606d461662b413c16b4a1e8d26fbea19",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "8d11f403d4161a95f3379dadfd4752e03242f8fb": {
       "fingerprint": "42c883cf33a0ec7c06876c9adcc4274477915045",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
@@ -16875,6 +17858,10 @@
     "8d7437aa0593ff4b681e38a2881d70809a2ff870": {
       "fingerprint": "d4b6ca158de1a10a34b2d153298436fb6c4ea948",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
+    },
+    "8d7a8382532d478ce28e3bb78f7ca3662ef227bf": {
+      "fingerprint": "9067c4b90bd0b17de457e7c25769a41b3a819bac",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "8d7d6ef7d848e57e55ab7139780973118cb5d52e": {
       "fingerprint": "4aa9fc7fc6c604ee08248729ef7bae60748301cb",
@@ -17000,6 +17987,10 @@
       "fingerprint": "7c081a06cacd424bc90ffac986a9c4990b81b897",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
     },
+    "8ed3db125a4e70be6b33612b4ae3aed5e2ec8358": {
+      "fingerprint": "5af89ad289b2ef1060c460d83296c6e82042e2fd",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "8ed505766b6fde7c702e6b344067f7092b2aaa86": {
       "fingerprint": "61fc8780b3add94cd848c42ab3251b7ac82e9de7",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
@@ -17011,6 +18002,10 @@
     "8f0b7f32cc2f69c0f83c60a9fee3a6add148e675": {
       "fingerprint": "106a63d22d6a1cd2b252846c23d1796c1208f293",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "8f233892bea898bcb8c9d971a10b4818c988fb2e": {
+      "fingerprint": "658ca7f75d2d72177dba860f98dc6d44a7d095bb",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "8f254f2f1d548aca28fa7e2064bfc008a7e19648": {
       "fingerprint": "e3d12f5d5ef1ff73acc4da50ec51cb3c23856962",
@@ -17180,6 +18175,10 @@
       "fingerprint": "1874c56b412c3edf3467afdf911139f004087519",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
     },
+    "90cc2176dd1566a4059a85c3dddc505967c18848": {
+      "fingerprint": "9eb1b021d1af230b5d1d67eed56d168e454b7e3b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "90d826c6a2228425165cc06510c6a56206129894": {
       "fingerprint": "8239e58444828dda83324b0f43ec5805104c2c90",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
@@ -17316,6 +18315,10 @@
     "91c6f2d18c993918e0a3ce4e8cac7ec5976a743b": {
       "fingerprint": "d17e4834e12e489d388e132d4e2e1ea4077908f3",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "91cb12be79e8b4efa92e16356a4414fd84dbd64e": {
+      "fingerprint": "b415dcaa6ac3ea5e6255b38119e46bb080d59caf",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "91ce62ba186c388f485b9fba78430f1bf9a2400a": {
       "fingerprint": "e6019cc9ec4be7d91ec29d94f949508d2a3979ed",
@@ -17546,6 +18549,10 @@
       "fingerprint": "929d9c8787782b67724b6a532e92754a876d543b",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "933772233cd3e5c99b11e34ea6947dd182ce9220": {
+      "fingerprint": "6e4b053b239394bd8facad495bd66a96a69fca88",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "938954f1d8a32401eb12b315bae5a00a09bbbfbc": {
       "fingerprint": "a278035e7b7ac6c1af7096bed0013c9ff16e737c",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
@@ -17621,6 +18628,10 @@
     "948746eac77af54b4063b12c2baf7a383de60028": {
       "fingerprint": "c32dc930ce402cf89d913d6d8d412edfc7ef93e4",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
+    },
+    "948ed34ac0558530915dac723552ad2e3c770e79": {
+      "fingerprint": "37f2ce06d58d3eb90d8d0ad2be4e6bf7a93be45d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "94dbff690e910e1642b860a0d2b81ceaca90d3a1": {
       "fingerprint": "c0dd3ca3809565fbb4b136ff54c253eb689191f7",
@@ -17728,6 +18739,10 @@
     "95c12ded035c181351389b37b403bc09c310f93e": {
       "fingerprint": "4ea3849dc9b94c25f53be07d5880bf6acbb06ad2",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
+    },
+    "95d4bcf361fdb4b75ab485486db3ab5acfa73974": {
+      "fingerprint": "850b3158db3e32354b3a62989130897d7d493b43",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "95f77fed1f439856a28056c5d1dd908ee70a4f2a": {
       "fingerprint": "71f1a193800458b1cf4dc52c934cc7c0ce33ca6f",
@@ -17913,6 +18928,47 @@
       },
       "fingerprint": "6e06a4f2f1948bf92c397a1c9b0861189e94a335",
       "last_seen_utc": "2026-04-27T17:17:50.647178+00:00"
+    },
+    "977bed4a0636d520e93cf2e44995368980fc031e": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "977bed4a0636d520e93cf2e44995368980fc031e",
+        "link": "https://www.nature.com/articles/s43018-026-01181-8",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.88,
+        "source": "Nature Cancer",
+        "tags": [
+          "breast cancer",
+          "HER2-low",
+          "immunotherapy",
+          "durvalumab",
+          "trastuzumab deruxtecan",
+          "clinical trial",
+          "translational"
+        ],
+        "title": "First-line durvalumab in combination with trastuzumab deruxtecan in women with locally advanced unresectable or metastatic, hormone-receptor-negative, HER2-low breast cancer: multicenter, open-label, phase 1b/2 BEGONIA platform trial",
+        "why": "Phase 1b/2 trial evaluating an immunotherapy + antibody-drug conjugate in a defined breast cancer subset; directly relevant to therapy response and translational biomarker stratification."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "977bed4a0636d520e93cf2e44995368980fc031e",
+        "link": "https://www.nature.com/articles/s43018-026-01181-8",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.16,
+        "source": "Nature Cancer",
+        "tags": [
+          "clinical trial",
+          "immunotherapy",
+          "antibody-drug conjugate",
+          "breast cancer"
+        ],
+        "title": "First-line durvalumab in combination with trastuzumab deruxtecan in women with locally advanced unresectable or metastatic, hormone-receptor-negative, HER2-low breast cancer: multicenter, open-label, phase 1b/2 BEGONIA platform trial",
+        "why": "Breast cancer platform trial; high clinical relevance generally but not pediatric and not centered on omics/biomarker computation in the provided summary."
+      },
+      "fingerprint": "5365146cc3dcf7abb400a33b6c72a36e3924d236",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "97a16f080aef2777c889566db04d7fca208dc57b": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -18223,6 +19279,10 @@
       "fingerprint": "ab8b4307973c9da4fe8f3415e11468029f3ee208",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
     },
+    "99b9fbedb7d88b1b97012f878edbdc0f32ee107e": {
+      "fingerprint": "f16e5d7b268b4c43e78cfd80a2dbf0e583631bb7",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "99f17503aeab4dae21219ea86e5ca854cd2d2b74": {
       "fingerprint": "3a5e37f3fa61047300c96d3339b4838041391b41",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
@@ -18362,6 +19422,46 @@
       "fingerprint": "6fcb9fcecdfff10fdacdef63e646908a404fb8e3",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "9ad1336700e06c8d5dc58f0983bd9209fa6c13c7": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "9ad1336700e06c8d5dc58f0983bd9209fa6c13c7",
+        "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014362",
+        "published_utc": "2026-06-04T14:00:00+00:00",
+        "score": 0.72,
+        "source": "PLOS Computational Biology",
+        "tags": [
+          "spatial transcriptomics",
+          "experimental design",
+          "aggregated signatures",
+          "multi-omics"
+        ],
+        "title": "CIPHER: An end-to-end framework for designing optimized aggregated spatial transcriptomics experiments",
+        "why": "Optimized design framework for aggregated spatial transcriptomics; supports efficient multi-omics integration."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "9ad1336700e06c8d5dc58f0983bd9209fa6c13c7",
+        "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014362",
+        "published_utc": "2026-06-04T14:00:00+00:00",
+        "score": 0.64,
+        "source": "PLOS Comp Bio",
+        "tags": [
+          "spatial transcriptomics",
+          "experimental design",
+          "gene panels",
+          "signature pooling",
+          "scRNA-seq integration",
+          "methods"
+        ],
+        "title": "CIPHER: An end-to-end framework for designing optimized aggregated spatial transcriptomics experiments",
+        "why": "Develops an end-to-end framework for designing aggregated spatial transcriptomics experiments (signature pooling), relevant for scalable spatial profiling and integration with scRNA-seq to recover cell states."
+      },
+      "fingerprint": "a4889ff8850ef3ed43f7674cd710b5b92b72a9fa",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "9adf7659d385edbce42bc4dde4b4235e2784683a": {
       "fingerprint": "ecb51ddc6ef189aa283c976118ece8acb6c46ac1",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
@@ -18373,6 +19473,10 @@
     "9afe50c2ac83a7f341054baff147eb55519d7ad9": {
       "fingerprint": "673417e7e6edbd4d21ae1f53845d89f45e84b981",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
+    },
+    "9b1d1c278ba0ea53396ad054643bd626fba76a55": {
+      "fingerprint": "58f06fb7a61fc79025c3ca6b107fd85719f2a049",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "9b45aca0b489adb7bd611a30850d2d04399f7eb3": {
       "fingerprint": "46ee8875d0fbbb493605fb34d1d6b1fcab9cc92d",
@@ -18680,6 +19784,10 @@
       "fingerprint": "1e0136a9ba17fe3169d710d28406bb61eb7dfb26",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
     },
+    "9d3865dd72ff3ccf65869a2877121fa0d075842a": {
+      "fingerprint": "bbd171a569db7094208287bed8ba0390f153ea5e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "9d471ebc70eaffc13e71955bdb32b1a4f44c7767": {
       "fingerprint": "74e040fbe2d21223102e339e2512a5c59a3a0fc6",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -18800,6 +19908,10 @@
       "fingerprint": "81be04ab16c3c4f96bbb5f28f738823bf34e7ebc",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "9eb6955c250b58d33b19fa3f8a9def1d5a94422e": {
+      "fingerprint": "9a046876dbbf5f1f5ec60b3ff05e39b6fec3d208",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "9ee64942abe1ab3b45b5bc0741782bebcf72cec8": {
       "fingerprint": "dc74e364112a75004a6eba8ae0dc63752ad87bf4",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -18832,6 +19944,10 @@
       "fingerprint": "741d394bc815afafb1c04e7d52ea9786a3adea59",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
+    "9f7477e7f03305d859ef860f6aee6c4e1ff7f532": {
+      "fingerprint": "b6d9b6d46af2ae7d8561ebce4cd1741ede05af0d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "9f8d8bcb6d4aa6cc217bd3f31884ed43ae7acde7": {
       "fingerprint": "d12fc318f26dda8db69dce8b9de60c0054999fdc",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
@@ -18851,6 +19967,14 @@
     "9feb5da214de4e1677ff347bb41cffe14b13f4ef": {
       "fingerprint": "940acf4d1a5fa80046aa3edf02ccfff87b5aa4a9",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
+    },
+    "a029f086de017beae864189dab1e8ae201183b0c": {
+      "fingerprint": "a9920f8793240a64a2abd06411a37de5b597e8bb",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "a02e54ce269d9620c9102b909e85629462d7671d": {
+      "fingerprint": "f257dfcfb8a7e66e27637ff3c38f5326cae1162f",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "a030d1beb34a3a1180d40e2287c72c6fe97919a2": {
       "fingerprint": "056cb7e41bbb94ec45381991d123fc93531f243c",
@@ -18875,6 +19999,10 @@
     "a09fdee902cc63e7bd00e8175f712d0a42128b07": {
       "fingerprint": "24a4f23c74bb11024ace2784b11d162493569a56",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "a0a346f9f056271fb56a74a0a3ff45783715d0a7": {
+      "fingerprint": "c05513afe1ed8a063c0f77580c0711c4b752ad50",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "a0b2eafc82d1362ce88e6549b5d17c41d6be1978": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -18967,6 +20095,10 @@
       "fingerprint": "4f2c00b72db7dffca733ac71a5c0885c6b32f8f0",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
     },
+    "a1736fc8aed540e7dfaf1535e577904480cec791": {
+      "fingerprint": "edcf995fb797864ca8a63840ba785789072461b5",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "a17865350f32e6699fc106a45e327b5dacfe0c28": {
       "fingerprint": "3e592182450f34cd6d546c819a720ee17ee19176",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -19018,6 +20150,10 @@
     "a269b704777e81aa8a9b55921e989b82d410c13d": {
       "fingerprint": "4f68b4dab477065ebcf1cbe09ccb9e284bda889c",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
+    },
+    "a26a2ecd8f2a1790e84fdefc289b4059438b6b08": {
+      "fingerprint": "9f8b630518f619d9bf2939ec4d2a5f2b225217a5",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "a26d317f4093bbf4a2ac1c2079f37076c2c4703c": {
       "fingerprint": "0c4ea3df66153c88afca5033a89bdd525f954984",
@@ -19245,6 +20381,10 @@
       },
       "fingerprint": "40a56f5dd0924329d53565f4ec3adf94ec5d8069",
       "last_seen_utc": "2026-03-23T16:51:56.015905+00:00"
+    },
+    "a50da8fbf1943e96ed4eca3593bfdaffeb028870": {
+      "fingerprint": "2a699b3e7f8c435af9cbc6088aadfa4419a1ccb7",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "a52091672988a1135a2dae219358f4068e4f456b": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -19647,6 +20787,10 @@
     "aa13f3686ea2e05fffeecd8696f20395e8163a0c": {
       "fingerprint": "e1a35c3668805a5e17a4a6ae19c7281b724eea66",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
+    },
+    "aa2d6a0dfad1d19ab1d9c73073e6506b288d7002": {
+      "fingerprint": "07a0f9276c0e27d340cd7b9b21b26a7a5b4bf51d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "aa47a9c56eb370901466054b5962f611ea826f4e": {
       "fingerprint": "38176e718f9ff79f1fb07df93fb5e3ca21ac088a",
@@ -20601,6 +21745,10 @@
       "fingerprint": "b6e4fce32b92b14bf4c35ba2aa2630cb2701a184",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
     },
+    "b284b2a5ae0f994e36e14a8339a346c0bbcdddbb": {
+      "fingerprint": "9f67d3c88ee50f234ad2afa9a899e288cdd4fb0c",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "b28c03b06c2ee564f53df842268234a2de36bdf8": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -20649,6 +21797,10 @@
       "fingerprint": "4a96646524ac687e2b4fda68a3aa3f6a9fc1738e",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
     },
+    "b2ac009dbbf26c1ceae62c727f9857d535b2ab3e": {
+      "fingerprint": "f90768b61ab5b144a0bd824a25721a60daab3509",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "b2c41e6a60078215c675fd1d040a43f14b0e47c9": {
       "fingerprint": "fc1b1492872c5d34dbe876fdfbf8ac11834320f5",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
@@ -20664,6 +21816,10 @@
     "b33c9dde77de4e85780fa99c8596234ff37a43bb": {
       "fingerprint": "b3d4222e6291209ed0fb97d42f1ba757c8ba556e",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
+    },
+    "b345fdbee72130088c49fffb162bb7027a7e5fa0": {
+      "fingerprint": "6ce3af1608274b66563d885601ec8bfd0f2b2b88",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "b35191fcfa9a1c2c43a9cda89ea558f5c2272098": {
       "fingerprint": "6a075aeed6b47c56d064fb7ad1ce3aebe8cb11a0",
@@ -20731,6 +21887,10 @@
     "b3d40c02e6845d6ea67699003d083fefc4a33f83": {
       "fingerprint": "32231b7d6272a158da3adc6135cbe6bc14dab162",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "b3e2699218bb8c54f74b599d490817bcbb7d6b8f": {
+      "fingerprint": "9ef63b37bf2a764db70516668bb8476a4193b72d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "b414466bde805877f29ca25ae6abe3a2baa38714": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -20873,6 +22033,14 @@
     "b51e99e71719bf8ba54c55c699e93b56ee9b9e31": {
       "fingerprint": "b8c6e1cc7612ecf0b04c4279665d77d5bb2d7a9d",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
+    },
+    "b54ff2a04ed61872a7a761de47fafb90ba86e7d9": {
+      "fingerprint": "189aec27c352a781e82335a76670ed8d00d61ab8",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "b574a41f793b24032f6c40f088a0b712cb5141f2": {
+      "fingerprint": "b1d205c576814b205a70ff4397f1e8489437c7f4",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "b58d10b02282a1b3a2efcdd0dbe334c40e54c6af": {
       "fingerprint": "df18ddcc6126df9a1935e2896772c10ee236f5c0",
@@ -21023,6 +22191,10 @@
       "fingerprint": "0f7a03ead9073bf4a89490457d5aee91563512b3",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "b6ea3ad02a3d326ff96e55462c58e4bfd762cc29": {
+      "fingerprint": "a0b794001709a441d0d511cec2adde188ce0056a",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "b6fda3b031b6fbc3e01f75b70377be7809e8189c": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -21162,6 +22334,10 @@
       "fingerprint": "3293987f3b30b4143668c933a7951e9234fc6fd6",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
     },
+    "b89df37c1b20cb8d52f92c3ebf065ed5b32f18bd": {
+      "fingerprint": "95f15d2313de10e4ebe6b194917b85d7dfb6354e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "b8a278a113df74f2ed7de38e6654d22cba19700c": {
       "fingerprint": "79672ed3d0b7f351f072ca305c4687aca83dbb56",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
@@ -21233,9 +22409,54 @@
       "fingerprint": "99fc3f5e7dd6ac8a79eb13e48b3a15c2d0b8e450",
       "last_seen_utc": "2026-05-11T17:52:38.250881+00:00"
     },
+    "b9808dfb85d5ee9f2af6996acc990b88b24b5f6c": {
+      "fingerprint": "d9adebb8da7896a2666be9f292d1ceaa9f7485c2",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "b99b5c50113f57279873dd270583e13896c96d1f": {
       "fingerprint": "4cf3960074d39ecd4c04d804f05cc68a2e5a53b6",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
+    },
+    "b99f2f24766a267e3add68074a3134cf808d6524": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "b99f2f24766a267e3add68074a3134cf808d6524",
+        "link": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbag286/8703108?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.64,
+        "source": "Briefings in Bioinformatics",
+        "tags": [
+          "scRNA-seq",
+          "single-cell",
+          "immunology",
+          "machine learning",
+          "biomarkers"
+        ],
+        "title": "scHILL: deciphering individual-level immune cell heterogeneity with single-cell RNA sequencing data",
+        "why": "Single-cell method for immune heterogeneity; relevant to therapy resistance and biomarker discovery."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "b99f2f24766a267e3add68074a3134cf808d6524",
+        "link": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbag286/8703108?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.72,
+        "source": "Briefings in Bioinformatics (Oxford Academic)",
+        "tags": [
+          "scRNA-seq",
+          "deep learning",
+          "masked autoencoder",
+          "immune heterogeneity",
+          "patient-level analysis",
+          "representation learning"
+        ],
+        "title": "scHILL: deciphering individual-level immune cell heterogeneity with single-cell RNA sequencing data",
+        "why": "Introduces a deep-learning framework (masked autoencoder + MLP) aimed at characterizing heterogeneity at the individual level in scRNA-seq, which is relevant for patient-level immune/TME variation analyses."
+      },
+      "fingerprint": "a026a93427ca7569c97d9b9bec0c7461019c5045",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "b99faba9cf522b7f572aafc5e0ff94e31157206d": {
       "fingerprint": "e10030ea8d00e292234c4c5d50497bdefc319b26",
@@ -21446,6 +22667,14 @@
       "fingerprint": "cd7b91a316f8cee35f2d2fabac1bbe4671a5675d",
       "last_seen_utc": "2026-04-06T16:41:24.013757+00:00"
     },
+    "bb544878d60c5e9d81bc535578e133924fd7a976": {
+      "fingerprint": "f2481e0ce0669b38b978947bfb7cc42af9ca8137",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "bb64b6b92226ddbc353b9eb67b565498b60f67e2": {
+      "fingerprint": "36fbb44e551f67d2aa2dca0027064617617b6fcd",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "bb6a68b4088d7fdc34ce9f47e94bc1364dd7e286": {
       "fingerprint": "bae1710b22b40df4217654ca3d08b43ad87681c8",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
@@ -21505,6 +22734,14 @@
     "bca615c73f2f1bf6c8db98e8d2811c2e7675a614": {
       "fingerprint": "ffbb92e3c43c221ecdc019cc2c5409309773a6dc",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "bca9ed1b5daaeadbaf8b231a6b988d50d466a5f7": {
+      "fingerprint": "50c07427785733f85bdc2a828efb8b7de9e850c9",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "bcc56927768e7c1f11b0d3a3f482abbed2dc38a4": {
+      "fingerprint": "5bb7aebcfc056a9568476bf7c19146715376ce2f",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "bce7da79db768c14e45ef0634152ff1d6bf8ba6c": {
       "fingerprint": "89282e942de60a1f46ddef5cb1f94a60845f9685",
@@ -21621,6 +22858,10 @@
     "be234a657785ba9c6927912e6905513db06d8450": {
       "fingerprint": "bc019f1d67647b3f145e878db6505297d28fcda7",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "be2da94b8c58c46afb8e4e7d3788f0b9a2fab5d6": {
+      "fingerprint": "d51ec06a91919500eb1fb6b0d39783714a5a88e6",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "be48232d31da50aaf329e35fe16112baf4d842fd": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -21768,6 +23009,10 @@
       "fingerprint": "0e020fe1f5450309d5dd140d5dc929d96fc219e9",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
     },
+    "bf043b9bcb13457f656cc08c36fd4da5ee13eb27": {
+      "fingerprint": "5bae62273d3b0fc2201a9af83aa0bc3e488d13e0",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "bf082a97ca2531e65431176034795d3feea488b2": {
       "fingerprint": "bb7032b423c831a88236193ee58031bf633ddac1",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
@@ -21800,6 +23045,10 @@
       "fingerprint": "c7d4b57b18959d9312c9240cd3d59c35b2afce63",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
     },
+    "c0106ae07508676bb7b9e8d1ccef43a3167ffa1e": {
+      "fingerprint": "824a3094885cbf7a77c3bb1c8a654d9a16e9a586",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "c0145da61b668f057db321295a34139e3e087e72": {
       "fingerprint": "9f51d48b2123618de05f493de359702f0e9a1241",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -21823,6 +23072,51 @@
     "c0961c5c5db0eca5d9857ddf6d529a925c613a52": {
       "fingerprint": "84c212a34439aa6ac1902582c7d49e0ec2083a16",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
+    },
+    "c09f6ee8c816a4694a4dc9d83f94dbf991605a50": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "c09f6ee8c816a4694a4dc9d83f94dbf991605a50",
+        "link": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2849977",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.6,
+        "source": "JAMA Oncology",
+        "tags": [
+          "immunotherapy",
+          "NSCLC",
+          "PD-L1",
+          "meta-analysis",
+          "treatment-stratification"
+        ],
+        "title": "PD-(L)1 Inhibitor Monotherapy vs Chemoimmunotherapy for Advanced NSCLC With High PD-L1 Expression",
+        "why": "Comparative survival analysis in high-PD-L1 NSCLC; directly informs treatment stratification and translational biomarker use."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "c09f6ee8c816a4694a4dc9d83f94dbf991605a50",
+        "link": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2849977",
+        "published_utc": "2026-06-04T00:00:00+00:00",
+        "score": 0.22,
+        "source": "JAMA Oncology",
+        "tags": [
+          "meta-analysis",
+          "PD-1",
+          "PD-L1",
+          "NSCLC",
+          "treatment selection",
+          "survival"
+        ],
+        "title": "PD-(L)1 Inhibitor Monotherapy vs Chemoimmunotherapy for Advanced NSCLC With High PD-L1 Expression",
+        "why": "Meta-analysis comparing survival for PD-(L)1 monotherapy vs chemoimmunotherapy in high–PD-L1 advanced NSCLC. Useful general evidence-synthesis for treatment selection, but not pediatric-focused and no molecular mechanism or multi-omics component is indicated."
+      },
+      "fingerprint": "f9f7dbaf0725d53d320641d05e78907dc8849913",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
+    "c0b3ca7886358be5676c924083dfc3886c9f9b5f": {
+      "fingerprint": "2ada7468c03592ebf4732724f23637e39ccdd87d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "c0da335d81e8f5b60daf06e2e60a20548e3a55ef": {
       "fingerprint": "7b0bb8d5838aca7bb82ba95fccc81b5ba0476135",
@@ -22095,6 +23389,10 @@
       "fingerprint": "279e1be440fb21e76c5610ae49b4f707b190f780",
       "last_seen_utc": "2026-04-27T17:17:50.647178+00:00"
     },
+    "c26533378a8b7a5ebd700d241a1e0276b038e3a2": {
+      "fingerprint": "c543919ff330dcefbae560a26582f82596ee403d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "c2722e53e5811483aecb2f686b95d48a3fc8444f": {
       "fingerprint": "53894e8a2fb740686e235851115146b7955e843e",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
@@ -22197,6 +23495,10 @@
     "c2cdb829f0f0159aa7c56f5040320db564acf1c7": {
       "fingerprint": "8682b473330cbe14893bc8538a1cf2c56075f4de",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
+    },
+    "c2f2248adf4156ec39ca6d9e417351d502019bb8": {
+      "fingerprint": "edb95a77d87174693248c3cd7aaf91c0af7b6c02",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "c30c534c2468387dd213c7a61714c2c64717c0fd": {
       "fingerprint": "18187d247f330e22adfd355852281501b8be9273",
@@ -22554,6 +23856,45 @@
       "fingerprint": "e38e1ec25bd5fe7d9c38aa5bb56586d95b909433",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
     },
+    "c61615da6dd4fa281d7bfcb02c52fd5586ab27d2": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "c61615da6dd4fa281d7bfcb02c52fd5586ab27d2",
+        "link": "https://www.nature.com/articles/s41586-026-10738-7",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.85,
+        "source": "Nature",
+        "tags": [
+          "cancer",
+          "RNA-triggered therapy",
+          "chromatin",
+          "mutations",
+          "translational"
+        ],
+        "title": "Targeting Cancer-Specific Mutations with RNA-Triggered Chromatin Shredding",
+        "why": "Proposes an RNA-triggered chromatin-targeting approach to cancer mutations, representing a novel therapeutic strategy with translational potential."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "c61615da6dd4fa281d7bfcb02c52fd5586ab27d2",
+        "link": "https://www.nature.com/articles/s41586-026-10738-7",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.34,
+        "source": "Nature",
+        "tags": [
+          "targeted therapy",
+          "mutations",
+          "genome targeting",
+          "therapeutic modality"
+        ],
+        "title": "Targeting Cancer-Specific Mutations with RNA-Triggered Chromatin Shredding",
+        "why": "Title indicates a novel mutation-targeting therapeutic strategy, but no abstract/summary details are provided here to assess mechanism, models, or translational feasibility for pediatric oncology."
+      },
+      "fingerprint": "e7a6995ede93daa89cbce99c926be693918c1850",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "c659a7c4ddf4eee4a9f1e086ed4dd070de22fa34": {
       "fingerprint": "a6124262b880d8fefd34087b31111ef5ebfee2ce",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
@@ -22643,6 +23984,10 @@
       "fingerprint": "fd213e0748da36a5fa2f34416ed69eb7b07e251b",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
     },
+    "c6cfb1a1b5122b5f31100c55bb9b343f43a0ba8e": {
+      "fingerprint": "5c24a8a96cb187fd292179d03bbb5696f5326cc1",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "c6d41302a948af170c7b340bc7ba4c38316c4955": {
       "fingerprint": "4c02505a607963da37f8c6b2b3e2c0314d510444",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -22699,6 +24044,10 @@
     "c78320fa9691066c7a6ad3c9112d003294de212b": {
       "fingerprint": "d2195f26673f7ec8f8b36717c5d2883cc3b92368",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "c7a3ce83dde2ba79387d98bd6d055c8e266bedda": {
+      "fingerprint": "95623a25e8e7e7e6927e79cc531d4b47759f57b4",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "c7b1342da6ad098d8a5d41d1fa18339cd1af3f9a": {
       "fingerprint": "fc8be48b38ae0c395f8fc0895ada815107ccfeb2",
@@ -22870,6 +24219,14 @@
     "c9a83832e5dfa03fbae066e66ca6553cbd1c4c1e": {
       "fingerprint": "a39b82571c971121fb6a50441bf710dd783ef6c6",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
+    },
+    "c9b0f198f74fcfa26322a92e5b053f9a8f4a411e": {
+      "fingerprint": "2c3f5a8d89beb27fa9d94bc2191f78ce3e5ae483",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "c9b5930bd228eadf95daf5f2157d448b4eff0422": {
+      "fingerprint": "ce83af2f33c06f50147c63dbf3090ad68717ff66",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "c9c76dd3bca6c0048498471baf8c51a885127e40": {
       "fingerprint": "3412679a6abe61cfb11508ac2227ceff3e94d8f0",
@@ -23224,6 +24581,10 @@
       "fingerprint": "af7f35dc7c8a672b51dccee2b218acacccd7ea9a",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
     },
+    "cb2bc4e136f4258281ed91f69a94be78a2b56cda": {
+      "fingerprint": "25c29eab68af567cc27f2eed75b2a90096f49c58",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "cb6b65fd9843eeff78076295fda2f267a9578970": {
       "fingerprint": "0dfe80db3206e971049789fa6b5794cb27fe4e0a",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
@@ -23247,6 +24608,10 @@
     "cc08b938b8285468c8988033ceac685126b1a6fc": {
       "fingerprint": "da13555d08d57094394f8bad30c54c72615d2e47",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
+    },
+    "cc0b54d3e3c509cb75d3f190106bc96b48876f1a": {
+      "fingerprint": "1b1ef38fa11c5c9a5b44586516e535437d58cb69",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "cc43621a1dec6a10687fb3d229d1aaa06fcb27d7": {
       "fingerprint": "192bb65b717796485460fa71913221d081a745c6",
@@ -23423,6 +24788,10 @@
       },
       "fingerprint": "9b0e759a70d3ae0828dc73647ba8b80e449a47dd",
       "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
+    },
+    "cd40e375734a70d0f7df1b59ba83f20aa69cb857": {
+      "fingerprint": "ac86b2064fd1676701b89bc032b4e68a25fcd005",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "cd4f6afc328ccf2123d101b28f4b6db894c93d68": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -23620,6 +24989,10 @@
     "ce942e12de42902f51e0a2fab70fcfa39f1550c3": {
       "fingerprint": "46fdb6c3b45697edd5f11c6fa743395448094dfe",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "ceab38a0dabd4edb483df2434c70da6fa5bc0ecf": {
+      "fingerprint": "6837da243bbca33685ce5bb4c37ac5365e7ea379",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "cead6b3ed0abe485497f8d267a86d58fd0154b5e": {
       "fingerprint": "2f5cec7b9f7212532f623a1e0e3f89b4e71f7468",
@@ -23839,9 +25212,59 @@
       "fingerprint": "7211b489484e1ee6ad9c0104753ab085ce54d958",
       "last_seen_utc": "2026-06-01T20:13:59.425710+00:00"
     },
+    "cffd7bb43c630a37017493cbbad4012787e2f383": {
+      "fingerprint": "9df024f01759761811e36b3dcf3962f930526458",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "d01724a18e7b2af704422a9e802ce66dada5b28b": {
       "fingerprint": "f1785370f22e60341dcbfd4049b3b5f5ff45b5cd",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
+    },
+    "d01873758ac1e610d45f8690ed9dfd4293954fc6": {
+      "fingerprint": "bbe9ae573877e734c3ec8ae1a8e79838e9bd9104",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "d01f5815549918993a5de82e74736cb3ce747a54": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "d01f5815549918993a5de82e74736cb3ce747a54",
+        "link": "https://www.nature.com/articles/s41467-026-73977-2",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.9,
+        "source": "Nature Communications",
+        "tags": [
+          "cancer",
+          "drug response",
+          "targeted therapy",
+          "matrix factorization",
+          "biomarkers",
+          "translational"
+        ],
+        "title": "Gene dependency-informed inference of response to targeted cancer therapies",
+        "why": "Develops FORGE, a matrix factorization framework that co-models drug response and target gene essentiality to stratify tumors for targeted therapy."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "d01f5815549918993a5de82e74736cb3ce747a54",
+        "link": "https://www.nature.com/articles/s41467-026-73977-2",
+        "published_utc": "2026-06-08T00:00:00+00:00",
+        "score": 0.82,
+        "source": "Nature Communications",
+        "tags": [
+          "targeted therapy",
+          "drug response modeling",
+          "gene essentiality",
+          "matrix factorization",
+          "tumor stratification",
+          "computational method"
+        ],
+        "title": "Gene dependency-informed inference of response to targeted cancer therapies",
+        "why": "Presents FORGE, a matrix factorization framework that co-models drug response with target gene essentiality to stratify tumors for targeted therapy, directly aligning with computational drug-response inference workflows."
+      },
+      "fingerprint": "426fe8aec7fee24cefda18b4c79e8b540f406774",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "d034805c78fd9493b4ff18939cb3e5d1fd0267ef": {
       "fingerprint": "ba79f164ba9e5a2019c2bd3de7b170ea37393d07",
@@ -23892,6 +25315,10 @@
     "d09cfd7dbb137307763f09838fc68b687373e98c": {
       "fingerprint": "5c275bc3a146f436ba92c55b92abc30ecce28434",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "d0a8676724a28966ceb23ec8826030c314a2ca46": {
+      "fingerprint": "586ca5714d3b9347469145250c97b2db32f02a8d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "d0b50a9f09917c54aa07f05ca741c57d3aab1080": {
       "fingerprint": "09ee556cbbbd777dff49f30a4c7d2389fa6130f3",
@@ -24054,6 +25481,10 @@
     "d155195c12b2ccc299ac10aad20dbf7f46b11e20": {
       "fingerprint": "d338cdf512c30a9eefd23ed856466d6fc073d8d8",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
+    },
+    "d16d11dd5210dc5949f12390280ea0e9e7be31f1": {
+      "fingerprint": "d352ef79469f60c71f8d3e2c08d303b223029b38",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "d186d0dd41ae05fb3395c2731c67b0ccfc32ce57": {
       "fingerprint": "5aac3483c1fec851dd24dd05cbe14e4bb016dffc",
@@ -24218,6 +25649,10 @@
     "d43f6df4e38edf4504efe0c29e98f62d184c3060": {
       "fingerprint": "f62fe53f70e01ec40f23e891d57baf3970f1c74d",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "d4583e4b11e017675a3375471d517e6a9375d688": {
+      "fingerprint": "11e18cd7848215d37a0ddd965f02bf81052ce8cf",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "d45e75e86e6a6f2c7e5de2f8139f47a8a09e75e6": {
       "fingerprint": "56dd081ab6a91682ab227b648e10d81f1c34c0fd",
@@ -24536,6 +25971,10 @@
       "fingerprint": "9b5098f5089abc432606a20c1f28d7c74eb5dbd3",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
     },
+    "d67abf8da4753804544862418b42ccd86790ce6b": {
+      "fingerprint": "0b699da2b50bce39ccf611bbbad6c66ef8e0235b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "d6815811c1b6a697df2888708ef9e4f986faacd1": {
       "fingerprint": "661997e343fc253924c089798288112831ea2d2d",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -24608,13 +26047,25 @@
       "fingerprint": "2864c701ccdb0a2efa3d045cff763d6dd28f40a4",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
     },
+    "d763b601506394a26e2d5125eeacad8d4afd34d5": {
+      "fingerprint": "4f9068d55d768aa0cf7a79cb0bafd72760f37e5d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "d77017d79eb43e6178441fc87101b8f85b5f1c6b": {
       "fingerprint": "fd8e7a1b01f65ff460d36f30607823d176ad1d78",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
     },
+    "d77cb9ff5bbfec0e62ae4082ff0822aa0fa716f9": {
+      "fingerprint": "2a05de20fa68575e2fc5e401bf2be8d8ef01c128",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "d7802e09aa4c8a7e4de37ed17f09b4f1430f572b": {
       "fingerprint": "f3650c73f25bbb7d66a99649c8a9efc737f46e57",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "d795b00d1c85e1118289f5b324f2350ba5cd0eae": {
+      "fingerprint": "979cce47b6a41ff7d32010efa01646cc40eb022d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "d796a424f6c8cb06f17df8fcf6011560568d34c2": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -24900,6 +26351,10 @@
       "fingerprint": "8785fcb57d379dfd9cca8abc93172da9dc05584b",
       "last_seen_utc": "2026-04-13T16:57:44.350620+00:00"
     },
+    "da066b6c3f1ae0c4f0485f93f3e4c30aa093ec18": {
+      "fingerprint": "f3de722759a4cf450f22aabad05c327c1338699b",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "da6e564da32d53687c177c9116297f6266d485b2": {
       "fingerprint": "968545245bf6bb027a74c86df8cf0fe8c5c7339b",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
@@ -24957,9 +26412,17 @@
       "fingerprint": "932559921c4752ceb084ec67fe0fa167a9521c6d",
       "last_seen_utc": "2026-04-27T17:17:50.647178+00:00"
     },
+    "dae3572258943d0c478985d3bdc634811c6b238d": {
+      "fingerprint": "863dff00b2b2080966f4f584a75a9cc8a09fdacd",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "daf9e9c7b6f0aed12428d2e8d3a992536b77bf76": {
       "fingerprint": "6286eba96037e977061546afd4e6f1a26c635095",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
+    },
+    "db4f593137c4b4b2ae3530b145a5aa2d2659e5e2": {
+      "fingerprint": "c14971446aaff5e79f108b3d00cefcb9888b1f75",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "db4f9e6cd3ef2af364349e2884ac0fec372fcb58": {
       "fingerprint": "e99bbd5c6c4065d3b34561b6c5b36e264bfffa9f",
@@ -25049,6 +26512,10 @@
       "fingerprint": "0de14b2b27abadba8bf269d70ad9b71ee6148c4e",
       "last_seen_utc": "2026-04-20T16:57:43.723592+00:00"
     },
+    "dbb728345655681623540a6a803b102cc737ff57": {
+      "fingerprint": "7df94d5bf296dd3fe405c387998a7be9ea9b8138",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "dbde04036ce9868cdf20eab67980e76e7522c204": {
       "fingerprint": "0fb1b200364e853869cbc190f3623538bb951da1",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -25109,6 +26576,10 @@
     "dc5ee5c611ac2eb54098c13713990105eed52250": {
       "fingerprint": "9562bdf9265c1d6c4668626eb84a0918b3c1f608",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "dc6a4b609792e2027492a0b8e0b4178ed0adb077": {
+      "fingerprint": "d6fd226dd774c14da3261dcb9bf262daa4059129",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "dc73c6d94db2e463b08e90d5582185ae76c49e57": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -25185,6 +26656,10 @@
       "fingerprint": "754d75c4303a490928822ffba523695f1123f556",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
+    "ddba6b517c835200e3b06c0ec42aaef5ea5e7640": {
+      "fingerprint": "3fff5db4a6fb1c515cdfea7af149766011491875",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "de186b9546e28a1283dd5c861547aa84e8fc74c5": {
       "fingerprint": "f9ac257256fc5031412b7b0bfc33a516ff45b0cc",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
@@ -25253,6 +26728,10 @@
       "fingerprint": "b80ccadff5c0f14c865d9ffd45e69f5fffcee0b0",
       "last_seen_utc": "2026-04-20T16:53:42.175757+00:00"
     },
+    "debb94b2327a384c8c48552eeed7e6ef965cb346": {
+      "fingerprint": "2d545789ace4cebd24c759e422923997ef3c7e05",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "dec1e1a07777a02536099e9d5435a734bb56ebbe": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -25299,6 +26778,51 @@
     "dec533284e36f3bd7a0ac519fdbb0efa3c801ad8": {
       "fingerprint": "2ea457f75d8b69c586a529cc7af06607c7825a9a",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
+    },
+    "deceb6d0c53f99df81e9d9dcbb56178319d5a55b": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "deceb6d0c53f99df81e9d9dcbb56178319d5a55b",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.02.729542v1?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.92,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "pediatric oncology",
+          "diffuse midline glioma",
+          "extracellular vesicles",
+          "RNA profiling",
+          "biomarkers",
+          "therapy response",
+          "translational"
+        ],
+        "title": "Tumor extracellular vesicle RNA profiling predicts treatment response in pediatric diffuse midline glioma",
+        "why": "Pediatric DMG EV-RNA profiling suggests a non-invasive biomarker for treatment response; translational."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "deceb6d0c53f99df81e9d9dcbb56178319d5a55b",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.02.729542v1?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.86,
+        "source": "bioRxiv Cancer Biology",
+        "tags": [
+          "pediatric oncology",
+          "diffuse midline glioma",
+          "extracellular vesicles",
+          "liquid biopsy",
+          "RNA biomarkers",
+          "treatment response",
+          "resistance",
+          "translational"
+        ],
+        "title": "Tumor extracellular vesicle RNA profiling predicts treatment response in pediatric diffuse midline glioma",
+        "why": "Focuses on a pediatric brain tumor and explicitly targets a key translational need: noninvasive biomarkers to predict therapy response/resistance using plasma tumor-derived extracellular vesicle RNA profiling."
+      },
+      "fingerprint": "4e10addfc37f0534ef177acfc846617485fbab77",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
     },
     "deecd3fa641099f964487e04c1a138ec739f7537": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -25469,6 +26993,10 @@
       "fingerprint": "18b44dcccceb29fe3714c3365235e853596543f3",
       "last_seen_utc": "2026-05-04T17:26:00.352051+00:00"
     },
+    "df8d7f0a3034abd7ff4c3d6aac5e0fd1b9444bc8": {
+      "fingerprint": "1d1c92bbe421f5349a3a6b72b029bc60f97b01b4",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "df9288de621947a544c809edd84a0d7b7bb724c8": {
       "fingerprint": "c4b2bfa042544f220f9fc60bc7540e1f86ffb290",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
@@ -25552,6 +27080,10 @@
     "e14c050ed7e3e330a73abefb9a96196f593c954e": {
       "fingerprint": "045c79879eeed1fc16cd39a4d8992697bc7f9695",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "e157e6e815334237a69dc36c58923d20d0be1920": {
+      "fingerprint": "521690c4b9598b34acdf16d51e97c3ccf15fdc3c",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "e18c8e5997afc0625bf6c6732e0195e223552506": {
       "fingerprint": "877eb2bfcd9b008b52d2ccb7bea4aa04c2d78f8b",
@@ -25693,6 +27225,10 @@
       "fingerprint": "7cf5edb0dd14e1c212399f8018da10bb1ca9d7ee",
       "last_seen_utc": "2026-03-02T16:34:48.568692+00:00"
     },
+    "e2ce378c7cd87bb0c9fc770a0b483b974fd7502c": {
+      "fingerprint": "36b890c4be336e1b3ecfffa7789749deeeb46136",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "e2d24161dae0e70e20546d76f9f06824f3333be2": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -25798,6 +27334,10 @@
     "e360365847ed7cce2eacf046ebe9b3c523baf225": {
       "fingerprint": "f819d24fd9c84b1596c27eba0072a647d3e7f157",
       "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
+    },
+    "e360efa4f1c5d621b19f0fbeab4a7e2cf229c4d3": {
+      "fingerprint": "9547f2469fa194d439e35f96107a08c72c79047f",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "e3692b08bdea5ee1a7c1a12f2c3f05729e3c94cd": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -25908,6 +27448,10 @@
       "fingerprint": "a6b12bd63646e9a26cb11729e6d13c9ac1e663fa",
       "last_seen_utc": "2026-03-30T16:51:11.515033+00:00"
     },
+    "e3d5dbb7a44a7d6b0ed171ec9993c7f6fe65bd53": {
+      "fingerprint": "345fd9acaafa484fc5fde85df8d6d3ff0ada2363",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "e3f6e60dc6c0404ea8f5bf421d214c13937a383e": {
       "fingerprint": "2bafce94dcf98360cc10bce9c1111eb5edb828f7",
       "last_seen_utc": "2026-03-16T16:52:47.630905+00:00"
@@ -25928,6 +27472,10 @@
       "fingerprint": "9a954f26153c894176a98c64e6775e1361d7d93b",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
     },
+    "e46aba91ede9718057e43d786f9aa9d8700e163a": {
+      "fingerprint": "4b0b369b6f61246271e9764ac37bcbdc487a0655",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "e46ae0664769d4940389d6c32127dc7771b6b976": {
       "fingerprint": "95699eeb3514c2104e5e1df96981e69283564121",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
@@ -25935,6 +27483,10 @@
     "e47accb59db45ded4827aafd5e6112f6cd1385b7": {
       "fingerprint": "268c011a2a8a4d91d03b727ba8ee9a2bdee22205",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
+    },
+    "e49c46a1e361235385b3af39e50b7d061c1b39b3": {
+      "fingerprint": "ccb5adb5822b25a07689e1682d13dea28f8c09ad",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "e4ba67206ad264bcc8354b21db4f45787b7fc305": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -26063,6 +27615,10 @@
     "e5b4679e6650567113a03991860e33f66e23ced1": {
       "fingerprint": "7acde3a365b6376a8246b3b834b67532118cc1a7",
       "last_seen_utc": "2026-04-06T16:36:30.060941+00:00"
+    },
+    "e5ba261d7ff4f9396580ee42372d8c7e81b2621f": {
+      "fingerprint": "40d96e3c66b287764c8d801e4f8055a442af30a8",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "e5d53460555483f2ad190c3daec5d4d00e2cfb8b": {
       "fingerprint": "f8567e323dd2243c06ba5e130d5d3e40b520e768",
@@ -26357,7 +27913,7 @@
         "why": "Acute myelogenous leukemia metabolism/signaling study; computational/translational biomarker components are not indicated in the short summary line. Outside core neuroblastoma/omics-method focus based on available information."
       },
       "fingerprint": "5a0ee7aeca3264c126588c488abc6a37428f2be0",
-      "last_seen_utc": "2026-06-01T20:13:59.425710+00:00"
+      "last_seen_utc": "2026-06-08T18:21:01.935595+00:00"
     },
     "e77bcc9ff10c19bd6c5ba253a42375466f9cd965": {
       "fingerprint": "d6d4003ad301ebd477b885bea8510ed75f7b10cf",
@@ -26374,6 +27930,14 @@
     "e7bd2328f0856485cb0382df3c08ad90ec405e29": {
       "fingerprint": "32eea410318d21945831c634188ed8184fec7b02",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
+    },
+    "e7f5c46a71379c28599e03e8a26dfd52c405dbf5": {
+      "fingerprint": "f2dc88c5d01e7d44a6eb14502694e08c6897501e",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "e81f982a50340a07e23307e79f99f5283c4e142f": {
+      "fingerprint": "0d7ddedc0d7b6f5149bc9eb47efad8ce8f27d2f3",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "e82bde6bb361f0c5530ffb2670b38390a0caae4c": {
       "fingerprint": "41b917b46ef7f01ee061ba43c75b05934c68cbc5",
@@ -26804,6 +28368,46 @@
       "fingerprint": "69c2be7072307b9ad6eb61dff20c4beca2a525d7",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
     },
+    "ec190f6f72abf8e49a77c5e2c0f5938a9f7b8f7c": {
+      "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "cheap_model": "gpt-5-nano",
+      "cheap_result": {
+        "id": "ec190f6f72abf8e49a77c5e2c0f5938a9f7b8f7c",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.02.729594v1?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.62,
+        "source": "bioRxiv Genomics",
+        "tags": [
+          "single-cell",
+          "temporal dynamics",
+          "multi-omics",
+          "computational"
+        ],
+        "title": "The molecular asynchrony of single cells",
+        "why": "Proposes temporal delays in gene regulation; could inform dynamic multi-omics analyses."
+      },
+      "final_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
+      "final_model": "gpt-5.2",
+      "final_result": {
+        "id": "ec190f6f72abf8e49a77c5e2c0f5938a9f7b8f7c",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.06.02.729594v1?rss=1",
+        "published_utc": "2026-06-05T00:00:00+00:00",
+        "score": 0.58,
+        "source": "bioRxiv Genomics",
+        "tags": [
+          "single-cell multiome",
+          "scRNA-seq",
+          "scATAC-seq",
+          "multi-omics integration",
+          "gene regulation",
+          "dynamics"
+        ],
+        "title": "The molecular asynchrony of single cells",
+        "why": "Addresses integration of single-cell transcriptomic and epigenomic data by highlighting temporal delays ('molecular asynchrony') rather than assuming synchronized modalities, which could impact regulatory inference analyses."
+      },
+      "fingerprint": "c2daf5cff5e62183c832dca4298e5b095d75b8cc",
+      "last_seen_utc": "2026-06-08T18:22:01.305032+00:00"
+    },
     "ec35d27dbef1cf9791432319ea1cca8045319034": {
       "fingerprint": "d5838e740d60a210672f33bb663c32b23592685b",
       "last_seen_utc": "2026-03-02T15:07:13.694071+00:00"
@@ -26987,6 +28591,10 @@
       "fingerprint": "44ab4b4c54740943d7c6a53d4a17fe37cb198099",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
     },
+    "ed671f4befacee2767258da71ed14f01a5b38502": {
+      "fingerprint": "15ce9f1aecfc9099ec490620e50ee6e460510783",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "ed686b8230d540afe438fc7a3c97808602058a75": {
       "fingerprint": "d72aa8759bc4f3a2f3e925a84f7c4fdb58cd6457",
       "last_seen_utc": "2026-03-23T16:45:29.006709+00:00"
@@ -27132,6 +28740,10 @@
       "fingerprint": "1bf67581a077150ec2c4669a97e7dedcb9bb0338",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
     },
+    "eecfcfa1fd9ddde635c9ebc6afe7467011c87abf": {
+      "fingerprint": "3fc39bd0949d6845582f3f986ef1d94a510a0eb4",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "eee9ba33dbb032433da10025f678141aa08f3fd7": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -27181,6 +28793,10 @@
       "fingerprint": "0804e3a7f561f2acb2a55bc2aa738acd2c454a3b",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
     },
+    "ef1b11cd3d143580994130aafcbb3ed3b4411381": {
+      "fingerprint": "0d264b1aa6ec52ec2d0c3886f8d1e3cb5d064a7f",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "ef259194d9bc1bbf810392ce60269616852e60ff": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
       "cheap_model": "gpt-5-nano",
@@ -27223,6 +28839,10 @@
       "fingerprint": "710537a0d2b5c6683fff31d7750da119d493893a",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
     },
+    "ef3bd5dab77498a82eacb558259dd36de9713122": {
+      "fingerprint": "79a1f411ab46af6241ef749576b37df68ec73e9a",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "ef4056f0435edbcc4ac5ca31c03e609f8da8b915": {
       "fingerprint": "3b32a88f96cedecacc48cc617f028dd305d41d2a",
       "last_seen_utc": "2026-03-30T16:45:28.133462+00:00"
@@ -27258,6 +28878,10 @@
     "f045337f7aeb633be3f3e430e913390580f4bb79": {
       "fingerprint": "79195b62aafe04ef70646bd1a3c570c722c6d957",
       "last_seen_utc": "2026-03-02T16:31:36.346689+00:00"
+    },
+    "f078bfd1d9c11f5423a745b0246c7b20de016ac7": {
+      "fingerprint": "9f01847fe3de5adcd25cffc26e68f952e8c41fa7",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "f0a82375390e483b53736c505f63e9e75392e3eb": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -27385,6 +29009,10 @@
       "fingerprint": "3aeb41a77c1517960e26754921e4a0b1e9cb15ea",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
     },
+    "f1d33e39fc9374b04799bd37845f73058c2a910e": {
+      "fingerprint": "f347d5586c81d379ce5233d09d195dcf3f20025d",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "f1d629eedaa1a93e0e6d848fc31a998e5c11c7d5": {
       "fingerprint": "dda6a26e29c5c7f27973b03541a3d83a643092ee",
       "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
@@ -27392,6 +29020,10 @@
     "f1f17d2cee7895878bc1625f8198193b85080b43": {
       "fingerprint": "8ac46accbd9361b93c15ad1d5eac264e024cd344",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
+    },
+    "f1f5c142bbc1cd57c6e21afde9a07abdd779c054": {
+      "fingerprint": "f67505b12f7ce01529e6fdf4f634209473e0e135",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "f1fd8fa1552b380c3ee6fda73025a232c35019a2": {
       "fingerprint": "efd1cc63f81bba925b0344af0c00cebbd07f29a6",
@@ -27781,6 +29413,10 @@
       "fingerprint": "241070d66ea29beada0269a7fcbb572b8f7dafbe",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "f491ebc3364511a56f5dd89daafd3dee4c0173b8": {
+      "fingerprint": "747764c8bc846affc222b4b2151328d8a4fab782",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "f4af67d22fd343eb8fedd96371dea7f8b8af3ac8": {
       "fingerprint": "d5c71a8ff81e23ec847b40148e38147c791dac0b",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -28112,6 +29748,10 @@
     "f74d42b3898acb0738d018edb61719caf6ce7f44": {
       "fingerprint": "a48c82228e07778d7404d1ffdbdcee018c2a6268",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
+    },
+    "f75f6e62ced4be3880d73e81ac9489d8b9b77dc2": {
+      "fingerprint": "f83fff5d869440063cde00eeb1762f5a5c41fdcb",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "f7732a48c75169e33827fead5a1feedd8c866c5a": {
       "fingerprint": "1d136321df1a0da0d6ef4f58be721731cbbc53e4",
@@ -28541,6 +30181,10 @@
       "fingerprint": "5abd5672f586e20e21971f14c6f34771ae4b31ad",
       "last_seen_utc": "2026-05-11T17:48:16.474738+00:00"
     },
+    "fb10cd514019c38ee95e4cb6fe9496564c3ee7e1": {
+      "fingerprint": "7880fdf40422adb706b42ebf1d2a6ed3f44ba413",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "fb1c9693b7218812a17242155f635c5b84955556": {
       "fingerprint": "a7af22c4ad697f68b29ce73be5c5c35df9fd05eb",
       "last_seen_utc": "2026-04-13T16:53:12.095423+00:00"
@@ -28890,6 +30534,10 @@
       "fingerprint": "759e5f8dda569a2dd50346bc57e618e47d163fc7",
       "last_seen_utc": "2026-05-18T17:51:25.250989+00:00"
     },
+    "fe1583d7d1ca4702a90774189ff66654b07c3ee2": {
+      "fingerprint": "776a32ef73413d87c8dc6a153726378a5ad810db",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "fe213471824f840fca71e7f5a05758f2c9e441d6": {
       "fingerprint": "c79c730ca45802eb79b025ae8e9646d8f94089c3",
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
@@ -28900,7 +30548,11 @@
     },
     "fe686dabe3f820b8eeaaf588c337b92cc1b44b79": {
       "fingerprint": "ae4e88b7b01d9059983d9414706c1ea59759b07b",
-      "last_seen_utc": "2026-06-01T20:09:04.898234+00:00"
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
+    "fe9487bb40f5c28a90bea5b0fd243e832bebaea3": {
+      "fingerprint": "099737657ad57fb78498599cf9d6b2a2698c5b84",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "fe9b2bfdc0a98c0cc5f89f9d4bd216995d4822a0": {
       "fingerprint": "32ad0ffb1524ec4a0c521b20981cea91e055dad2",
@@ -28930,6 +30582,10 @@
       "fingerprint": "72e82226e0f439e220a8e6133260a1955480d6a2",
       "last_seen_utc": "2026-04-27T17:13:42.733843+00:00"
     },
+    "ff4275c87f670371405b45766545cea0b4cd512e": {
+      "fingerprint": "51d7f26e14cfda73b1a798f1daee7c8b1c5d26b5",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
+    },
     "ff46e2b39ecbaa4848ad8cba5692809130f5ebce": {
       "fingerprint": "531936fbfcbca3e705a26e80fabff80641eabaed",
       "last_seen_utc": "2026-05-04T17:20:45.912648+00:00"
@@ -28941,6 +30597,10 @@
     "ff52ad8628760417b1305994b1b45252c2cb13ec": {
       "fingerprint": "441e2a1a6e2e6ef885d2442690c582cb708256be",
       "last_seen_utc": "2026-03-09T16:45:45.122067+00:00"
+    },
+    "ff74a61df779abfffa5b04e33c2d6b8a4ea05352": {
+      "fingerprint": "797166eae25b88b45cdad5c6d96d241fd2874e3f",
+      "last_seen_utc": "2026-06-08T18:17:27.554954+00:00"
     },
     "ff87a7affd768ecf571743fbeabaaef9b3b3c199": {
       "cheap_interests_hash": "f36eb6a87ad4d589993955a9cfb1c440e102e12f",
@@ -28977,6 +30637,6 @@
       "last_seen_utc": "2026-05-25T17:27:19.428013+00:00"
     }
   },
-  "updated_utc": "2026-06-01T20:13:59.705884+00:00",
+  "updated_utc": "2026-06-08T18:22:01.540809+00:00",
   "version": 1
 }
