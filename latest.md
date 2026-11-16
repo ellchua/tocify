@@ -1,588 +1,598 @@
-# Weekly ToC Digest (week of 2026-11-09)
+# Weekly ToC Digest (week of 2026-11-16)
 
 This digest is automatically generated from this week's RSS items and categorized into Neuroblastoma, AI, Methods, and Other.
 
-**Included:** 34 (all ranked papers)  
-**Scored:** 34 total items
+**Included:** 35 (all ranked papers)  
+**Scored:** 35 total items
 
 **Models:** `gpt-5-nano` first-pass, `gpt-5.2` re-rank top 40
 
 ---
 
-## Neuroblastoma (22 shown / 22 total)
+## Neuroblastoma (13 shown / 13 total)
 
-### [PRISM: probabilistic cell-type resolution with integrated spatial modelling for simultaneous ambient RNA decontamination and doublet correction in spatial transcriptomics](https://www.biorxiv.org/content/10.64898/2026.11.07.765042v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.81**
-Published: 2026-11-09
-Tags: spatial transcriptomics, ambient RNA, doublet correction, EM algorithm, cell typing, QC
-
-Introduces an EM framework that jointly handles two common spatial transcriptomics artifacts—ambient RNA contamination and segmentation doublets—while assigning probabilistic cell-type identities. This is highly transferable to spatial profiling of pediatric tumors and microenvironment analyses where these confounders can drive false signals.
-
-<details>
-<summary>RSS summary</summary>
-
-Spatial transcriptomics count matrices are confounded by ambient RNA contamination and cell-segmentation doublets, two artifacts that co-occur but are rarely modelled jointly. We present PRISM, an Expectation-Maximization framework that simultaneously (i) assigns each cell a probabilistic cell-type identity, (ii) detects doublets via log-likelihood ratio testing of two-component mixtures, and (iii) estimates a per-cell contamination fraction anchored to a spatially resolved ambient profile. In a…
-
-</details>
-
----
-
-### [DeSCENT: Deconvolutional Single-Cell RNA-seq Enhances Transcriptome-based Cancer Survival Analysis](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag810/9016676?rss=1)
-*Bioinformatics (Oxford Academic)*  
-Score: **0.77**
-Published: 2026-11-06
-Tags: bulk RNA-seq, scRNA-seq, deconvolution, survival analysis, translational, biomarkers
-
-Bridges the common gap between scRNA-seq (heterogeneity) and bulk cohorts (survival outcomes) by generating reference-informed cellular profiles from bulk RNA-seq for survival prediction. This is directly aligned with translational biomarker development using bulk clinical cohorts informed by single-cell atlases.
-
-<details>
-<summary>RSS summary</summary>
-
-<span class="paragraphSection"><div class="boxTitle">Abstract</div><div class="boxTitle">Motivation</div>Single-cell RNA-seq captures tumor heterogeneity, but it is rarely available together with patient survival outcomes. Bulk RNA-seq cohorts provide survival data but lack direct measurements of cellular expression.<div class="boxTitle">Results</div>DeSCENT generates reference-informed cellular profiles from bulk RNA-seq and combines both representations for survival prediction. We evaluated De…
-
-</details>
-
----
-
-### [THiRST: Computer Vision Empowered Three-dimensional High-Resolution Spatial Transcriptomics Analytics](https://www.biorxiv.org/content/10.64898/2026.10.29.762926v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.75**
-Published: 2026-11-09
-Tags: spatial transcriptomics, 3D reconstruction, computer vision, serial sections, tissue architecture
-
-Presents a framework for reconstructing 3D spatial transcriptomic representations from serial sections using morphology-guided registration and spatial matching. This is relevant for understanding continuous tumor architecture and invasion niches in spatially profiled pediatric tumors.
-
-<details>
-<summary>RSS summary</summary>
-
-High-resolution spatial transcriptomics (ST) preserves gene expression within tissue architecture but remains limited to individual two-dimensional (2D) sections, restricting analysis of continuous three-dimensional (3D) structures and cross-section consistency. We present THiRST, a computational framework for reconstructing multi-resolution 3D spatial transcriptomic representations from serial sections. THiRST combines coarse-to-fine morphology-guided registration, spatial matching of ST units,…
-
-</details>
-
----
-
-### [Structured multi-view relational learning for drug response prediction](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag619/9022080?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.74**
-Published: 2026-11-07
-Tags: drug response prediction, multi-omics integration, deep learning, translational, precision oncology
-
-Proposes a structured multi-view approach (MulDR) to integrate multi-omics and drug structure for drug response prediction while preserving view-specific relational structure. This is relevant to translational modeling of therapy response/resistance, even if not pediatric-tumor-specific in the title/summary.
-
-<details>
-<summary>RSS summary</summary>
-
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>Drug response prediction (DRP) requires models that jointly characterize molecular drug structure and heterogeneous cellular states. Although recent deep learning approaches have integrated multi-omics profiles with drug representations, many treat omics views as parallel feature sources or merge them before relational modeling, which can weaken omics-view-specific cell-line relation structures. Here, we propose MulDR, a structur…
-
-</details>
-
----
-
-### [Emerging strategies for paediatric cancer predisposition: detection, surveillance and prevention](https://www.nature.com/articles/s41571-026-01217-z)
-*Nature Reviews Clinical Oncology*  
-Score: **0.69**
-Published: 2026-11-06
-Tags: pediatric oncology, cancer predisposition, surveillance, prevention, clinical
-
-A clinical/translational perspective on identifying pediatric cancer predisposition syndromes to enable surveillance and prevention. While not computational, it is directly within pediatric oncology and may inform cohort stratification and germline-aware biomarker interpretation.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Reviews Clinical Oncology, Published online: 06 November 2026; <a href="https://www.nature.com/articles/s41571-026-01217-z">doi:10.1038/s41571-026-01217-z</a></p>Many childhood cancers occur in children with an underlying predisposition to developing cancer. Thus, identifying individuals with a cancer predisposition syndrome (CPS), ideally before the development of cancer, can enable regular clinical surveillance and potentially the introduction of preventive measures. In this Perspect…
-
-</details>
-
----
-
-### [Somatic structural variation discovery on cancer pangenome graphs](https://www.biorxiv.org/content/10.64898/2026.11.05.764632v1?rss=1)
-*bioRxiv Genomics*  
-Score: **0.66**
-Published: 2026-11-06
-Tags: structural variants, pangenome graphs, somatic SV calling, WGS, genomics method
-
-Describes JANUS for calling somatic structural variants using a personal pangenome graph, aiming to reduce reference bias and computational costs versus linear-reference workflows. This is methodologically relevant for tumor WGS analyses where SVs are key drivers, though no pediatric context is stated here.
-
-<details>
-<summary>RSS summary</summary>
-
-Somatic structural variants (SVs) drive tumorigenesis across most cancers, yet low variant allele frequencies in subclonal populations often necessitate multi-sample sequencing per patient. Existing somatic SV callers rely on whole-genome read alignments against a single linear reference, incurring high computational costs and reference bias. We present JANUS, which discovers somatic SVs directly within a personal pangenome, a colored de Bruijn-like graph of locally consistent parsing (LCP) core…
-
-</details>
-
----
-
-### [Detection and characterization of in cellulo protein–RNA complexity by irCLIP-RNP, irCLIPv2 and Re-CLIP](https://www.nature.com/articles/s41596-026-01459-2)
-*Nature Protocols*  
-Score: **0.63**
-Published: 2026-11-06
-Tags: protocol, CLIP, RNP, proteomics, transcriptomics
-
-Protocol paper describing procedures to interrogate multi-protein ribonucleoprotein assemblies using transcriptomics and proteomics readouts. Useful for mechanistic biomarker programs involving RNA-binding proteins and post-transcriptional regulation, though not cancer-specific from the provided summary.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Protocols, Published online: 06 November 2026; <a href="https://www.nature.com/articles/s41596-026-01459-2">doi:10.1038/s41596-026-01459-2</a></p>Ribonucleoprotein assemblies are crucial regulators of RNA processing. Here, three interconnected procedures enabling the detection and interrogation of these multi-protein assemblies using transcriptomics and proteomics are presented.
-
-</details>
-
----
-
-### [Paxalisib with Trastuzumab for HER2-Positive Metastatic Breast Cancer with Active Brain Metastases: A Phase II Trial with Integrated Plasma and CSF ctDNA Analyses](https://aacrjournals.org/cancerrescommun/article/6/11/2619/789865/Paxalisib-with-Trastuzumab-for-HER2-Positive)
-*AACR Cancer Research Communications*  
-Score: **0.61**
-Published: 2026-11-06
-Tags: ctDNA, CSF, clinical trial, PI3K/mTOR, biomarkers, translational
-
-A phase II trial combining a brain-penetrant PI3K/mTOR inhibitor with trastuzumab and integrating plasma/CSF ctDNA analyses, which is relevant to translational biomarker monitoring in the CNS setting. Cancer type is outside pediatric NB, but ctDNA-in-CSF concepts can transfer to pediatric neuro-oncology workflows.
-
-<details>
-<summary>RSS summary</summary>
-
-<span class="paragraphSection"><div class="boxTitle">Abstract</div><div class="boxTitle">Purpose:</div>Human epidermal growth factor receptor 2 (HER2)–positive breast cancer brain metastases (BCBM) frequently harbor PI3K/AKT/mTOR alterations. Preclinical HER2+ BCBM models demonstrated durable tumor regression with dual PI3K and mTOR inhibition. Our phase II trial evaluated paxalisib, a brain-penetrant dual PI3K/mTOR inhibitor, combined with trastuzumab.<div class="boxTitle">Patients and Methods:…
-
-</details>
-
----
-
-### [Targeting REV1 Exposes Context-Dependent Therapeutic Responses in Colorectal Cancer](https://www.biorxiv.org/content/10.64898/2026.11.04.764315v1?rss=1)
+### [Multimodal Liquid Biopsy Improves Longitudinal Circulating Tumor DNA Detection in Children with Central Nervous System Tumors](https://www.biorxiv.org/content/10.64898/2026.11.11.766035v1?rss=1)
 *bioRxiv Cancer Biology*  
-Score: **0.60**
-Published: 2026-11-06
-Tags: DNA damage tolerance, TLS, REV1, chemoresistance, organoids, preclinical
+Score: **0.85**
+Published: 2026-11-13
+Tags: pediatric oncology, liquid biopsy, ctDNA, fragmentomics, copy-number, biomarkers, longitudinal, CNS tumors
 
-Studies REV1 inhibition in the DNA damage tolerance/TLS pathway and tests sensitivity in patient-derived colorectal cancer organoids. It is relevant to therapy resistance and preclinical modeling, though the specific disease context is CRC rather than pediatric cancers.
+Pediatric-focused translational liquid biopsy study proposing a composite ctDNA scoring framework integrating mutations, copy number, and fragmentomics across longitudinal plasma/CSF. Strong match to biomarker development and monitoring in a clinical cohort context (CNS tumors rather than neuroblastoma).
 
 <details>
 <summary>RSS summary</summary>
 
-Translesion synthesis (TLS) promotes DNA damage tolerance and contributes to chemotherapy resistance by enabling replication across damaged DNA templates. REV1, a central TLS regulator, is a potential therapeutic target to enhance the efficacy of genotoxic chemotherapy. Here, we investigated the therapeutic consequences of pharmacologic and genetic REV1 targeting in colorectal cancer (CRC) and evaluated the sensitivity of patient-derived CRC organoids to the REV1 inhibitor JH-RE-06. JH-RE-06 enh…
+Background: Circulating tumor DNA (ctDNA) is a promising biomarker for pediatric central nervous system (CNS) tumors, but limitations in sensitivity and universally accepted detection criteria remain. We evaluated multimodal ctDNA detection using a novel composite scoring framework integrating mutation, copy number, and fragmentomic analysis in longitudinal plasma and CSF samples from children with CNS tumors. Methods: Tumor, blood and/or CSF samples were collected from pediatric CNS tumor patie…
 
 </details>
 
 ---
 
-### [Unveiling immune targets via TriStageHLA: high-throughput screening of peptide presentation, peptide-HLA binding, and immunogenicity](https://www.biorxiv.org/content/10.64898/2026.10.29.762831v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.55**
-Published: 2026-11-09
-Tags: neoantigen, HLA, immunogenicity, ESM-2, LoRA, immunotherapy
+### [The deep learning framework Hist2Prot infers single-cell spatial proteomics from histology to predict biomarkers and clinical outcomes](https://www.nature.com/articles/s43018-026-01270-8)
+*Nature Cancer*  
+Score: **0.77**
+Published: 2026-11-13
+Tags: computational pathology, deep learning, H&E, spatial proteomics, single-cell, biomarkers, clinical outcomes
 
-Proposes a three-stage epitope discovery pipeline including a LoRA-adapted ESM-2 classifier for early pruning plus HLA binding/presentation and immunogenicity prediction. Useful for immunotherapy target discovery, but not specifically tied to pediatric tumors or single-cell data in the provided summary.
+Presents a deep learning approach to infer single-cell spatial proteomic patterns from H&E and uses them to predict molecular biomarkers, prognosis, and immunotherapy response across cohorts. Translationally oriented computational pathology with biomarker/outcome linkage.
 
 <details>
 <summary>RSS summary</summary>
 
-High-throughput screening of HLA class I epitopes underpins neoantigen vaccine design, T cell therapies, and pathogen immune monitoring, yet proteome-scale prioritization remains challenging under severe class imbalance. We present TriStageHLA, a compact three-stage framework that decomposes epitope discovery into peptide-only screening (PRE), allele-specific binding/presentation prediction (BIND), and immunogenicity prediction (IM). PRE performs early pruning via a LoRA-adapted ESM-2 classifier…
+<p>Nature Cancer, Published online: 13 November 2026; <a href="https://www.nature.com/articles/s43018-026-01270-8">doi:10.1038/s43018-026-01270-8</a></p>Fan et al. propose an artificial intelligence model to infer spatial proteomic patterns at the single-cell level from routine hematoxylin and eosin slides to predict molecular biomarkers, prognosis and immunotherapy response in multiple cohorts.
 
 </details>
 
 ---
 
-### [Tumor metastasis co-opts liver hematopoiesis to promote immunosuppression](https://www.science.org/doi/abs/10.1126/science.aea3046?af=R)
-*Science*  
-Score: **0.52**
-Published: 2026-11-05
-Tags: metastasis, immunosuppression, tumor-immunology, mechanism
+### [Predictive modeling of single-cell transcriptomic dynamics with Dynamo](https://www.nature.com/articles/s41596-026-01458-3)
+*Nature Protocols*  
+Score: **0.74**
+Published: 2026-11-16
+Tags: scRNA-seq, RNA velocity, cell-state transitions, dynamical systems, metabolic labeling, protocol
 
-Addresses a tumor-driven mechanism of systemic immunosuppression via liver hematopoiesis in the context of metastasis. While not pediatric/NB-specific in the item text, immunosuppressive mechanisms can inform translational hypotheses and immune-biomarker interpretation.
+Protocol for Dynamo, a framework to build genome-wide dynamical systems models from standard and metabolic-labeling scRNA-seq for quantitative cell-state transition analysis. Relevant for modeling plasticity and state changes tied to therapy response/resistance.
 
 <details>
 <summary>RSS summary</summary>
 
-Science, Volume 394, Issue 6824, November 2026. <br />
+<p>Nature Protocols, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41596-026-01458-3">doi:10.1038/s41596-026-01458-3</a></p>Dynamo is a general framework for constructing genomewide systems biology models from conventional and metabolic-labeling-enabled single-cell RNA sequencing to allow predictive and quantitative analysis of cell state transitions.
 
 </details>
 
 ---
 
-### [mFrag: Integrating External DNA Methylation References Improves Lung Cancer Early Detection by Fragmentomics](https://www.biorxiv.org/content/10.64898/2026.10.28.762499v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.44**
-Published: 2026-11-09
-Tags: liquid biopsy, cfDNA, fragmentomics, DNA methylation, early detection
+### [An expanded, phenotypically distinct tumor cell subset with low HPV mRNA increases recurrence risk](https://www.biorxiv.org/content/10.64898/2026.11.10.762907v1?rss=1)
+*bioRxiv Cancer Biology*  
+Score: **0.67**
+Published: 2026-11-14
+Tags: recurrence, cell states, PDX, scRNA-seq, biomarkers, therapy sensitivity
 
-Presents a liquid-biopsy method integrating methylation reference atlases with cfDNA fragmentomics for lung cancer detection. Methodologically relevant to noninvasive biomarker work, but the focus is early detection in lung cancer rather than pediatric oncology or treatment response.
+Links a tumor cell subset with low HPV mRNA to recurrence risk using integrated analyses of human tumors and PDXs, including single-cell mRNA-seq, and relates it to variable therapy sensitivity. Translationally relevant framing around recurrence and cell states, but in HPV+ oropharyngeal cancer rather than pediatric tumors.
 
 <details>
 <summary>RSS summary</summary>
 
-Fragmentomics analyzes features of circulating cell-free DNA fragments (e.g., fragment length or end motifs) derived from whole-genome sequencing of liquid biopsy samples (blood or other body fluids), enabling non-invasive early cancer detection. Here we present mFrag, a framework that integrates external methylation reference atlases with fragmentomic features for lung cancer detection. mFrag comprises two complementary methods: mFrag-Weight, which uses DNA methylation information to weight fra…
+Human papillomavirus-related (HPV+) cancers harbor a subset of tumor cells expressing certain senescence-related transcripts and reduced levels of HPV mRNAs. We aimed to define this HPV-low population's biologic traits and clinical significance via integrated analysis of recurrence-prone human HPV+ oropharyngeal cancers (OPCs) and patient-derived xenografts (PDXs) of variable therapy sensitivity. Single-cell mRNA sequencing of PDXs and human tumors detected gene expression profiles in HPV-low ce…
 
 </details>
 
 ---
 
-### [Single-Cell Transcriptomics Reveals Tumorigenic Lineages and Interactions Persisting and Evolving From Premalignancy to Cancer in the Stomach](https://www.biorxiv.org/content/10.64898/2026.11.04.764362v1?rss=1)
+### [Noninvasive imaging-based assessment of homologous recombination deficiency for risk stratification and adjuvant chemotherapy guidance in colorectal cancer: a multicenter study](https://link.springer.com/article/10.1186/s12967-026-09237-0)
+*Journal of Translational Medicine*  
+Score: **0.58**
+Published: 2026-11-16
+Tags: radiomics, HRD, deep learning, risk stratification, predictive biomarker, translational
+
+Develops and validates a CT-based deep radiomics signature to predict HRD noninvasively for risk stratification and adjuvant chemotherapy guidance in a multicenter colorectal cancer setting. Translational biomarker angle (treatment guidance), but not omics/single-cell and outside pediatric oncology.
+
+<details>
+<summary>RSS summary</summary>
+
+Background <p>Homologous recombination deficiency (HRD), caused by impaired homologous recombination repair (HRR), represents a clinically relevant molecular phenotype associated with genomic instability and therapeutic vulnerability. However, current HRD assessment relies mainly on tissue-based molecular assays, limiting its application in routine clinical practice. This study aimed to develop and validate a computed tomography (CT)-based deep radiomics signature (DRS) for noninvasive predictio…
+
+</details>
+
+---
+
+### [HGS-BioAbductor: hypergraph-based explainable survival modelling and LLM-based biological hypothesis abduction](https://www.nature.com/articles/s41698-026-01764-9)
+*npj Precision Oncology*  
+Score: **0.50**
+Published: 2026-11-14
+Tags: survival modeling, explainable AI, hypergraph, LLM, precision oncology
+
+Presents an explainable hypergraph survival modeling approach and an LLM-based hypothesis abduction component. Potentially relevant for outcome modeling, but the summary lacks specifics on data types (omics vs imaging), cohorts, or translational biomarkers.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>npj Precision Oncology, Published online: 14 November 2026; <a href="https://www.nature.com/articles/s41698-026-01764-9">doi:10.1038/s41698-026-01764-9</a></p>HGS-BioAbductor: hypergraph-based explainable survival modelling and LLM-based biological hypothesis abduction
+
+</details>
+
+---
+
+### [SLC25A39 loss disrupts mitochondrial redox homeostasis and exposes therapeutic vulnerabilities in glioblastoma](https://www.biorxiv.org/content/10.64898/2026.11.12.765851v1?rss=1)
 *bioRxiv Cancer Biology*  
 Score: **0.43**
-Published: 2026-11-06
-Tags: scRNA-seq, tumor evolution, mouse model, gastric cancer, cell-cell interactions
+Published: 2026-11-16
+Tags: glioblastoma, therapy resistance, hypoxia, mitochondria, redox, therapeutic vulnerabilities
 
-Uses scRNA-seq (and high-parameter cytometry) to study lineage and interaction changes across premalignancy-to-cancer progression in a gastric cancer mouse model. It is adjacent single-cell cancer biology, but not directly tied to pediatric oncology or therapy response in the provided summary.
+Mechanistic study in glioblastoma linking SLC25A39 to hypoxia-associated redox buffering and therapeutic vulnerabilities. Relevant to plasticity/resistance concepts but not pediatric/NB and computational content is not clear from the summary.
 
 <details>
 <summary>RSS summary</summary>
 
-Background & Aims Gastric cancer is often diagnosed at advanced stages, making the premalignant window critical for early detection. However, the epithelial changes that characterize this stage remain poorly defined. We used CTLA4-knockdown (CTLA4KD) mice, which model human CTLA4 insufficiency-associated gastric cancer, that develops autoimmune gastritis, metaplasia, and adenocarcinoma, to define molecular changes across disease progression. Methods Single-cell RNA sequencing and 40-color spectr…
+Glioblastoma is an incurable brain tumour characterised by extensive hypoxia and phenotypic plasticity, both of which drive therapy resistance. Mitochondrial glutathione, dependent on the inner membrane carrier SLC25A39, is central to buffering the oxidative stress that hypoxia generates; its regulation and significance in glioblastoma are nonetheless unknown. We find that SLC25A39 expression is hypoxia-inducible and HIF-dependent, enriched in hypoxic tumour niches and heterogeneously expressed …
 
 </details>
 
 ---
 
-### [Genomic ascertainment refines the population prevalence and phenotype associations of germline TERT variants](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352)
+### [mRNA-LNP vaccination induces microenvironment remodeling and generation of tissue-resident memory T cells in glioblastoma](https://www.biorxiv.org/content/10.64898/2026.11.11.762754v1?rss=1)
+*bioRxiv Cancer Biology*  
+Score: **0.33**
+Published: 2026-11-13
+Tags: immunotherapy, mRNA vaccine, tumor microenvironment, glioblastoma, preclinical model
+
+Uses a syngeneic glioblastoma model to study how mRNA-LNP vaccination remodels the tumor microenvironment and induces tissue-resident memory T cells. Potentially relevant immuno-oncology biology, but not centered on computational multi-omics/biomarker development in the provided summary.
+
+<details>
+<summary>RSS summary</summary>
+
+Glioblastoma remains highly refractory to immunotherapy, in part because of a profoundly immunosuppressive tumour microenvironment that limits effective T-cell responses. Although mRNA vaccines can induce anti-tumour immunity, how they reshape the glioblastoma immune ecosystem to support durable tumour control is not well understood. Here we use an immunocompetent EGFRvIII-driven syngeneic glioblastoma model and antigen-specific mRNA lipid nanoparticle (mRNA-LNP) vaccination to define the cellul…
+
+</details>
+
+---
+
+### [Genome-wide association and multiomics analyses provide insights into the genetic etiology of myasthenia gravis in European and East Asian individuals](https://link.springer.com/article/10.1186/s13073-026-01819-3)
+*BMC Genome Medicine*  
+Score: **0.18**
+Published: 2026-11-16
+Tags: GWAS, multi-omics, autoimmunity, human genetics
+
+Performs GWAS and multi-omics analyses to study genetic etiology of myasthenia gravis across ancestries. Solid human genetics but outside cancer and not clearly tied to translational oncology biomarker or therapy-response problems.
+
+<details>
+<summary>RSS summary</summary>
+
+Background <p>Myasthenia gravis (MG) is an autoimmune disorder of neuromuscular transmission. To date, 11 genome-wide significant susceptibility loci have been identified, mainly in European populations, leaving the genetic architecture in other ancestries incompletely characterized.</p> Methods <p>We selected six MG genome-wide association study (GWAS) datasets, including four from European cohorts (International Myasthenia Gravis Genomics Consortium, Braun et al. (2024), UK Biobank and FinnGen…
+
+</details>
+
+---
+
+### [Intratumoral bacterial LPS drives metabolic reprogramming to promote nasopharyngeal carcinoma progression](https://www.nature.com/articles/s41698-026-01791-6)
+*npj Precision Oncology*  
+Score: **0.17**
+Published: 2026-11-14
+Tags: nasopharyngeal carcinoma, microbiome, LPS, metabolism, tumor progression
+
+Investigates a mechanism where intratumoral bacterial LPS promotes nasopharyngeal carcinoma progression via metabolic reprogramming. Interesting oncology biology, but the title/summary do not indicate single-cell/multi-omics/computational biomarker work.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>npj Precision Oncology, Published online: 14 November 2026; <a href="https://www.nature.com/articles/s41698-026-01791-6">doi:10.1038/s41698-026-01791-6</a></p>Intratumoral bacterial LPS drives metabolic reprogramming to promote nasopharyngeal carcinoma progression
+
+</details>
+
+---
+
+### [Proteogenomic analysis of 5,411 plasma proteins in sickle cell disease patients](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012377)
 *PLOS Genetics*  
-Score: **0.38**
-Published: 2026-11-05
-Tags: germline, TERT, telomere biology, population genetics, predisposition
+Score: **0.12**
+Published: 2026-11-16
+Tags: proteomics, proteogenomics, human genetics, plasma proteins, sickle cell disease
 
-Focuses on population prevalence and phenotype associations of germline TERT variants, largely around telomere biology and non-pediatric outcomes in the summary. Potentially relevant background for germline predisposition considerations, but not central to translational pediatric tumor biology here.
+Large-scale proteogenomic analysis in sickle cell disease aimed at drug target discovery. Strong omics angle but outside oncology scope.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Marena R. Niewisch, Sherifa A. Akinniyi, Kelvin C. de Andrade, Jung Kim, Logan P. Zeigler, Jeremy S. Haley, Gretchen Urban, David J. Carey, Douglas R. Stewart, Sharon A. Savage</p> Background <p>Individuals with deleterious germline variants in telomerase (encoded by <i>TERT</i>) are at high risk of pulmonary fibrosis (PF), liver disease (LD), bone marrow failure, head/neck squamous cell carcinoma (HNSCC), and other complications. Clinically ascertained cohorts are subject to biased ascert…
+<p>by Cristian Groza, Arnaud Chignon, Ken Sin Lo, Vanessa Bellegarde, Pablo Bartolucci, Guillaume Lettre</p> There are few therapeutic options to treat patients with sickle cell disease (SCD), a blood disorder caused by mutations in the β-globin gene that affects > 7M individuals worldwide. Combining human genetics and high-throughput proteomics can help identify new drug targets. Here, we present results from a proteogenomic analysis of the plasma proteome in SCD patients. We measured the level…
 
 </details>
 
 ---
 
-### [Transcriptome- and methylome-wide association studies prioritized lung cancer genes in East Asian populations](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332)
-*PLOS Genetics*  
-Score: **0.36**
-Published: 2026-11-06
-Tags: TWAS, MWAS, multi-omics, lung cancer, population genetics
+### [MRI habitat radiomics with clinical features for prognosis prediction in HER2-low breast cancer: a multicenter study](https://link.springer.com/article/10.1186/s12885-026-17380-6)
+*BMC Cancer*  
+Score: **0.10**
+Published: 2026-11-16
+Tags: radiomics, MRI, prognosis, breast cancer, multicenter
 
-Performs TWAS/MWAS to prioritize lung cancer genes with a focus on East Asian reference models and cross-population generalizability. It’s method-adjacent multi-omics association work, but not directly aligned with pediatric translational oncology or single-cell/resistance themes based on the summary.
+Develops MRI habitat radiomics models for prognosis in HER2-low breast cancer. Imaging prognostics is not central to the stated pediatric single-cell/multi-omics priorities.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Xingjie Hao, Minghan Qu, Yi Jiang, Cheng Wang, Ziwei Zhu, Pinpin Long, Chaolong Wang, Hongxia Ma, Shanshan Cheng</p> The relationship between gene expression, DNA methylation, and lung cancer remains elusive in East Asian (EAS) populations. Transcriptome- and methylome-wide association studies (TWAS/MWAS) help uncover gene–trait associations by integrating multi-omics data, yet models trained mainly on European references limit cross-population generalizability. To address this, we develop…
+Objectives <p>HER2-low breast cancer has emerged as a distinct subtype with unique biological characteristics. Habitat imaging can characterize intratumoral heterogeneity by partitioning tumors into subregions with distinct imaging phenotypes. However, the comparative prognostic value of habitats derived from diffusion-weighted imaging (DWI) and dynamic contrast-enhanced MRI (DCE-MRI) remains unexplored. This study aimed to develop and compare DWI and DCE habitat radiomics models for predicting …
 
 </details>
 
 ---
 
-### [A Three-View System for CRISPR-Cas12a crRNA Activity Ranking: When to Ensemble, When Context Matters More](https://www.biorxiv.org/content/10.64898/2026.11.07.765023v1?rss=1)
+### [Revealing the transcriptomic organization of extrasomatic interfaces using SCOUBI](https://www.biorxiv.org/content/10.64898/2026.11.10.765731v1?rss=1)
 *bioRxiv Bioinformatics*  
-Score: **0.34**
-Published: 2026-11-09
-Tags: CRISPR, Cas12a, guide-RNA-design, machine-learning, screening
+Score: **0.06**
+Published: 2026-11-16
+Tags: spatial transcriptomics, extrasomatic RNA, method, brain
 
-Presents TriCasRank, a model combining sequence features, reference mapping, and historical activity summaries to rank Cas12a crRNA activity with cross-validation safeguards. Method is relevant to functional genomics screening design, but not specific to cancer, single-cell, or biomarkers in the provided summary.
+Develops a spatial transcriptomics framework to analyze extrasomatic RNA (e.g., axon/dendrite interfaces) primarily motivated by brain ST data. Interesting ST methodology but not clearly tied to cancer, biomarkers, or therapy response in the summary.
 
 <details>
 <summary>RSS summary</summary>
 
-CRISPR-Cas12a assays require effective crRNA selection, but experimentally screening all possible candidates is costly. We developed TriCasRank, a ranking model that combines sequence features with EasyDesign reference mapping and activity summaries from related training records. Historical summaries were calculated within each training fold to avoid information leakage. In five-fold target-grouped cross-validation using out-of-fold predictions, TriCasRank improved the Spearman correlation from …
+Spatial transcriptomics (ST) generates substantial transcript signal outside segmented cell bodies, which is generally discarded by analysis tools. This is especially problematic for brain ST data, as neuronal mRNAs can be localized far from somata - in axons, dendrites, and synaptic compartments - and up to half of the transcripts in ST data may lie outside cell bodies. Here, we present SCOUBI, a computational framework that identifies axon-dendrite interfaces from extrasomatic RNA in ST data, …
 
 </details>
 
 ---
 
-### [Integrated genotyping, annotation and epigenetic characterization of transposable elements with GraffiTE](https://www.biorxiv.org/content/10.64898/2026.11.06.764993v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.31**
-Published: 2026-11-09
-Tags: long-read, methylation, transposable-elements, Nextflow, pipeline
+## AI (1 shown / 1 total)
 
-Introduces a Nextflow pipeline to genotype structural variants/mobile element insertions and retain allele-specific CpG methylation information from long-read sequencing. Strongly computational, but TE-focused rather than directly aligned to cancer biomarker/therapy response in the item text.
-
-<details>
-<summary>RSS summary</summary>
-
-Genotyping, annotating and characterizing TE variation leaped forward with long-read sequencing (LRS) and de novo assembly. LRS techniques also reveal CpG methylation, which enables measuring the impact of TEs on epigenomes and sheds light on the role of TEs as regulatory sequences. Yet, TE genotyping tools discard the valuable allele-specific epigenetic information. We introduce GraffiTE v1.1, the first Nextflow pipeline that genotypes SVs, annotates polymorphic mobile elements (MEI), and maps …
-
-</details>
-
----
-
-### [Membrane tension and cell–nucleus mechanical coupling regulate confined cell migration](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014909)
-*PLOS Comp Bio*  
-Score: **0.24**
-Published: 2026-11-05
-Tags: cell-migration, mechanobiology, computational-modeling
-
-Computational/quantitative focus on mechanics of confined cell migration and cell–nucleus coupling. Could be tangentially relevant to metastasis biology, but no biomarker, omics, or pediatric oncology connection is indicated in the summary snippet.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>by David Hernandez-Aristizabal, Anotida Madzvamuse, Rachele Allena</p> Cell migration is a fundamental physiological process essential from embryogenesis to cancer metastasis. It is primarily governed by the coupled mechanics of the plasma membrane (PM) and the nucleus, together with cytoskeletal dynamics. Being the largest and stiffest organelle, the nucleus is considered a rate-limiting factor in confined migration. However, nuclear positioning varies across cell types and migration modes, …
-
-</details>
-
----
-
-### [BEHAV3D-Explorer enables natural language-assisted profiling of 3D cellular dynamics](https://www.biorxiv.org/content/10.64898/2026.11.06.764820v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.22**
-Published: 2026-11-09
-Tags: 3D microscopy, image analysis, natural language interface, cell dynamics, tooling
-
-Describes an interactive platform for analyzing live 3D microscopy with natural-language assistance for workflow configuration. Useful tooling, but it is not clearly tied to omics, biomarker discovery, or pediatric oncology in the provided summary.
-
-<details>
-<summary>RSS summary</summary>
-
-Obtaining quantitative measurements from live 3D microscopy remains difficult to implement across research settings, particularly without profound image-analysis expertise. We present BEHAV3D-Explorer, an interactive, user-friendly platform that uses natural-language guidance to help users select analysis strategies, tune parameters and configure workflows. BEHAV3D-Explorer enables time-resolved behavioral classification and integrates it with morphological, interaction and functional analyses, …
-
-</details>
-
----
-
-### [Air Pollution and Atopic Dermatitis in Children](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2856356)
-*JAMA Pediatrics*  
-Score: **0.03**
-Published: 2026-11-09
-Tags: pediatrics, epidemiology, meta-analysis, dermatology
-
-Systematic review/meta-analysis on air pollutants and atopic dermatitis prevalence in children. Pediatric but not related to oncology, omics, or translational cancer biomarker work.
-
-<details>
-<summary>RSS summary</summary>
-
-This systematic review and meta-analysis examines the associations between ambient air pollutants and atopic dermatitis prevalence in children.
-
-</details>
-
----
-
-### [Satisfaction, Regret, and Harm After Hormone Therapy in Youth](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2856355)
-*JAMA Pediatrics*  
-Score: **0.02**
-Published: 2026-11-09
-Tags: pediatrics, cohort-study, health-outcomes
-
-Cohort study on outcomes after hormone therapy initiated in youth. Not related to pediatric oncology, computational biology for omics, or translational cancer research.
-
-<details>
-<summary>RSS summary</summary>
-
-This cohort study examines satisfaction, regret, and perceived harm among individuals who initiated hormone therapy as youth and identifies demographic and clinical characteristics associated with regret or harm and current hormone therapy status.
-
-</details>
-
----
-
-### [Antibacterial properties of commercially available plant extracts containing tannins against Escherichia coli](https://www.nature.com/articles/s41598-026-79871-7)
-*Scientific Reports*  
-Score: **0.00**
-Published: 2026-11-09
-Tags: antibacterial, microbiology, natural-products
-
-Tests antibacterial activity of tannin-containing plant extracts against E. coli. Not relevant to pediatric translational oncology or computational omics.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Scientific Reports, Published online: 09 November 2026; <a href="https://www.nature.com/articles/s41598-026-79871-7">doi:10.1038/s41598-026-79871-7</a></p>Antibacterial properties of commercially available plant extracts containing tannins against <i>Escherichia coli</i>
-
-</details>
-
----
-
-## AI (2 shown / 2 total)
-
-### [BioMeme: biological response memory for virtual cells](https://www.biorxiv.org/content/10.64898/2026.11.07.765043v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.71**
-Published: 2026-11-09
-Tags: perturbation modeling, drug response, interpretability, virtual cells, representation learning
-
-Introduces a “biological response memory” approach for virtual cells that predicts perturbation responses while recalling supporting experiments rather than relying purely on absorbed neural network weights. This is relevant to interpretable perturbation/response modeling workflows for drug mechanism and combination prioritization.
-
-<details>
-<summary>RSS summary</summary>
-
-Virtual cells predict responses to unmeasured perturbations, but neural models absorb measurements into weights, require retraining and cannot cite supporting experiments. Here we introduce biological response memory, replacing a learned state-to-response layer with a memory of measured experiments. BioMeme predicts next-dose responses in a new cell type from measured lower-dose states, recalling similarly responding compounds in that cell and the same compound in a reference cell line. Each pre…
-
-</details>
-
----
-
-### [TriTower-m6Am: A triple-tower heterogeneous deep learning architecture integrating semantic, sequential, and structural information for mRNA N6,2′-O-dimethyladenosine site prediction](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014939)
-*PLOS Comp Bio*  
-Score: **0.22**
-Published: 2026-11-05
-Tags: deep-learning, RNA-modifications, m6Am, prediction
-
-Deep learning model for predicting m6Am RNA modification sites by integrating multiple sequence/structure representations. This is primarily a general RNA-modification prediction method with no explicit link to cancer, single-cell, or translational biomarker applications in the provided text.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>by Kaifeng Xiong, Jianhua Jia</p> Background <p>N<sup>6</sup>,2′-O-dimethyladenosine (m6Am) is a cap-proximal mRNA modification deposited by PCIF1 (phosphorylated C-terminal domain (CTD)-interacting factor 1) at the first transcribed nucleotide of eukaryotic mRNAs. Knowing where m6Am sites sit would help explain how cells tune mRNA stability and translation, but current predictors typically depend on a single representation and do not jointly model multiple views of the same RNA sequence.</p>…
-
-</details>
-
----
-
-## Methods (3 shown / 3 total)
-
-### [spaDWGCN: a spatial distance weighted graph convolution network for accurate spatial tissue structure identification](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag623/9022190?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
+### [AI-based prediction of actionable genomic alterations from H&E-stained slides](https://www.nature.com/articles/s41698-026-01772-9)
+*npj Precision Oncology*  
 Score: **0.58**
-Published: 2026-11-08
-Tags: spatial transcriptomics, graph neural networks, tissue architecture, GCN, microenvironment
+Published: 2026-11-13
+Tags: computational pathology, H&E, deep learning, genomic alterations, actionable biomarkers, precision oncology
 
-Introduces a spatial distance-weighted GCN to identify spatial tissue architecture using expression plus coordinates, addressing limitations of binary adjacency. This is applicable to tumor microenvironment niche detection in spatial datasets, though the summary does not indicate clinical/translational evaluation.
+Focuses on predicting actionable genomic alterations directly from H&E slides, aligning with clinical biomarker inference via computational pathology. Summary provides limited detail on tumor type(s), validation, or specific alterations.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>The continuous development of spatial transcriptomics enables us to obtain gene expression matrices alongside spatial coordinate labels for cells or spots, providing tools for understanding spatial tissue microenvironments and spatially resolved cell–cell interactions. Although numerous methods have been developed to identify spatial tissue architecture, most of them adopt binary adjacency matrices that treat all neighboring cell…
+<p>npj Precision Oncology, Published online: 13 November 2026; <a href="https://www.nature.com/articles/s41698-026-01772-9">doi:10.1038/s41698-026-01772-9</a></p>AI-based prediction of actionable genomic alterations from H&amp;E-stained slides
 
 </details>
 
 ---
 
-### [MultiMHC: a multiscale learning framework integrating sequence and residue contact topology for peptide–MHC binding prediction](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag466/9017776?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.46**
-Published: 2026-11-06
-Tags: peptide-MHC, binding prediction, deep learning, immunotherapy, epitopes
+## Methods (11 shown / 11 total)
 
-Develops a deep learning framework that incorporates sequence and residue contact topology to improve peptide–MHC binding prediction. Relevant for cancer immunotherapy pipelines, but peripheral to the user’s core single-cell/multi-omics resistance/biomarker focus.
+### [Echidna: a Bayesian framework for integrative inference of copy number alterations impacting phenotypic plasticity](https://www.nature.com/articles/s41592-026-03279-4)
+*Nature Methods*  
+Score: **0.90**
+Published: 2026-11-16
+Tags: multi-omics, scRNA-seq, WGS, copy-number, Bayesian model, tumor evolution, phenotypic plasticity, therapy resistance
+
+Introduces a Bayesian method integrating genomic and transcriptomic data to infer how copy-number alterations influence tumor evolution and therapy resistance. Directly matches multi-omics integration and computational inference of resistance-relevant programs.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>Accurate prediction of peptide–major histocompatibility complex (pMHC) binding is central to understanding antigen presentation and identifying T-cell epitopes in cancer immunotherapy. Although recent methods have achieved notable progress, most approaches rely predominantly on sequence-based features and only partially capture structural determinants of pMHC recognition. In this study, we present MultiMHC, a multiscale deep lear…
+<p>Nature Methods, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41592-026-03279-4">doi:10.1038/s41592-026-03279-4</a></p>Echidna integrates genomic and transcriptomics data to reveal how copy number alterations shape tumor evolution and therapy resistance.
 
 </details>
 
 ---
 
-### [Correction: Deep learning-based prediction of lymph node metastasis and occult tumor cells in gastric cancer using histopathological images: a retrospective study](https://www.nature.com/articles/s41416-026-03640-6)
-*British Journal of Cancer*  
-Score: **0.00**
-Published: 2026-11-09
-Tags: correction, digital-pathology, deep-learning, gastric-cancer
+### [Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression](https://www.nature.com/articles/s41592-026-03319-z)
+*Nature Methods*  
+Score: **0.83**
+Published: 2026-11-16
+Tags: single-cell, CRISPR, perturb-seq, method, gene regulation, transcriptomics
 
-This item is a correction notice for a gastric cancer histopathology deep learning study, not new methods/results in the RSS entry. Also not aligned with pediatric oncology or single-cell/multi-omics workflows based on the provided text.
+Describes Superb-seq, which captures CRISPR–Cas9 genome edits together with scRNA-seq in the same single cells, enabling direct linking of perturbations to transcriptional responses. This is broadly transferable for functional validation of candidate regulators and for interpreting on/off-target effects in single-cell perturbation experiments.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>British Journal of Cancer, Published online: 09 November 2026; <a href="https://www.nature.com/articles/s41416-026-03640-6">doi:10.1038/s41416-026-03640-6</a></p>Correction: Deep learning-based prediction of lymph node metastasis and occult tumor cells in gastric cancer using histopathological images: a retrospective study
+<p>Nature Methods, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41592-026-03319-z">doi:10.1038/s41592-026-03319-z</a></p>Superb-seq integrates CRISPR–Cas9, T7 in situ transcription and scRNA-seq to capture genome edits and gene expression in single cells.
 
 </details>
 
 ---
 
-## Other (7 shown / 7 total)
+### [Microsatellite-stable colorectal cancer with low chromosomal instability responds to immunotherapy and is sensitized by proteasome inhibition](https://link.springer.com/article/10.1186/s13073-026-01827-3)
+*BMC Genome Medicine*  
+Score: **0.77**
+Published: 2026-11-13
+Tags: therapy response, immunotherapy, organoids, multi-omics, scRNA-seq, WES, translational
 
-### [scYOU: a multi-scale yoked optimization and unsupervised framework for analysis of cellular heterogeneity and complex-associated protein module recovery](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag626/9022372?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.82**
-Published: 2026-11-09
-Tags: proteomics, cellular heterogeneity, protein modules, unsupervised learning, multi-scale, computational method
-
-Presents an unsupervised, multi-scale framework intended to jointly model cell-level heterogeneity and protein-level module structure in high-resolution proteomics. This is directly relevant to tumor state discovery and protein program inference from (single-cell or high-resolution) proteomic data.
+Uses integrated analysis across scRNA-seq, bulk RNA-seq, and WES from patient-derived organoids to identify an MSS CRC subgroup responsive to immunotherapy and propose proteasome inhibition as a sensitizer. Strong translational multi-omics + preclinical model framing around therapy response stratification, albeit not pediatric/NB.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div>Advances in high-resolution proteomic technologies are enabling systematic characterization of cellular heterogeneity and protein functional programs at increasing depth. However, existing computational approaches typically focus on either cell-level organization or protein-level structure, lacking a unified framework that jointly models both entities. Here we present scYOU, a multi-scale yoked optimization and unsupervised frame…
+Background <p>Microsatellite-stable (MSS) colorectal cancer (CRC) is typically considered poorly responsive to immunotherapy. This study aims to identify characteristics of MSS CRC patients who are likely to benefit from immunotherapy and to investigate effective agents that could improve immunotherapy efficacy for this subgroup.</p> Methods <p>We performed an integrated analysis combining single-cell RNA sequencing, bulk RNA sequencing, and whole-exome sequencing data from patient-derived organ…
 
 </details>
 
 ---
 
-### [Contrasting within-donor gene covariation identifies disease-associated cells and genes in case-control single-cell studies](https://www.biorxiv.org/content/10.64898/2026.11.06.764894v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.80**
-Published: 2026-11-09
-Tags: scRNA-seq, case-control, donor effects, disease-associated cells, gene covariation, computational method
-
-Proposes IDC to detect disease-associated subpopulations in case-control scRNA-seq by leveraging within-donor heterogeneity and coordinated gene covariation, addressing dilution of signals and donor/batch confounding. This directly matches needs in clinical single-cell studies where only subsets of cells are affected (e.g., resistant states).
-
-<details>
-<summary>RSS summary</summary>
-
-In case-control single-cell studies, disease often affects only a subset of cells of a given type within each patient. Comparing all cells from patients with all cells from control donors therefore dilutes disease signals, while donor variation and recorded or unrecorded batch effects can be confounded with disease status. We present IDC (Identification of Disease-associated Cells), which uses this cellular heterogeneity as signal. A mixture of affected and unaffected cells creates coordinated v…
-
-</details>
-
----
-
-### [Accelerating discovery and integration from RNA to Protein with R2T2P](https://www.biorxiv.org/content/10.64898/2026.11.05.764226v1?rss=1)
-*bioRxiv Bioinformatics*  
-Score: **0.78**
-Published: 2026-11-09
-Tags: transcriptomics, proteomics, RNA-to-protein, integration
-
-Integrates transcriptomics with proteomics translation pipeline, enabling unified RNA-to-protein analyses with clear translational potential.
-
----
-
-### [SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag](https://www.biorxiv.org/content/10.64898/2026.11.06.764689v1?rss=1)
-*bioRxiv Genomics*  
+### [Predictive modeling of single-cell transcriptomic dynamics with Dynamo](https://www.nature.com/articles/s41596-026-01458-3)
+*Nature Bioinformatics*  
 Score: **0.72**
-Published: 2026-11-07
-Tags: spatial-omics, CUT&Tag, epigenomics, multi-omics, methods
+Published: 2026-11-16
+Tags: single-cell, cell-state dynamics, RNA velocity, trajectory inference, computational method
 
-Presents a spatial epigenomics CUT&Tag framework designed to integrate epigenetic marks with standard spatial transcriptomics workflows, supporting multi-omic mapping of regulatory landscapes in tissue. The focus on scalable spatial chromatin profiling is methodologically transferable to tumor microenvironment and cell-state studies.
+Focuses on predictive modeling of single-cell transcriptomic dynamics using Dynamo, a tool commonly associated with RNA velocity/dynamics-style analyses. This is methodologically relevant for modeling cell-state transitions and plasticity from scRNA-seq, which is broadly applicable to resistance and lineage/state questions.
+
+---
+
+### [Biosemantic graph transfer learning for cross-patient cell type annotation and cell–cell interaction analysis in tumor single-cell RNA sequencing](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag587/9040809?rss=1)
+*Briefings in Bioinformatics (Oxford Academic)*  
+Score: **0.69**
+Published: 2026-11-13
+Tags: scRNA-seq, transfer learning, cell type annotation, cell-cell interactions, graph learning, tumor microenvironment
+
+Presents transfer learning with a biosemantic graph for cross-patient cell type annotation and cell–cell interaction analysis in tumor scRNA-seq, explicitly targeting TME heterogeneity and ligand–receptor limitations. Method appears broadly applicable to tumor single-cell datasets.
 
 <details>
 <summary>RSS summary</summary>
 
-Spatial epigenomics maps chromatin states within intact tissues, yet current methods remain limited by accessibility and scale. We developed SPACE-Tag, a spatial CUT&amp;Tag framework that converts epigenetic marks-associated DNA into polyadenylated RNA through T7 based linear amplification, enabling direct integration with standard spatial transcriptomic workflows. Applied to the mouse brain, SPACETag resolved activating and repressive chromatin landscapes, recovered region-specific gene regula…
+<span class="paragraphSection"><div class="boxTitle">Abstract</div>The exploration of cellular heterogeneity within the tumor microenvironment (TME) via single-cell RNA sequencing (scRNA-seq) is essential for understanding cancer progression and response to therapy. Current scRNA-seq approaches, however, lack spatial context and rely on incomplete datasets of ligand–receptor interactions, limiting accurate cell type annotation and cell–cell communication inference. This study addresses these cha…
 
 </details>
 
 ---
 
-### [scHiR learns joint cellular representations from paired single-cell transcriptome and 3D genome data](https://www.biorxiv.org/content/10.64898/2026.11.06.764816v1?rss=1)
+### [A discovery-stage NMF-based pathology–omics framework linking single-cell transcriptional programs with histopathological imaging in hepatocellular carcinoma](https://link.springer.com/article/10.1186/s12967-026-09239-y)
+*Journal of Translational Medicine*  
+Score: **0.49**
+Published: 2026-11-16
+Tags: single-cell, spatial transcriptomics, computational pathology, NMF, multi-omics, hepatocellular carcinoma
+
+Combines scRNA-seq, spatial/bulk transcriptomics and whole-slide images using NMF to relate malignant-cell programs to morphology in HCC. Methodological integration is relevant, but cancer type is distant from pediatric/NB priorities and framed as discovery-stage.
+
+<details>
+<summary>RSS summary</summary>
+
+Background <p>Hepatocellular carcinoma (HCC) exhibits substantial biological heterogeneity, but the relationship between malignant-cell transcriptional states and histopathological morphology remains poorly understood.</p> Methods <p>We integrated single-cell RNA sequencing, spatial transcriptomics, bulk transcriptomics, HCC GWAS summary statistics, and TCGA-LIHC whole-slide images. Non-negative matrix factorization identified five malignant-cell metaprograms, including metaprogram 3 (MP3), a pr…
+
+</details>
+
+---
+
+### [Computational pathology in precision oncology: evidence, validation, and clinical translation](https://link.springer.com/article/10.1186/s12967-026-09146-2)
+*Journal of Translational Medicine*  
+Score: **0.41**
+Published: 2026-11-13
+Tags: computational pathology, review, validation, clinical translation, precision oncology
+
+Review of computational pathology applications (diagnosis, biomarker inference, prognosis, treatment response) emphasizing validation and clinical translation criteria. Useful for governance/translation framing but not specific to pediatric tumors or single-cell/multi-omics methods.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Histopathology is central to cancer diagnosis, but conventional interpretation is limited by interobserver variability and insufficient quantitative integration. Computational pathology applies machine learning to digitized pathology images to support diagnosis and grading, molecular biomarker inference, prognostic assessment, and treatment-response evaluation. This review examines clinically relevant approaches, criteria for evaluating evidence maturity, and requirements for clinical transla…
+
+</details>
+
+---
+
+### [Gene-Miner: an evidence-integrating Nextflow pipeline for reference re-annotation and protein-coding gene discovery](https://link.springer.com/article/10.1186/s12859-026-06758-9)
+*BMC Bioinformatics*  
+Score: **0.34**
+Published: 2026-11-13
+Tags: Nextflow, workflow, genome annotation, gene discovery, reproducibility
+
+Presents a portable Nextflow workflow for re-annotation and protein-coding gene discovery from public RNA-seq and other evidence. Valuable for genome annotation tasks, but only indirectly relevant to typical translational oncology single-cell/multi-omics workflows.
+
+<details>
+<summary>RSS summary</summary>
+
+Background <p>The principal bottleneck in genomics has shifted from assembly to annotation. Reference catalogues reach near-complete gene sets only through billions of reads and years of curation, which most genomes lack. No reference annotation is final, so a reproducible pipeline that re-derives a protein-coding catalogue from modest public data serves both unannotated genomes and audits of existing ones.</p> Results <p>Gene-Miner, a portable Nextflow workflow, takes the union of RNA-seq trans…
+
+</details>
+
+---
+
+### [Integrated bulk and single-cell transcriptomic analyses identify molecular subtypes and LRRC8A as a prognostic indicator in colon adenocarcinoma](https://link.springer.com/article/10.1186/s12885-026-17350-y)
+*BMC Cancer*  
+Score: **0.30**
+Published: 2026-11-16
+Tags: colon cancer, scRNA-seq, bulk RNA-seq, subtypes, prognostic biomarker
+
+Applies bulk and single-cell transcriptomics to define COAD subtypes and proposes LRRC8A as a prognostic indicator. Primarily colon cancer subtype/prognosis focus with limited evidence in the summary for transferable computational innovation.
+
+<details>
+<summary>RSS summary</summary>
+
+Background <p>Colon adenocarcinoma (COAD) is characterized by pronounced molecular heterogeneity and complex tumor immune microenvironment remodeling. Oxidative stress and redox dysregulation are closely associated with tumor progression and immune remodeling, whereas the molecular heterogeneity associated with ROS-responsive stress and redox regulatory programs in COAD remains incompletely understood.</p> Methods <p>Transcriptomic and clinical data of COAD patients were obtained from TCGA and G…
+
+</details>
+
+---
+
+### [Deep learning-based body composition analysis from 18F-FDG PET/CT provides incremental prognostic value beyond tumor metabolism in HER2-negative breast cancer](https://link.springer.com/article/10.1186/s12885-026-17368-2)
+*BMC Cancer*  
+Score: **0.22**
+Published: 2026-11-14
+Tags: PET/CT, deep learning, prognosis, body composition, breast cancer
+
+Applies deep learning to derive body composition metrics from PET/CT and evaluates prognostic value in HER2-negative breast cancer. Imaging prognostics are adjacent but not strongly connected to single-cell/multi-omics or pediatric translational oncology priorities.
+
+<details>
+<summary>RSS summary</summary>
+
+Objective <p>To evaluate whether whole-body CT-derived body composition parameters from routine <sup>18</sup>F-FDG PET/CT provide additional prognostic value beyond tumor metabolic activity in patients with stage I-III HER2-negative breast cancer, irrespective of hormone receptor status.</p> Methods <p>In this retrospective study, 178 patients with stage I-III HER2-negative breast cancer who underwent preoperative <sup>18</sup>F-FDG PET/CT were included. Hormone receptor (HR) status was recorded…
+
+</details>
+
+---
+
+### [Leveraging sequence purification for accurate prediction of multiple conformational states with AlphaFold2](https://www.nature.com/articles/s41467-026-79677-1)
+*Nature Communications*  
+Score: **0.08**
+Published: 2026-11-16
+Tags: protein structure, AlphaFold2, conformational states, method
+
+Presents a method (AF-ClaSeq) to improve multistate protein structure prediction with AlphaFold2. Not directly aligned with tumor single-cell, multi-omics integration, or biomarker/translational oncology in the provided summary.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Communications, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41467-026-79677-1">doi:10.1038/s41467-026-79677-1</a></p>Proteins often adopt distinct conformations to carry out their functions. Here, the authors introduce AF-ClaSeq, a method that improves multistate structure prediction by clarifying evolutionary signals.
+
+</details>
+
+---
+
+## Other (10 shown / 10 total)
+
+### [Tracing the genetic roots of cellular identity in tumors](https://www.nature.com/articles/s41592-026-03291-8)
+*Nature Methods*  
+Score: **0.82**
+Published: 2026-11-16
+Tags: scRNA-seq, WGS, copy-number, clonal structure, transcriptional programs, multi-omics, tumor heterogeneity
+
+Highlights Echidna’s integration of bulk WGS with scRNA-seq to link clonal copy-number states to transcriptional programs. Highly relevant conceptual/methodological framing for connecting genotype to cell state in tumors.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Methods, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41592-026-03291-8">doi:10.1038/s41592-026-03291-8</a></p>A new Bayesian framework, Echidna, integrates bulk whole-genome sequencing with single-cell RNA sequencing to connect clonal copy-number states with transcriptional programs, providing a tractable way to ask how much of a tumor cell’s identity is encoded by its genome.
+
+</details>
+
+---
+
+### [Learning gene co-regulation across cells with Multicellular Transformer](https://www.biorxiv.org/content/10.64898/2026.11.14.766251v1?rss=1)
+*bioRxiv Genomics*  
+Score: **0.76**
+Published: 2026-11-16
+Tags: single-cell, transformer, foundation model, representation learning, gene regulation, tumor microenvironment
+
+Proposes a foundation-model style Transformer that takes sets of cells from the same sample to learn cross-cell gene co-regulation rather than cell-intrinsic signals only. Transferable to single-cell tumor studies where multicellular context and interactions matter.
+
+<details>
+<summary>RSS summary</summary>
+
+Understanding how genes coordinate across cells is central to explaining tissue function and disease, yet most existing models still take a single cell as input and therefore emphasize cell-intrinsic regulation. We present the Multicellular Transformer (MCT), a foundation model built around a different assumption: cells function together within tissues, so the appropriate unit of input is not one cell in isolation but a set of cells from the same sample. By jointly modeling multiple cells, MCT l…
+
+</details>
+
+---
+
+### [GLAlign integrates single-cell multi-omics data via global manifold and local marker gene alignment](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag633/9040810?rss=1)
+*Briefings in Bioinformatics (Oxford Academic)*  
+Score: **0.72**
+Published: 2026-11-13
+Tags: single-cell, multi-omics integration, manifold alignment, unpaired modalities, marker genes, optimization
+
+Describes an optimization framework to integrate unpaired single-cell multi-omics datasets using global manifold alignment plus local marker gene alignment, addressing overcorrection and weak cross-modality links. Directly relevant to multi-omics integration workflows.
+
+<details>
+<summary>RSS summary</summary>
+
+<span class="paragraphSection"><div class="boxTitle">Abstract</div>Integrating heterogeneous single-cell multi-omics datasets remains challenging because different modalities are measured in distinct feature spaces and lack cell level pairing. Existing manifold alignment or feature conversion framework are often affected by weak cross-modality associations, geometric ambiguity, and overcorrection. Here we present GLAlign (Global manifold and Local marker gene Alignment), an optimization framewor…
+
+</details>
+
+---
+
+### [Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc](https://www.biorxiv.org/content/10.64898/2026.11.10.765653v1?rss=1)
 *bioRxiv Bioinformatics*  
 Score: **0.70**
-Published: 2026-11-09
-Tags: single-cell multi-omics, scRNA-seq, scHi-C, representation learning, 3D genome
+Published: 2026-11-15
+Tags: spatial transcriptomics, deconvolution, single-cell inference, computational method
 
-Focuses on integrative representation learning for matched scRNA-seq and scHi-C measurements within the same cells to capture complementary state information. This is a broadly transferable multi-omics integration method for regulatory-state inference, though not explicitly cancer-focused in the provided text.
+Presents st2sc to recover single-cell gene expression profiles from lower-resolution spatial transcriptomics spots by identifying individual cells and estimating per-gene expression. The method is broadly relevant for tumor microenvironment and intratumoral heterogeneity studies that need single-cell–like resolution from spatial assays.
 
 <details>
 <summary>RSS summary</summary>
 
-Simultaneously sequenced scRNA-seq and scHi-C technologies provide matched measurements of gene expression and three-dimensional (3D) genome organization within individual cells, offering complementary insights into cellular state. However, integrative analysis remains challenging due to the heterogeneous structures and characteristics of these modalities. To realize the full potential of such data, we need effective computational methods to learn joint cellular representations. Here, we present…
+Spatial transcriptomics (ST) enables the quantitative measurement of gene expression within tissue sections but is currently limited in spatial resolution, as each spot aggregates signals from multiple cells. Recovering single-cell gene expression profiles from these multicellular measurements requires two steps: explicit identification of individual cells and accurate estimation of per-gene expression. While existing methods have demonstrated the feasibility of recovering single-cell expression…
 
 </details>
 
 ---
 
-### [CalDyn: an advanced high-throughput automated algorithm for monitoring intracellular calcium dynamics and electrophysiological signals in patient-derived cells](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag602/9022079?rss=1)
-*Briefings in Bioinformatics (Oxford Academic)*  
-Score: **0.43**
-Published: 2026-11-07
-Tags: software, calcium-imaging, electrophysiology, patient-derived, QC
+### [nf-core/methylong enables reproducible cross-platform analysis of long-read DNA methylation](https://link.springer.com/article/10.1186/s12859-026-06737-0)
+*BMC Bioinformatics*  
+Score: **0.61**
+Published: 2026-11-16
+Tags: DNA methylation, long-read sequencing, Nextflow, nf-core, reproducible pipeline, epigenomics
 
-Introduces a MATLAB-based tool for automated peak detection, waveform characterization, event classification, and QC for calcium dynamics/electrophysiology data in patient-derived cells. Potentially useful if your preclinical models include functional phenotyping, but not directly tied to omics or oncology in the summary.
+Introduces an end-to-end nf-core Nextflow pipeline for detecting/analyzing DNA methylation (5mC/6mA) from long-read sequencing across platforms. Useful for reproducible epigenomics processing in multi-omics projects, though not cancer-specific in the title/summary.
 
 <details>
 <summary>RSS summary</summary>
 
-<span class="paragraphSection"><div class="boxTitle">Abstract</div><div class="boxTitle">Background</div>Quantitative analysis of intracellular calcium and electrophysiological signals is challenging when signals exhibit baseline drift, low-amplitude events, irregular waveforms, or multicomponent transients. We developed CalDyn, a MATLAB-based graphical application for automated peak detection, waveform characterization, event classification, batch processing, quality control and data export.<di…
+Background <p>Long-read sequencing enables direct detection of DNA methylation at single-molecule resolution, but comprehensive analysis remains challenging because it requires multiple processing steps. Existing workflows are often limited to a single sequencing platform or provide limited support for downstream methylation analysis.</p> Results <p>Here, we present nf-core/methylong, an end-to-end Nextflow pipeline for detecting and analyzing 5-methylcytosine (5mC) and N6-methyladenine (6mA) fr…
 
 </details>
 
 ---
 
-### [Evidence and measures of the digital usage divide from 40 million Windows devices](https://www.nature.com/articles/s41467-026-78689-1)
-*Nature Communications*  
-Score: **0.01**
-Published: 2026-11-09
-Tags: digital-divide, population-data
+### [MeXalign - A Segmentation Mask-Based Registration Pipeline for Multimodal Single-Cell Analysis](https://www.biorxiv.org/content/10.64898/2026.11.13.766144v1?rss=1)
+*bioRxiv Bioinformatics*  
+Score: **0.60**
+Published: 2026-11-16
+Tags: multimodal imaging, image registration, single-cell, segmentation, spatial, pipeline
 
-Develops measures of digital engagement using telemetry from Windows devices to characterize digital inequality. Outside biomedical and oncology scope.
+Introduces a segmentation-mask-based registration pipeline to coregister sequential multimodal images at single-cell resolution when exact cell correspondence is challenging. Useful enabling technology for multimodal spatial/single-cell studies, though not cancer-specific in the summary.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Communications, Published online: 09 November 2026; <a href="https://www.nature.com/articles/s41467-026-78689-1">doi:10.1038/s41467-026-78689-1</a></p>Using usage data from 40 million Windows devices, this paper develops measures of digital engagement in the USA, revealing digital inequalities that are not captured by traditional measures of internet access alone.
+Leveraging the power of multimodal imaging relies on accurate coregistration of yet fundamentally different modalities. Reliable cell-to-cell correspondence is especially challenging as consecutive tissue sections do not necessarily contain identical cells or cellular structures. Here we present MeXalign, a segmentation-mask-based coregistration pipeline designed to integrate multimodal images acquired sequentially from the same specimen at single-cell resolution. Single-cell segmentation masks …
+
+</details>
+
+---
+
+### [SUN for scRNA-seq: stable-interval and embedding-based approximate silhouette guided Louvain resolution selection](https://link.springer.com/article/10.1186/s12859-026-06766-9)
+*BMC Bioinformatics*  
+Score: **0.50**
+Published: 2026-11-14
+Tags: scRNA-seq, clustering, resolution-selection
+
+Practical method to choose clustering resolution in scRNA-seq analyses, improving reproducibility and interpretation of cell-state maps.
+
+---
+
+### [Paired multiomic profiling defines the healthy human synovium infrapatellar fat pad stromal continuum](https://www.biorxiv.org/content/10.64898/2026.11.13.765998v1?rss=1)
+*bioRxiv Bioinformatics*  
+Score: **0.44**
+Published: 2026-11-16
+Tags: multi-omics, snRNA-seq, chromatin accessibility, snATAC-seq, integration, reference atlas
+
+Builds a paired multi-omic reference using bulk RNA-seq with single-nucleus transcriptome and chromatin accessibility profiling in healthy synovium and IPFP. Methodologically adjacent (snRNA-seq + snATAC-seq integration) but not cancer/translational oncology-focused.
+
+<details>
+<summary>RSS summary</summary>
+
+The synovium and infrapatellar fat pad (IPFP) are anatomically contiguous tissues implicated in osteoarthritis, yet their cellular and molecular organization in the healthy human knee remains poorly defined. We combined bulk RNA sequencing with paired single-nucleus transcriptomic and chromatin accessibility profiling to establish a quantitative multiomic reference of healthy human synovium and IPFP. Analysis of 54,716 nuclei from six cadaveric donors identified 23 synovial and 20 IPFP cell popu…
+
+</details>
+
+---
+
+### [CNVision: a computational framework for functional interpretation of intragenic copy number variants](https://link.springer.com/article/10.1186/s12859-026-06753-0)
+*BMC Bioinformatics*  
+Score: **0.30**
+Published: 2026-11-14
+Tags: CNV, variant interpretation, genomics, computational framework
+
+Provides a framework to interpret exon-level intragenic CNVs in terms of breakpoints, exon structure, and reading-frame consequences. More aligned to Mendelian/clinical variant interpretation than cancer multi-omics or single-cell analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+Background <p>Intragenic copy number variants (CNVs), including exon-level deletions and duplications within a single gene, represent an important class of pathogenic genomic variation. Their functional consequences depend on the precise relationship between the CNV breakpoints, exon structure, coding sequence boundaries, transcript orientation, and reading frame. Although intragenic CNVs contribute substantially to Mendelian disease, their interpretation remains difficult because many existing …
+
+</details>
+
+---
+
+### [Study on the deformation characteristics and fracture development laws of the shaft coal pockets inner wall](https://www.nature.com/articles/s41598-026-79815-1)
+*Scientific Reports*  
+Score: **0.00**
+Published: 2026-11-16
+Tags: out-of-scope
+
+Engineering/geomechanics topic unrelated to biomedical science or oncology.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Scientific Reports, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41598-026-79815-1">doi:10.1038/s41598-026-79815-1</a></p>Study on the deformation characteristics and fracture development laws of the shaft coal pockets inner wall
 
 </details>
 
